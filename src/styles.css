@@ -195,6 +195,7 @@ dd {
 }
 
 .subtle,
+.chart-context,
 .chart-summary span,
 .decision-list span,
 .watchlist small,
@@ -203,6 +204,12 @@ dd {
   color: #64705f;
   font-size: 0.78rem;
   font-weight: 750;
+}
+
+.chart-context {
+  max-width: 520px;
+  margin: 6px 0 0;
+  line-height: 1.45;
 }
 
 .chart-summary {
@@ -215,6 +222,30 @@ dd {
 .chart-summary strong {
   display: block;
   font-size: 2rem;
+}
+
+.benchmark-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.benchmark-controls button {
+  border: 1px solid rgba(38, 52, 38, 0.45);
+  background: rgba(223, 228, 202, 0.68);
+  color: #263426;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 850;
+  min-height: 34px;
+  padding: 7px 10px;
+}
+
+.benchmark-controls button:hover,
+.benchmark-controls button.active {
+  background: #263426;
+  color: #faf8e7;
 }
 
 .legend {
@@ -247,7 +278,7 @@ dd {
 .chart-frame svg {
   display: block;
   width: 100%;
-  min-height: 238px;
+  min-height: 260px;
 }
 
 .grid-line,
@@ -259,10 +290,27 @@ dd {
   stroke: rgba(38, 52, 38, 0.38);
 }
 
+.zero-line {
+  stroke: rgba(38, 52, 38, 0.48);
+  stroke-dasharray: 5 5;
+}
+
+.comparison-area {
+  fill: rgba(143, 111, 42, 0.16);
+  stroke: none;
+}
+
+.axis-label,
+.axis-title,
 .tick-label {
   fill: #53604d;
   font-size: 13px;
   font-weight: 800;
+}
+
+.axis-title {
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .benchmark-table,
@@ -285,7 +333,7 @@ dd {
 }
 
 .benchmark-row {
-  grid-template-columns: 1fr repeat(5, minmax(86px, 0.7fr));
+  grid-template-columns: 1fr repeat(6, minmax(76px, 0.7fr));
 }
 
 .holding-row {
@@ -443,7 +491,7 @@ dd {
   }
 
   .benchmark-row {
-    min-width: 700px;
+    min-width: 780px;
   }
 
   .holding-row {
