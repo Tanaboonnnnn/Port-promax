@@ -333,7 +333,7 @@ dd {
 }
 
 .benchmark-row {
-  grid-template-columns: 1fr repeat(6, minmax(76px, 0.7fr));
+  grid-template-columns: 1fr repeat(5, minmax(86px, 0.7fr));
 }
 
 .holding-row {
@@ -491,7 +491,7 @@ dd {
   }
 
   .benchmark-row {
-    min-width: 780px;
+    min-width: 700px;
   }
 
   .holding-row {
