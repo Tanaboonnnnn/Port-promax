@@ -5,13 +5,12 @@ interface PerformanceChartProps {
   points: BenchmarkPoint[];
 }
 
-type BenchmarkKey = "portfolio" | "sp500" | "voo" | "nasdaq100" | "smh" | "vt";
+type BenchmarkKey = "portfolio" | "voo" | "nasdaq100" | "smh" | "vt";
 type ComparisonKey = Exclude<BenchmarkKey, "portfolio">;
 type ChartMode = "all" | ComparisonKey;
 
 const series: { key: BenchmarkKey; label: string; color: string }[] = [
   { key: "portfolio", label: "Portfolio", color: "#263426" },
-  { key: "sp500", label: "S&P 500", color: "#8f6f2a" },
   { key: "voo", label: "VOO", color: "#9a7d3b" },
   { key: "nasdaq100", label: "Nasdaq-100", color: "#4f6f73" },
   { key: "smh", label: "SMH", color: "#a75533" },
@@ -195,7 +194,6 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
         <div className="benchmark-row benchmark-row--head">
           <span>Week</span>
           <span>Portfolio</span>
-          <span>S&P 500</span>
           <span>VOO</span>
           <span>Nasdaq-100</span>
           <span>SMH</span>
@@ -205,7 +203,6 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
           <div className="benchmark-row" key={point.label} title={point.note}>
             <span>{point.label}</span>
             <span>{formatValue(point.portfolio)}</span>
-            <span>{formatValue(point.sp500)}</span>
             <span>{formatValue(point.voo)}</span>
             <span>{formatValue(point.nasdaq100)}</span>
             <span>{formatValue(point.smh)}</span>
