@@ -20,7 +20,6 @@ export interface Holding {
 export interface BenchmarkPoint {
   label: string;
   portfolio: number;
-  sp500: number | null;
   voo: number | null;
   nasdaq100: number | null;
   smh: number | null;
@@ -89,7 +88,7 @@ export const holdings: Holding[] = [
     entryPrice: 322.52,
     value: 2000,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce interfaces evolve.",
+      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
@@ -162,7 +161,6 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "Baseline",
     portfolio: 0,
-    sp500: 0,
     voo: 0,
     nasdaq100: 0,
     smh: 0,
@@ -172,7 +170,6 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "May 18",
     portfolio: 0.19,
-    sp500: 0.88,
     voo: 0.90,
     nasdaq100: 1.22,
     smh: 3.59,
@@ -182,7 +179,6 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "May 25",
     portfolio: 1.62,
-    sp500: 1.43,
     voo: 1.45,
     nasdaq100: 2.89,
     smh: 3.92,
@@ -192,7 +188,6 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "Jun 01",
     portfolio: -2.23,
-    sp500: -2.59,
     voo: -2.52,
     nasdaq100: -4.54,
     smh: -4.88,
@@ -202,7 +197,6 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "Jun 08",
     portfolio: -2.22,
-    sp500: 0.65,
     voo: 0.58,
     nasdaq100: 2.34,
     smh: 8.82,
