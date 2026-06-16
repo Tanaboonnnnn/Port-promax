@@ -1,23 +1,40 @@
 import { useMemo, useState } from "react";
 import type { BenchmarkPoint } from "../data/portfolio";
+import { formatPointLabel } from "../i18n";
+import type { Locale } from "../i18n";
+
+interface ChartCopy {
+  eyebrow: string;
+  title: string;
+  context: string;
+  latestWeek: string;
+  all: string;
+  ariaMode: string;
+  ariaLegend: string;
+  ariaChart: string;
+  axisTitle: string;
+  week: string;
+  portfolio: string;
+  pending: string;
+  vsPrefix: string;
+}
 
 interface PerformanceChartProps {
   points: BenchmarkPoint[];
+  copy: ChartCopy;
+  locale: Locale;
 }
 
 type BenchmarkKey = "portfolio" | "voo" | "nasdaq100" | "smh" | "vt";
 type ComparisonKey = Exclude<BenchmarkKey, "portfolio">;
 type ChartMode = "all" | ComparisonKey;
 
-const series: { key: BenchmarkKey; label: string; color: string }[] = [
-  { key: "portfolio", label: "Portfolio", color: "#263426" },
+const benchmarkSeries: { key: ComparisonKey; label: string; color: string }[] = [
   { key: "voo", label: "VOO", color: "#9a7d3b" },
   { key: "nasdaq100", label: "Nasdaq-100", color: "#4f6f73" },
   { key: "smh", label: "SMH", color: "#a75533" },
   { key: "vt", label: "VT", color: "#697c43" },
 ];
-
-const comparisonSeries = series.filter((item): item is { key: ComparisonKey; label: string; color: string } => item.key !== "portfolio");
 
 const chart = {
   width: 760,
@@ -99,16 +116,20 @@ function getComparisonAreaPath(points: BenchmarkPoint[], benchmarkKey: Compariso
     .join(" ") + " Z";
 }
 
-export function PerformanceChart({ points }: PerformanceChartProps) {
+export function PerformanceChart({ points, copy, locale }: PerformanceChartProps) {
   const [mode, setMode] = useState<ChartMode>("all");
   const latest = points[points.length - 1];
+  const series = useMemo(
+    () => [{ key: "portfolio" as const, label: copy.portfolio, color: "#263426" }, ...benchmarkSeries],
+    [copy.portfolio],
+  );
   const visibleSeries = useMemo(
     () => (mode === "all" ? series : series.filter((item) => item.key === "portfolio" || item.key === mode)),
-    [mode],
+    [mode, series],
   );
   const visibleKeys = visibleSeries.map((item) => item.key);
   const scale = useMemo(() => getScale(points, visibleKeys), [points, visibleKeys]);
-  const selectedBenchmark = mode === "all" ? null : comparisonSeries.find((item) => item.key === mode) ?? null;
+  const selectedBenchmark = mode === "all" ? null : benchmarkSeries.find((item) => item.key === mode) ?? null;
   const zero = getPoint(0, 0, points, scale).y;
   const latestBenchmarkValue = selectedBenchmark ? latest[selectedBenchmark.key] : null;
   const latestSpread = typeof latestBenchmarkValue === "number" ? latest.portfolio - latestBenchmarkValue : null;
@@ -117,28 +138,28 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
     <section className="performance-panel" aria-labelledby="performance-title">
       <div className="panel-heading">
         <div>
-          <p className="eyebrow">Weekly performance log</p>
-          <h2 id="performance-title">Benchmark comparison</h2>
-          <p className="chart-context">Y-axis shows weekly return %. Pair view shades the gap between portfolio and benchmark.</p>
+          <p className="eyebrow">{copy.eyebrow}</p>
+          <h2 id="performance-title">{copy.title}</h2>
+          <p className="chart-context">{copy.context}</p>
         </div>
         <div className="chart-summary">
-          <span>{selectedBenchmark ? `Vs ${selectedBenchmark.label}` : "Latest week"}</span>
-          <strong>{selectedBenchmark && latestSpread !== null ? formatValue(latestSpread) : formatValue(latest.portfolio)}</strong>
+          <span>{selectedBenchmark ? `${copy.vsPrefix} ${selectedBenchmark.label}` : copy.latestWeek}</span>
+          <strong>{selectedBenchmark && latestSpread !== null ? formatValue(latestSpread, copy.pending) : formatValue(latest.portfolio, copy.pending)}</strong>
         </div>
       </div>
 
-      <div className="benchmark-controls" aria-label="Benchmark comparison mode">
+      <div className="benchmark-controls" aria-label={copy.ariaMode}>
         <button className={mode === "all" ? "active" : ""} onClick={() => setMode("all")}>
-          All
+          {copy.all}
         </button>
-        {comparisonSeries.map((item) => (
+        {benchmarkSeries.map((item) => (
           <button key={item.key} className={mode === item.key ? "active" : ""} onClick={() => setMode(item.key)}>
             {item.label}
           </button>
         ))}
       </div>
 
-      <div className="legend" aria-label="Benchmark legend">
+      <div className="legend" aria-label={copy.ariaLegend}>
         {visibleSeries.map((item) => (
           <span key={item.key}>
             <i style={{ backgroundColor: item.color }} />
@@ -148,20 +169,20 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
       </div>
 
       <div className="chart-frame">
-        <svg viewBox={`0 0 ${chart.width} ${chart.height}`} role="img" aria-label="Weekly portfolio and benchmark return chart">
+        <svg viewBox={`0 0 ${chart.width} ${chart.height}`} role="img" aria-label={copy.ariaChart}>
           {scale.ticks.map((tick) => {
             const y = getPoint(0, tick, points, scale).y;
             return (
               <g key={tick.toFixed(2)}>
                 <line x1={chart.left} x2={chart.width - chart.right} y1={y} y2={y} className="grid-line" />
                 <text x={chart.left - 12} y={y + 4} textAnchor="end" className="axis-label">
-                  {formatValue(tick)}
+                  {formatValue(tick, copy.pending)}
                 </text>
               </g>
             );
           })}
           <text x={chart.left} y="13" className="axis-title">
-            Weekly return %
+            {copy.axisTitle}
           </text>
           <line x1={chart.left} x2={chart.width - chart.right} y1={zero} y2={zero} className="zero-line" />
           {selectedBenchmark ? <path d={getComparisonAreaPath(points, selectedBenchmark.key, scale)} className="comparison-area" /> : null}
@@ -182,7 +203,7 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
               <g key={point.label}>
                 <line x1={x} x2={x} y1={chart.top} y2={chart.height - chart.bottom} className="tick-line" />
                 <text x={x} y={chart.height - 16} textAnchor="middle" className="tick-label">
-                  {point.label}
+                  {formatPointLabel(point.label, locale)}
                 </text>
               </g>
             );
@@ -192,8 +213,8 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
 
       <div className="benchmark-table">
         <div className="benchmark-row benchmark-row--head">
-          <span>Week</span>
-          <span>Portfolio</span>
+          <span>{copy.week}</span>
+          <span>{copy.portfolio}</span>
           <span>VOO</span>
           <span>Nasdaq-100</span>
           <span>SMH</span>
@@ -201,12 +222,12 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
         </div>
         {points.map((point) => (
           <div className="benchmark-row" key={point.label} title={point.note}>
-            <span>{point.label}</span>
-            <span>{formatValue(point.portfolio)}</span>
-            <span>{formatValue(point.voo)}</span>
-            <span>{formatValue(point.nasdaq100)}</span>
-            <span>{formatValue(point.smh)}</span>
-            <span>{formatValue(point.vt)}</span>
+            <span>{formatPointLabel(point.label, locale)}</span>
+            <span>{formatValue(point.portfolio, copy.pending)}</span>
+            <span>{formatValue(point.voo, copy.pending)}</span>
+            <span>{formatValue(point.nasdaq100, copy.pending)}</span>
+            <span>{formatValue(point.smh, copy.pending)}</span>
+            <span>{formatValue(point.vt, copy.pending)}</span>
           </div>
         ))}
       </div>
@@ -214,6 +235,6 @@ export function PerformanceChart({ points }: PerformanceChartProps) {
   );
 }
 
-function formatValue(value: number | null) {
-  return typeof value === "number" ? `${value.toFixed(2)}%` : "pending";
+function formatValue(value: number | null, pendingLabel: string) {
+  return typeof value === "number" ? `${value.toFixed(2)}%` : pendingLabel;
 }
