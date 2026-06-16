@@ -99,79 +99,79 @@ export const uiCopy = {
   th: {
     languageToggleLabel: "เปลี่ยนภาษา",
     languageToggleHint: "ภาษา",
-    kicker: "พอร์ตจำลองแบบ blind",
-    accountFactsAria: "ข้อมูลบัญชีพอร์ต",
-    asOf: "ข้อมูล ณ",
-    navAria: "มุมมองแดชบอร์ด",
-    dashboard: "แดชบอร์ด",
-    ledger: "บันทึกพอร์ต",
-    snapshotAria: "ภาพรวมพอร์ต",
+    kicker: "พอร์ตจำลอง $10,000",
+    accountFactsAria: "ข้อมูลสรุปพอร์ต",
+    asOf: "อัปเดตถึง",
+    navAria: "มุมมองพอร์ต",
+    dashboard: "ภาพรวม",
+    ledger: "บันทึกธีสิส",
+    snapshotAria: "สรุปสถานะพอร์ต",
     startingCapital: "เงินตั้งต้น",
     sinceInception: "ผลตอบแทนสะสม",
-    processQuality: "คุณภาพกระบวนการ",
+    processQuality: "วินัยการตัดสินใจ",
     outcomeQuality: "คุณภาพผลลัพธ์",
-    brokerageEyebrow: "มุมมองพอร์ตลงทุน",
-    currentHoldings: "สถานะการถือครอง",
-    holdingsHint: "เลือกแถวเพื่อดู thesis ของสถานะนั้น",
+    brokerageEyebrow: "พอร์ตถือครอง",
+    currentHoldings: "สถานะล่าสุดของพอร์ต",
+    holdingsHint: "เลือกแถวเพื่อดูเหตุผลลงทุนและเงื่อนไขทบทวน",
     company: "บริษัท",
-    ticker: "Ticker",
-    weight: "สัดส่วน",
-    status: "สถานะ thesis",
-    confidence: "ความเชื่อมั่น",
-    action: "การตัดสินใจ",
+    ticker: "สัญลักษณ์",
+    weight: "น้ำหนัก",
+    status: "สถานะธีสิส",
+    confidence: "ความมั่นใจ",
+    action: "คำตัดสิน",
     decisionLog: "บันทึกการตัดสินใจ",
     recentDecisions: "การตัดสินใจล่าสุด",
-    sourceQuality: "คุณภาพแหล่งข้อมูล",
-    watchlistEyebrow: "รายชื่อที่ยังไม่ต้องทำอะไร",
-    watchlist: "Watchlist",
-    ledgerEyebrow: "ทะเบียนพอร์ต",
-    thesisInventory: "คลัง thesis",
-    inspectorEyebrow: "ตรวจสอบ thesis",
-    currentThesis: "Thesis ปัจจุบัน",
-    killCondition: "เงื่อนไขที่ทำให้ thesis ใช้ไม่ได้",
+    sourceQuality: "คุณภาพหลักฐาน",
+    watchlistEyebrow: "รายชื่อที่ยังรอหลักฐาน",
+    watchlist: "หุ้นที่ติดตาม",
+    ledgerEyebrow: "สมุดพอร์ต",
+    thesisInventory: "รวมธีสิสรายสถานะ",
+    inspectorEyebrow: "อ่านธีสิส",
+    currentThesis: "เหตุผลลงทุนปัจจุบัน",
+    killCondition: "เงื่อนไขที่ต้องทบทวน",
     mainAssumptions: "สมมติฐานหลัก",
-    quarterlyStatus: "สถานะการทบทวนรายไตรมาส",
-    nextFocus: "สิ่งที่ต้องติดตามต่อ",
-    nav: "NAV",
+    quarterlyStatus: "สถานะรีวิวรายไตรมาส",
+    nextFocus: "ประเด็นติดตามต่อ",
+    nav: "มูลค่าพอร์ต",
     cash: "เงินสด",
     invested: "ลงทุนแล้ว",
     chart: {
       eyebrow: "บันทึกผลตอบแทนรายสัปดาห์",
-      title: "เทียบกับ benchmark",
-      context: "แกน Y แสดงผลตอบแทนรายสัปดาห์ %. มุมมองแบบคู่จะแรเงาช่องว่างระหว่างพอร์ตกับ benchmark.",
+      title: "เทียบดัชนีอ้างอิง",
+      context: "แกน Y คือผลตอบแทนรายสัปดาห์ ส่วนมุมมองรายดัชนีจะแสดงส่วนต่างระหว่างพอร์ตกับดัชนีนั้น",
       latestWeek: "สัปดาห์ล่าสุด",
       all: "ทั้งหมด",
-      ariaMode: "โหมดเปรียบเทียบ benchmark",
-      ariaLegend: "คำอธิบาย benchmark",
-      ariaChart: "กราฟผลตอบแทนรายสัปดาห์ของพอร์ตและ benchmark",
+      ariaMode: "เลือกมุมมองดัชนีอ้างอิง",
+      ariaLegend: "คำอธิบายเส้นดัชนีอ้างอิง",
+      ariaChart: "กราฟผลตอบแทนรายสัปดาห์ของพอร์ตเทียบดัชนีอ้างอิง",
       axisTitle: "ผลตอบแทนรายสัปดาห์ %",
       week: "สัปดาห์",
       portfolio: "พอร์ต",
       pending: "รอข้อมูล",
-      vsPrefix: "เทียบกับ",
+      vsPrefix: "เทียบ",
     },
     actions: {
       buy: "ซื้อ",
       hold: "ถือ",
-      trim: "ลดสัดส่วน",
+      trim: "ลดน้ำหนัก",
       exit: "ขายออก",
-      "do nothing": "ไม่ทำอะไร",
+      "do nothing": "ไม่ทำรายการ",
     } satisfies Record<Action, string>,
     statuses: {
-      intact: "ยังสมบูรณ์",
+      intact: "ยังใช้ได้",
       strengthening: "แข็งแรงขึ้น",
       weakening: "อ่อนลง",
       broken: "ใช้ไม่ได้แล้ว",
-      "under review": "อยู่ระหว่างทบทวน",
+      "under review": "กำลังทบทวน",
     } satisfies Record<ThesisStatus, string>,
     confidenceLevels: {
       high: "สูง",
-      medium: "ปานกลาง",
+      medium: "กลาง",
       low: "ต่ำ",
     } satisfies Record<Confidence, string>,
     sourceQualityLevels: {
       high: "สูง",
-      medium: "ปานกลาง",
+      medium: "กลาง",
       low: "ต่ำ",
     },
   },
@@ -180,58 +180,58 @@ export const uiCopy = {
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft เป็น compounder ที่ชัดที่สุดของพอร์ตจากซอฟต์แวร์องค์กร, Azure, ความต้องการโครงสร้างพื้นฐาน AI, ช่องทางกระจายสินค้า และกระแสเงินสดที่แข็งแรง.",
+      "Microsoft เป็นแกน compounder ของพอร์ต เพราะมีซอฟต์แวร์องค์กรที่เหนียวแน่น, Azure ที่โตต่อได้, แรงหนุนจากโครงสร้างพื้นฐาน AI และกระแสเงินสดที่ยังแข็งแรง.",
     killCondition:
-      "cloud หรือซอฟต์แวร์องค์กรอ่อนลงเชิงโครงสร้าง, capex ด้าน AI ไม่แปลงเป็นกำไรซ้ำ ๆ, หรือฝ่ายบริหารจัดสรรทุนอย่างขาดวินัยต่อเนื่อง.",
+      "ต้องทบทวนทันทีถ้าความทนทานของ cloud หรือซอฟต์แวร์องค์กรเสื่อมลง, เงินลงทุน AI ไม่แปลงเป็นกำไรซ้ำ ๆ, หรือผู้บริหารเริ่มจัดสรรทุนขาดวินัยต่อเนื่อง.",
     assumptions: [
-      "ความต้องการ commercial cloud ยังทนทาน.",
-      "การใช้จ่าย AI เสริม distribution โดยไม่ทำลายคุณภาพ free cash flow.",
-      "switching cost และ workflow แบบ bundle ในองค์กรยังถูกแทนที่ได้ยาก.",
+      "ความต้องการ commercial cloud ยังแข็งแรงพอให้โตต่อหลายปี.",
+      "การลงทุน AI ช่วยเสริมช่องทางขายและผลิตภัณฑ์ โดยไม่บั่นทอนคุณภาพกระแสเงินสดอิสระ.",
+      "switching cost และ workflow แบบ bundle ในองค์กรยังทำให้คู่แข่งแย่งลูกค้าได้ยาก.",
     ],
   },
   V: {
     thesis:
-      "Visa เป็นเครือข่ายชำระเงินแบบ asset-light ที่มี acceptance ทั่วโลก และยังสำคัญต่อ tokenization, authorization และ fraud control.",
+      "Visa เป็นเครือข่ายชำระเงิน asset-light ที่กินส่วนแบ่งจากการใช้จ่ายดิจิทัลทั่วโลก และยังมีบทบาทใน tokenization, authorization และการจัดการ fraud.",
     killCondition:
-      "เศรษฐศาสตร์ของ network เสื่อมลง, กฎระเบียบบีบ pricing power อย่างมีนัยสำคัญ, หรือ payment rails ใหม่เลี่ยง Visa ได้ในวงกว้าง.",
+      "ต้องลดความเชื่อมั่นถ้าเศรษฐศาสตร์ของเครือข่ายอ่อนลง, กฎระเบียบบีบ pricing power อย่างมีนัยสำคัญ, หรือ payment rails ใหม่เลี่ยง Visa ได้ในวงกว้าง.",
     assumptions: [
-      "การชำระเงินดิจิทัลยังขยายตัวทั่วโลก.",
-      "Visa ยังมีบทบาทใน commerce ที่เริ่มจาก AI และ tokenized commerce.",
-      "แรงกดดันด้านกฎหมายและกฎระเบียบยังจัดการได้.",
+      "การชำระเงินดิจิทัลยังเพิ่ม penetration ได้ทั่วโลก.",
+      "Visa ยังมีตำแหน่งใน commerce ที่ขับเคลื่อนด้วย AI และ tokenized commerce.",
+      "แรงกดดันด้านกฎหมายและกฎระเบียบยังอยู่ในระดับที่บริหารจัดการได้.",
     ],
   },
   SPGI: {
     thesis:
-      "Ratings, indices, benchmarks และข้อมูลการเงินคือโครงสร้างพื้นฐานของตลาด การแยก Mobility Global อาจทำให้ธุรกิจคมชัดขึ้นถ้าดำเนินการเรียบร้อย.",
+      "S&P Global เป็นโครงสร้างพื้นฐานของตลาดทุนผ่านเรตติ้ง, ดัชนีอ้างอิง และข้อมูลการเงิน การแยก Mobility Global อาจทำให้ธุรกิจหลักชัดและคมขึ้นถ้าทำได้เรียบร้อย.",
     killCondition:
-      "ความน่าเชื่อถือของ ratings เสื่อมลง, benchmark/data franchise สูญเสียความสำคัญ, หรือการแยก Mobility ทำลาย economics และวินัยจัดสรรทุน.",
+      "ต้องทบทวนถ้าความน่าเชื่อถือของเรตติ้งเสื่อม, ธุรกิจดัชนีหรือข้อมูลเสียความสำคัญ, หรือการแยก Mobility ทำลาย economics และวินัยจัดสรรทุน.",
     assumptions: [
-      "franchise หลักด้าน ratings และ data ยังได้รับความเชื่อถือ.",
-      "การแยก Mobility จบได้โดยไม่กระทบฐานธุรกิจ.",
-      "ผลิตภัณฑ์ data recurring margin สูงยัง compound ต่อได้.",
+      "franchise หลักด้านเรตติ้งและข้อมูลยังได้รับความเชื่อถือจากตลาด.",
+      "การแยก Mobility เดินหน้าได้โดยไม่กระทบฐานกำไรของธุรกิจหลัก.",
+      "ผลิตภัณฑ์ข้อมูลแบบ recurring และ margin สูงยัง compound ได้ต่อ.",
     ],
   },
   GOOGL: {
     thesis:
-      "Search, YouTube, Cloud และการสร้างเงินสดของ Alphabet ยังยอดเยี่ยม แต่แผน funding โครงสร้างพื้นฐาน AI ทำให้ภาระพิสูจน์ผลตอบแทนต่อหุ้นสูงขึ้น.",
+      "Alphabet ยังมี Search, YouTube, Cloud และฐานกระแสเงินสดที่ยอดเยี่ยม แต่แผนลงทุนโครงสร้างพื้นฐาน AI ทำให้ต้องพิสูจน์ชัดขึ้นว่าผลตอบแทนต่อหุ้นยังคุ้มค่า.",
     killCondition:
-      "เศรษฐศาสตร์ Search เสื่อมลงเชิงโครงสร้าง, AI substitutes กระทบ monetization ถาวร, กฎระเบียบทำลาย distribution power, หรือ AI capex ไม่สร้างกำไรทนทาน.",
+      "ต้องทบทวนหนักถ้าเศรษฐศาสตร์ของ Search เสื่อมถาวร, AI substitutes กด monetization ระยะยาว, กฎระเบียบทำลาย distribution power, หรือ AI capex ไม่สร้างกำไรที่ทนทาน.",
     assumptions: [
-      "Search และ YouTube ยังยืดหยุ่นได้เมื่อ interface แบบ AI เปลี่ยนพฤติกรรมผู้ใช้.",
-      "การเติบโตและ backlog ของ Cloud แปลงเป็นผลตอบแทนที่ดี.",
-      "หนี้, preferred/common issuance และ capex ไม่ dilute การ compound ต่อหุ้นเกิน thesis.",
+      "Search และ YouTube ยังปรับตัวได้เมื่อ interface แบบ AI เปลี่ยนพฤติกรรมผู้ใช้.",
+      "การเติบโตและ backlog ของ Cloud แปลงเป็นผลตอบแทนที่น่าพอใจ.",
+      "หนี้, preferred/common issuance และ capex ไม่ dilute การ compound ต่อหุ้นเกินกรอบ thesis.",
     ],
   },
   USD: {
     company: "เงินสด",
     thesis:
-      "เงินสดเป็นสถานะที่ตั้งใจถือ เพราะไอเดียลำดับที่ห้ายังไม่ผ่านเกณฑ์ความเชื่อมั่นแบบเขียนเป็น thesis ได้.",
+      "เงินสดเป็นสถานะที่ตั้งใจถือ เพราะไอเดียลำดับถัดไปยังไม่ผ่านเกณฑ์ความมั่นใจพอให้เขียนธีสิสและจัดสรรทุนได้.",
     killCondition:
-      "มีธุรกิจที่ความทนทาน, valuation support และคุณภาพ thesis ชัดเจนกว่า optionality ของเงินสด.",
+      "เงินสดควรถูกใช้เมื่อเจอธุรกิจที่ความทนทาน, ราคา, และคุณภาพของธีสิสชัดเจนกว่าค่า optionality ของการรอ.",
     assumptions: [
-      "การไม่ทำอะไรยังถูกต้องเมื่อหลักฐานไม่ครบ.",
-      "ไอเดียที่จะใช้เงินสดต้องดีกว่าทั้งเงินสดและ holdings ปัจจุบัน.",
-      "เงินสดยังต่ำกว่าเพดานปกติ 40% ของ mandate.",
+      "การไม่ทำรายการยังถูกต้องเมื่อหลักฐานยังไม่ครบ.",
+      "ไอเดียใหม่ต้องดีกว่าทั้งเงินสดและสถานะที่ถืออยู่เดิม.",
+      "น้ำหนักเงินสดยังต่ำกว่าเพดานปกติ 40% ตาม mandate.",
     ],
   },
 };
@@ -240,28 +240,28 @@ const thaiDecisions: Record<string, { subject: string; reason: string }> = {
   "Daily scan": {
     subject: "สแกนรายวัน",
     reason:
-      "ยังไม่มีข้อมูลใหม่ที่เปลี่ยนคุณภาพธุรกิจ, moat, คุณภาพผู้บริหาร, ความทนทานทางการเงิน, ขนาดสถานะ, ความเชื่อมั่น หรือ kill condition มากพอให้ต้องทำอะไร.",
+      "ยังไม่มีข้อมูลใหม่ที่เปลี่ยนคุณภาพธุรกิจ, moat, ผู้บริหาร, ความทนทานทางการเงิน, ขนาดสถานะ, ความมั่นใจ หรือเงื่อนไขทบทวนมากพอให้ต้องทำรายการ.",
   },
   "Weekly journal": {
     subject: "บันทึกรายสัปดาห์",
     reason:
-      "พาร์ตเนอร์ OpenAI ของ Visa เป็นสัญญาณสนับสนุนเชิงกลยุทธ์, การแยกธุรกิจของ S&P Global ยังเป็นเรื่อง execution ที่ต้องติดตาม และ Alphabet ยังอยู่ระหว่างทบทวนโดย thesis ยังไม่พัง.",
+      "ความร่วมมือ OpenAI ของ Visa เป็นสัญญาณเชิงกลยุทธ์ที่ดี, การแยกธุรกิจของ S&P Global ยังเป็นประเด็น execution ที่ต้องตามต่อ และ Alphabet ยังอยู่ในช่วงทบทวนโดยธีสิสยังไม่พัง.",
   },
   "Alphabet status change": {
     subject: "ปรับสถานะ Alphabet",
     reason:
-      "เอกสารทางการเกี่ยวกับ funding โครงสร้างพื้นฐาน AI ทำให้ภาระพิสูจน์ผลตอบแทนต่อหุ้นของ Alphabet สำคัญขึ้น จึงปรับเป็นอยู่ระหว่างทบทวนโดยยังไม่เปลี่ยนสัดส่วน.",
+      "เอกสารทางการเรื่องการระดมทุนโครงสร้างพื้นฐาน AI ทำให้ภาระพิสูจน์ผลตอบแทนต่อหุ้นของ Alphabet สูงขึ้น จึงปรับสถานะเป็นกำลังทบทวนโดยยังไม่เปลี่ยนน้ำหนัก.",
   },
 };
 
 const thaiWatchlist: Record<string, { whyInteresting: string; whyNotYet: string }> = {
   AZO: {
-    whyInteresting: "โมเดลกระจายอะไหล่แข็งแรง, demand งานซ่อมทนทาน และมีประวัติ buyback ระยะยาว.",
-    whyNotYet: "ไตรมาสที่ดีเพียงครั้งเดียวยังไม่พอให้ชนะเงินสดหรือ holdings ที่มีทุนอยู่แล้ว.",
+    whyInteresting: "โมเดลกระจายอะไหล่แข็งแรง, demand งานซ่อมทนทาน และมีวินัย buyback ระยะยาว.",
+    whyNotYet: "ไตรมาสที่ดีขึ้นเพียงครั้งเดียวยังไม่พอให้ชนะเงินสดหรือหุ้นที่พอร์ตจัดสรรทุนไว้แล้ว.",
   },
   CPRT: {
-    whyInteresting: "เครือข่ายประมูลซากรถที่แตกต่าง, ฐานผู้ซื้อทั่วโลก และลักษณะ marketplace ที่ทนทาน.",
-    whyNotYet: "การฟื้นตัวยังไม่มากพอให้ผ่านเกณฑ์จัดสรรทุนเมื่อเทียบกับเงินสดและ holdings ปัจจุบัน.",
+    whyInteresting: "เครือข่ายประมูลซากรถมีความเฉพาะตัว, ฐานผู้ซื้อกระจายทั่วโลก และมีลักษณะ marketplace ที่ทนทาน.",
+    whyNotYet: "สัญญาณฟื้นตัวยังไม่หนักแน่นพอให้ผ่านเกณฑ์จัดสรรทุนเมื่อเทียบกับเงินสดและ holdings ปัจจุบัน.",
   },
 };
 
@@ -271,24 +271,24 @@ export function getPortfolioContent(locale: Locale) {
       portfolioSnapshot: {
         ...portfolioSnapshot,
         mandate:
-          "พอร์ตจำลอง $10,000 แบบ blind เน้นการเป็นเจ้าของอย่างอดทน, thesis ที่เขียนชัดเจน และถือเงินสดเมื่อความเชื่อมั่นยังไม่พอ.",
-        processQuality: "ดี: กระจุกตัวอย่างมีเหตุผล, ขับเคลื่อนด้วย thesis, ใช้แหล่งข้อมูลชั้นต้น และไม่ฝืนทำธุรกรรม.",
-        outcomeQuality: "ยังเร็วเกินไปที่จะตัดสิน ผลตอบแทนช่วงสั้นถูกบันทึกไว้ แต่ไม่ใช่เหตุผลให้เทรด.",
+          "พอร์ตจำลอง $10,000 ที่เน้นการเป็นเจ้าของธุรกิจอย่างอดทน เขียนเหตุผลลงทุนให้ชัด และถือเงินสดเมื่อความมั่นใจยังไม่พอ.",
+        processQuality: "ดี: กระจุกตัวอย่างมีเหตุผล, ตัดสินใจจากธีสิส, ใช้หลักฐานชั้นต้น และไม่ฝืนทำรายการ.",
+        outcomeQuality: "ยังเร็วเกินไปที่จะตัดสิน ผลตอบแทนระยะสั้นถูกบันทึกไว้ แต่ไม่ใช่เหตุผลให้เทรด.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
       recentDecisions: recentDecisions.map((decision) => ({ ...decision, ...thaiDecisions[decision.subject] })),
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
-        { label: "การ re-underwrite ล่าสุด", value: "ไตรมาส 2 ปี 2026, เสร็จเมื่อ 2026-06-01" },
-        { label: "การเปลี่ยน exposure", value: "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังคงเดิม." },
-        { label: "คำถามสำคัญที่ยังเปิดอยู่", value: "AI capex และ financing ของ Alphabet ยังสร้างมูลค่าต่อหุ้นที่ทนทานได้หรือไม่?" },
+        { label: "รีวิวเชิงลึกล่าสุด", value: "ไตรมาส 2 ปี 2026, เสร็จเมื่อ 2026-06-01" },
+        { label: "การเปลี่ยนน้ำหนัก", value: "ไม่มีการเปลี่ยนแปลง Microsoft, Visa, S&P Global, Alphabet และเงินสดยังคงน้ำหนักเดิม." },
+        { label: "คำถามหลักที่ยังเปิดอยู่", value: "AI capex และ financing ของ Alphabet ยังสร้างมูลค่าต่อหุ้นได้ทนทานจริงหรือไม่?" },
       ],
       nextFocus: [
-        "ติดตาม mechanics การแยก Mobility Global ของ S&P Global ผ่านวัน expected distribution วันที่ 1 กรกฎาคม.",
-        "ต้องการหลักฐานจาก Alphabet เรื่องผลตอบแทนโครงสร้างพื้นฐาน AI, dilution, preferred terms, ระดับหนี้ และความทนทานของ Search.",
-        "เก็บงาน OpenAI ของ Visa ไว้ในกลุ่มสนับสนุนแต่ยังไม่พิสูจน์ จนกว่าจะเห็น economics ของธุรกรรม.",
-        "ยังไม่จัดสรรทุนให้ AutoZone หรือ Copart จนกว่าการฟื้นตัวจะทนทานเกินหนึ่งไตรมาส.",
+        "ติดตาม mechanics การแยก Mobility Global ของ S&P Global จนถึง expected distribution วันที่ 1 กรกฎาคม.",
+        "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนโครงสร้างพื้นฐาน AI, dilution, preferred terms, ระดับหนี้ และความทนทานของ Search.",
+        "เก็บงาน OpenAI ของ Visa ไว้เป็นสัญญาณสนับสนุน แต่ยังไม่ถือว่าพิสูจน์แล้วจนกว่าจะเห็น economics ของธุรกรรม.",
+        "ยังไม่จัดสรรทุนให้ AutoZone หรือ Copart จนกว่าการฟื้นตัวจะชัดและทนทานเกินหนึ่งไตรมาส.",
       ],
     };
   }
@@ -315,10 +315,10 @@ export function formatPointLabel(label: string, locale: Locale) {
 function translateBenchmarkNote(label: string, fallback?: string) {
   return (
     {
-      Baseline: "จุดเริ่มต้นของชุดข้อมูล benchmark รายสัปดาห์.",
-      "May 18": "ผลตอบแทนรายสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-15 ถึง 2026-05-22.",
-      "May 25": "ผลตอบแทนรายสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-22 ถึง 2026-05-29.",
-      "Jun 01": "ผลตอบแทนรายสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-29 ถึง 2026-06-05.",
+      Baseline: "จุดเริ่มต้นของชุดข้อมูลผลตอบแทนรายสัปดาห์.",
+      "May 18": "ผลตอบแทนเต็มสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-15 ถึง 2026-05-22.",
+      "May 25": "ผลตอบแทนเต็มสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-22 ถึง 2026-05-29.",
+      "Jun 01": "ผลตอบแทนเต็มสัปดาห์ที่ backfill จากราคาปิดวันศุกร์ 2026-05-29 ถึง 2026-06-05.",
       "Jun 08": "การเปรียบเทียบเต็มสัปดาห์จากราคาปิดวันศุกร์ 2026-06-05 ถึง 2026-06-12.",
     }[label] ?? fallback
   );
