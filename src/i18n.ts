@@ -240,7 +240,7 @@ const thaiDecisions: Record<string, { subject: string; reason: string }> = {
   "Daily scan": {
     subject: "สแกนรายวัน",
     reason:
-      "หลัง checkpoint 12:30 ET ยังไม่มีหลักฐานใหม่ที่เปลี่ยน thesis หรือขนาดสถานะ หุ้นหลักยังถือได้เหมือนเดิม ส่วน AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืน แต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ตตอนนี้.",
+      "หลัง checkpoint 13:30 ET ยังไม่มีหลักฐานใหม่ที่เปลี่ยน thesis หรือขนาดสถานะ Fed คงดอกเบี้ยที่ 3.50%-3.75% จึงเป็นแค่บริบทตลาด ไม่ใช่สัญญาณซื้อขาย หุ้นหลักยังถือได้เหมือนเดิม ส่วน AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืน แต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ตตอนนี้.",
   },
   "Weekly journal": {
     subject: "บันทึกประจำสัปดาห์",
@@ -272,11 +272,11 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกน 2026-06-17 13:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกน 2026-06-17 14:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
-        outcomeQuality: "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 13:30 ET ยังไม่เจอหลักฐานที่ต้องปรับพอร์ต และยังไม่ใช้ผลประชุม Fed ที่รอ 14:00 ET เป็นสัญญาณซื้อขาย.",
+        outcomeQuality: "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 14:30 ET ยังไม่เจอหลักฐานที่ต้องปรับพอร์ต ส่วน Fed คงดอกเบี้ยเป็นบริบทตลาด ไม่ใช่สัญญาณซื้อขาย.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -284,7 +284,7 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 13:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 14:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
@@ -292,7 +292,7 @@ export function getPortfolioContent(locale: Locale) {
         "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของโครงสร้างพื้นฐาน AI dilution เงื่อนไข preferred ระดับหนี้ และความแข็งแรงของ Search.",
         "มองงาน OpenAI ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
         "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
-        "รอดูผลประชุม Fed 14:00 ET และแถลง 14:30 ET เป็นบริบทตลาดเท่านั้น เว้นแต่มีผลต่อคุณภาพธุรกิจโดยตรง.",
+        "มอง Fed ที่คงดอกเบี้ย 3.50%-3.75% เป็นบริบทตลาดเท่านั้น เว้นแต่จะมีผลต่อคุณภาพธุรกิจโดยตรง.",
       ],
     };
   }
