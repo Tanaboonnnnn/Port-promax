@@ -46,14 +46,14 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "Week ended 2026-06-12",
-  localContext: "Asia/Bangkok",
+  asOf: "2026-06-17 09:30 ET scan; NAV last verified 2026-06-12 close",
+  localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
   cashWeight: 20,
   inceptionReturn: -2.48,
-  processQuality: "Good: concentrated, thesis-led, primary-source discipline, no forced activity.",
-  outcomeQuality: "Too early to judge. Short-window underperformance is recorded, not traded on.",
+  processQuality: "Good: thesis-led scan, primary-source discipline, and no forced activity.",
+  outcomeQuality: "Latest verified mark remains the week ended 2026-06-12. Intraday price noise was not used as a decision signal.",
 };
 
 export const holdings: Holding[] = [
@@ -68,12 +68,12 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2500,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability is supportive, but not a sizing event.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, AI capex repeatedly fails to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
       "Commercial cloud demand remains durable.",
-      "AI spending strengthens distribution instead of eroding free cash flow quality.",
+      "AI products strengthen distribution and monetization instead of eroding free cash flow quality.",
       "Enterprise switching costs and bundled workflows remain hard to displace.",
     ],
   },
@@ -88,7 +88,7 @@ export const holdings: Holding[] = [
     entryPrice: 322.52,
     value: 2000,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves.",
+      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI and Intelligent Commerce work is strategically supportive but still economically unproven.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
@@ -108,7 +108,7 @@ export const holdings: Holding[] = [
     entryPrice: 403.15,
     value: 2000,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. The Mobility Global separation may sharpen focus if executed cleanly.",
+      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. The Mobility Global separation may sharpen focus if Form 10 effectiveness, when-issued trading, and distribution mechanics complete cleanly.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, or capital allocation discipline.",
     assumptions: [
@@ -128,7 +128,7 @@ export const holdings: Holding[] = [
     entryPrice: 396.78,
     value: 1500,
     thesis:
-      "Search, YouTube, Cloud, and cash generation remain exceptional, but the AI infrastructure funding plan raises the burden of proof for per-share returns.",
+      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, and the broader AI capital-markets financing wave keep the burden of proof high for per-share returns.",
     killCondition:
       "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, or AI capex fails to produce durable profit.",
     assumptions: [
@@ -207,28 +207,28 @@ export const benchmarkPoints: BenchmarkPoint[] = [
 
 export const recentDecisions: Decision[] = [
   {
-    date: "2026-06-15",
+    date: "2026-06-17 09:30 ET",
     action: "do nothing",
     subject: "Daily scan",
     sourceQuality: "high",
     reason:
-      "No new item changed business quality, moat, management quality, financial durability, position size, confidence, or kill condition enough to justify action.",
+      "No exposure-changing evidence was found. Microsoft Copilot Cowork GA is supportive, Visa's OpenAI work remains unproven economically, S&P Global is still an execution monitor, and Alphabet remains under review rather than broken.",
   },
   {
-    date: "2026-06-14",
+    date: "2026-06-17",
     action: "do nothing",
-    subject: "Weekly journal",
+    subject: "Weekly journal verification",
     sourceQuality: "high",
     reason:
-      "Visa's OpenAI partnership was strategically supportive, S&P Global's separation remained execution-relevant, and Alphabet stayed under review without a broken thesis.",
+      "The Week of 2026-06-08 records already contained the full benchmark set, so no duplicate weekly row was created and no position changed.",
   },
   {
-    date: "2026-06-04",
-    action: "hold",
-    subject: "Alphabet status change",
+    date: "2026-06-16 15:30 ET",
+    action: "do nothing",
+    subject: "Intraday scan",
     sourceQuality: "high",
     reason:
-      "Official AI infrastructure funding materials made Alphabet's per-share return burden more important, moving the status from strengthening to under review without changing exposure.",
+      "No company-specific evidence changed thesis status, confidence, position size, or kill condition. The broader AI financing wave stayed relevant context for Alphabet only.",
   },
 ];
 
@@ -240,7 +240,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history.",
     whyNotYet:
-      "Fiscal Q3 repaired some weakness, but one stronger quarter is not enough to outrank cash or funded holdings.",
+      "Fiscal Q3 repaired some weakness, but one stronger quarter and no new material item today are not enough to outrank cash or funded holdings.",
   },
   {
     company: "Copart",
@@ -249,7 +249,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest and still below the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no new material item today lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
@@ -260,17 +260,17 @@ export const quarterlyStatus = [
   },
   {
     label: "Exposure change",
-    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged.",
+    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 09:30 ET scan.",
   },
   {
     label: "Primary open question",
-    value: "Can Alphabet's AI capex and financing still produce durable per-share value?",
+    value: "Can Alphabet's AI capex, financing, and dilution still produce durable per-share value?",
   },
 ];
 
 export const nextFocus = [
-  "Monitor S&P Global Mobility Global separation mechanics through the July 1 expected distribution.",
+  "Monitor S&P Global Mobility Global separation mechanics through Form 10 effectiveness, expected when-issued trading, and the July 1 expected distribution.",
   "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, and Search resilience.",
-  "Keep Visa's OpenAI work in the supportive-but-unproven bucket until transaction economics appear.",
-  "Avoid funding AutoZone or Copart until improvement is durable across more than one quarter.",
+  "Keep Visa's OpenAI and Intelligent Commerce work in the supportive-but-unproven bucket until transaction economics appear.",
+  "Treat the June 17 Fed decision and semiconductor rebound as market context, not a portfolio action trigger unless business-quality evidence changes.",
 ];
