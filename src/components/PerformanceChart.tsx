@@ -25,12 +25,12 @@ interface PerformanceChartProps {
   locale: Locale;
 }
 
-type BenchmarkKey = "portfolio" | "voo" | "nasdaq100" | "smh" | "vt";
+type BenchmarkKey = "portfolio" | "sp500" | "nasdaq100" | "smh" | "vt";
 type ComparisonKey = Exclude<BenchmarkKey, "portfolio">;
 type ChartMode = "all" | ComparisonKey;
 
 const benchmarkSeries: { key: ComparisonKey; label: string; color: string }[] = [
-  { key: "voo", label: "VOO", color: "#9a7d3b" },
+  { key: "sp500", label: "S&P 500", color: "#9a7d3b" },
   { key: "nasdaq100", label: "Nasdaq-100", color: "#4f6f73" },
   { key: "smh", label: "SMH", color: "#a75533" },
   { key: "vt", label: "VT", color: "#697c43" },
@@ -215,7 +215,7 @@ export function PerformanceChart({ points, copy, locale }: PerformanceChartProps
         <div className="benchmark-row benchmark-row--head">
           <span>{copy.week}</span>
           <span>{copy.portfolio}</span>
-          <span>VOO</span>
+          <span>S&P 500</span>
           <span>Nasdaq-100</span>
           <span>SMH</span>
           <span>VT</span>
@@ -224,7 +224,7 @@ export function PerformanceChart({ points, copy, locale }: PerformanceChartProps
           <div className="benchmark-row" key={point.label} title={point.note}>
             <span>{formatPointLabel(point.label, locale)}</span>
             <span>{formatValue(point.portfolio, copy.pending)}</span>
-            <span>{formatValue(point.voo, copy.pending)}</span>
+            <span>{formatValue(point.sp500, copy.pending)}</span>
             <span>{formatValue(point.nasdaq100, copy.pending)}</span>
             <span>{formatValue(point.smh, copy.pending)}</span>
             <span>{formatValue(point.vt, copy.pending)}</span>
