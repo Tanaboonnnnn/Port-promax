@@ -46,7 +46,7 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-17 09:30 ET scan; NAV last verified 2026-06-12 close",
+  asOf: "2026-06-17 10:30 ET scan; NAV last verified 2026-06-12 close",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
@@ -68,7 +68,7 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2500,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability is supportive, but not a sizing event.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability is supportive product evidence, with usage-based billing and enterprise controls, but not a sizing event.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, AI capex repeatedly fails to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
@@ -108,7 +108,7 @@ export const holdings: Holding[] = [
     entryPrice: 403.15,
     value: 2000,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. The Mobility Global separation may sharpen focus if Form 10 effectiveness, when-issued trading, and distribution mechanics complete cleanly.",
+      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. The Mobility Global record date has passed, and the next evidence is execution quality through Form 10 effectiveness, expected when-issued trading, and July 1 distribution mechanics.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, or capital allocation discipline.",
     assumptions: [
@@ -128,13 +128,13 @@ export const holdings: Holding[] = [
     entryPrice: 396.78,
     value: 1500,
     thesis:
-      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, and the broader AI capital-markets financing wave keep the burden of proof high for per-share returns.",
+      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the approved larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns.",
     killCondition:
       "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, or AI capex fails to produce durable profit.",
     assumptions: [
       "Search and YouTube remain resilient while AI interfaces change.",
       "Cloud growth and backlog convert into attractive returns.",
-      "Debt, preferred/common issuance, and capex do not dilute per-share compounding beyond the thesis.",
+      "Debt, preferred/common issuance, stock-plan dilution, and capex do not dilute per-share compounding beyond the thesis.",
     ],
   },
   {
@@ -200,12 +200,20 @@ export const benchmarkPoints: BenchmarkPoint[] = [
     sp500: 0.57,
     nasdaq100: 2.31,
     smh: 8.82,
-    vt: 1.70,
+    vt: 1.7,
     note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close, using SPY as the S&P 500 proxy.",
   },
 ];
 
 export const recentDecisions: Decision[] = [
+  {
+    date: "2026-06-17 10:30 ET",
+    action: "do nothing",
+    subject: "Daily scan",
+    sourceQuality: "high",
+    reason:
+      "No exposure-changing evidence was found after the 09:30 ET checkpoint. Microsoft Copilot Cowork remains supportive, Visa's AI-commerce work remains unproven economically, S&P Global is still a separation execution monitor, and Alphabet remains under review rather than broken.",
+  },
   {
     date: "2026-06-17 09:30 ET",
     action: "do nothing",
@@ -222,14 +230,6 @@ export const recentDecisions: Decision[] = [
     reason:
       "The Week of 2026-06-08 records already contained the full benchmark set, so no duplicate weekly row was created and no position changed.",
   },
-  {
-    date: "2026-06-16 15:30 ET",
-    action: "do nothing",
-    subject: "Intraday scan",
-    sourceQuality: "high",
-    reason:
-      "No company-specific evidence changed thesis status, confidence, position size, or kill condition. The broader AI financing wave stayed relevant context for Alphabet only.",
-  },
 ];
 
 export const watchlist: WatchlistItem[] = [
@@ -240,7 +240,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history.",
     whyNotYet:
-      "Fiscal Q3 repaired some weakness, but one stronger quarter and no new material item today are not enough to outrank cash or funded holdings.",
+      "Fiscal Q3 repaired some weakness, but one stronger quarter and no new material item at the 10:30 ET checkpoint are not enough to outrank cash or funded holdings.",
   },
   {
     company: "Copart",
@@ -249,7 +249,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and no new material item today lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no new material item at the 10:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
@@ -260,17 +260,17 @@ export const quarterlyStatus = [
   },
   {
     label: "Exposure change",
-    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 09:30 ET scan.",
+    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 10:30 ET scan.",
   },
   {
     label: "Primary open question",
-    value: "Can Alphabet's AI capex, financing, and dilution still produce durable per-share value?",
+    value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?",
   },
 ];
 
 export const nextFocus = [
   "Monitor S&P Global Mobility Global separation mechanics through Form 10 effectiveness, expected when-issued trading, and the July 1 expected distribution.",
-  "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, and Search resilience.",
+  "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, stock-plan usage, governance oversight, and Search resilience.",
   "Keep Visa's OpenAI and Intelligent Commerce work in the supportive-but-unproven bucket until transaction economics appear.",
   "Treat the June 17 Fed decision and semiconductor rebound as market context, not a portfolio action trigger unless business-quality evidence changes.",
 ];
