@@ -20,7 +20,7 @@ export interface Holding {
 export interface BenchmarkPoint {
   label: string;
   portfolio: number;
-  voo: number | null;
+  sp500: number | null;
   nasdaq100: number | null;
   smh: number | null;
   vt: number | null;
@@ -46,7 +46,7 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-15",
+  asOf: "Week ended 2026-06-12",
   localContext: "Asia/Bangkok",
   startingCapital: 10000,
   latestValue: 9752.37,
@@ -161,7 +161,7 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "Baseline",
     portfolio: 0,
-    voo: 0,
+    sp500: 0,
     nasdaq100: 0,
     smh: 0,
     vt: 0,
@@ -170,38 +170,38 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   {
     label: "May 18",
     portfolio: 0.19,
-    voo: 0.90,
+    sp500: 0.88,
     nasdaq100: 1.22,
     smh: 3.59,
     vt: 1.34,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22.",
+    note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22, using SPY as the S&P 500 proxy.",
   },
   {
     label: "May 25",
     portfolio: 1.62,
-    voo: 1.45,
+    sp500: 1.45,
     nasdaq100: 2.89,
     smh: 3.92,
     vt: 1.64,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29.",
+    note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29, using SPY as the S&P 500 proxy.",
   },
   {
     label: "Jun 01",
     portfolio: -2.23,
-    voo: -2.52,
+    sp500: -2.50,
     nasdaq100: -4.54,
     smh: -4.88,
     vt: -2.81,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05.",
+    note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05, using SPY as the S&P 500 proxy.",
   },
   {
     label: "Jun 08",
     portfolio: -2.22,
-    voo: 0.58,
-    nasdaq100: 2.34,
+    sp500: 0.57,
+    nasdaq100: 2.31,
     smh: 8.82,
     vt: 1.70,
-    note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close.",
+    note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close, using SPY as the S&P 500 proxy.",
   },
 ];
 
