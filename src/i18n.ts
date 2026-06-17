@@ -240,7 +240,7 @@ const thaiDecisions: Record<string, { subject: string; reason: string }> = {
   "Daily scan": {
     subject: "สแกนรายวัน",
     reason:
-      "ยังไม่เจอหลักฐานที่ทำให้ต้องปรับหุ้นที่ถืออยู่ ส่วน AutoZone มีข่าวซื้อหุ้นคืนเพิ่มซึ่งน่าสนใจในเชิงจัดสรรทุน แต่ยังไม่พอให้ใช้เงินสดแทนหุ้นแกนพอร์ตตอนนี้.",
+      "ยังไม่เจอหลักฐานใหม่หลัง checkpoint ก่อนหน้า ที่ทำให้ต้องปรับหุ้นที่ถืออยู่ ส่วน AutoZone มีข่าวซื้อหุ้นคืนเพิ่มซึ่งน่าสนใจในเชิงจัดสรรทุน แต่ยังไม่พอให้ใช้เงินสดแทนหุ้นแกนพอร์ตตอนนี้.",
   },
   "Weekly journal": {
     subject: "บันทึกประจำสัปดาห์",
@@ -283,7 +283,7 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 12:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
