@@ -46,14 +46,14 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-17 12:30 ET scan; NAV last verified 2026-06-12 close",
+  asOf: "2026-06-17 13:30 ET scan; NAV last verified 2026-06-12 close",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
   cashWeight: 20,
   inceptionReturn: -2.48,
   processQuality: "Good: thesis-led scan, primary-source discipline, and no forced activity.",
-  outcomeQuality: "Latest verified mark remains the week ended 2026-06-12. No intraday price noise or Fed-day market setup was used as a decision signal.",
+  outcomeQuality: "Latest verified mark remains the week ended 2026-06-12. The 13:30 ET checkpoint found no exposure-changing evidence; the 2:00 ET Fed decision was still pending and not used as a decision signal.",
 };
 
 export const holdings: Holding[] = [
@@ -68,7 +68,7 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2500,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability is supportive product evidence, with usage-based billing and enterprise controls, but not a sizing event.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability remains supportive product evidence, with usage-based billing and enterprise controls, but not a sizing event.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, AI capex repeatedly fails to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
@@ -88,7 +88,7 @@ export const holdings: Holding[] = [
     entryPrice: 322.52,
     value: 2000,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI and Intelligent Commerce work is strategically supportive but still economically unproven.",
+      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI and Intelligent Commerce work remains strategically supportive but still economically unproven.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
@@ -207,6 +207,14 @@ export const benchmarkPoints: BenchmarkPoint[] = [
 
 export const recentDecisions: Decision[] = [
   {
+    date: "2026-06-17 13:30 ET",
+    action: "do nothing",
+    subject: "Daily scan",
+    sourceQuality: "high",
+    reason:
+      "No exposure-changing evidence appeared after the 12:30 ET checkpoint. Microsoft, Visa, and S&P Global remain high-confidence holds, Alphabet remains under review, AutoZone's buyback remains watchlist evidence rather than a funding trigger, Copart remains below the funding bar, and cash remains valid.",
+  },
+  {
     date: "2026-06-17 12:30 ET",
     action: "do nothing",
     subject: "Daily scan",
@@ -222,14 +230,6 @@ export const recentDecisions: Decision[] = [
     reason:
       "No holding produced exposure-changing evidence after the 10:30 ET checkpoint. AutoZone added a material watchlist capital-allocation item with a new $1.5B buyback authorization, but it still does not outrank cash or the funded holdings without more durable operating and valuation support.",
   },
-  {
-    date: "2026-06-17 10:30 ET",
-    action: "do nothing",
-    subject: "Daily scan",
-    sourceQuality: "high",
-    reason:
-      "No exposure-changing evidence was found after the 09:30 ET checkpoint. Microsoft Copilot Cowork remains supportive, Visa's AI-commerce work remains unproven economically, S&P Global is still a separation execution monitor, and Alphabet remains under review rather than broken.",
-  },
 ];
 
 export const watchlist: WatchlistItem[] = [
@@ -240,7 +240,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases reinforces capital-allocation discipline if cash flow and leverage remain healthy.",
     whyNotYet:
-      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but AutoZone still needs more durable operating evidence and valuation support before it outranks cash or the current funded holdings.",
+      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but no new 13:30 ET evidence makes AutoZone outrank cash or the current funded holdings without more durable operating evidence and valuation support.",
   },
   {
     company: "Copart",
@@ -249,7 +249,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and no new material item at the 12:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no new material item at the 13:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
@@ -260,7 +260,7 @@ export const quarterlyStatus = [
   },
   {
     label: "Exposure change",
-    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 12:30 ET scan.",
+    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 13:30 ET scan.",
   },
   {
     label: "Primary open question",
