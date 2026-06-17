@@ -240,7 +240,7 @@ const thaiDecisions: Record<string, { subject: string; reason: string }> = {
   "Daily scan": {
     subject: "สแกนรายวัน",
     reason:
-      "ยังไม่เจอข่าว เอกสาร หรือคำพูดผู้บริหารที่เปลี่ยนคุณภาพธุรกิจ moat ฐานะการเงิน น้ำหนักพอร์ต หรือ kill condition มากพอให้ต้องขยับ.",
+      "ยังไม่เจอหลักฐานที่ทำให้ต้องปรับหุ้นที่ถืออยู่ ส่วน AutoZone มีข่าวซื้อหุ้นคืนเพิ่มซึ่งน่าสนใจในเชิงจัดสรรทุน แต่ยังไม่พอให้ใช้เงินสดแทนหุ้นแกนพอร์ตตอนนี้.",
   },
   "Weekly journal": {
     subject: "บันทึกประจำสัปดาห์",
@@ -256,8 +256,10 @@ const thaiDecisions: Record<string, { subject: string; reason: string }> = {
 
 const thaiWatchlist: Record<string, { whyInteresting: string; whyNotYet: string }> = {
   AZO: {
-    whyInteresting: "อะไหล่รถเป็นตลาดที่ demand ทนพอสมควร AutoZone กระจายสินค้าเก่ง และมีประวัติซื้อหุ้นคืนต่อเนื่อง.",
-    whyNotYet: "ตัวเลขดีขึ้นหนึ่งไตรมาสยังไม่พอให้แย่งเงินจากหุ้นที่ถืออยู่หรือจากเงินสด.",
+    whyInteresting:
+      "อะไหล่รถเป็นตลาดที่ demand ทนพอสมควร AutoZone กระจายสินค้าเก่ง และมีวินัยซื้อหุ้นคืนมายาวนาน วงเงินซื้อคืนใหม่ $1.5B ช่วยย้ำว่าเรื่องนี้ยังเป็นส่วนสำคัญของ capital allocation.",
+    whyNotYet:
+      "ข่าวซื้อคืนเป็นบวก แต่ยังต้องดูว่ากำไร กระแสเงินสด leverage และราคาที่ซื้อคืนสมเหตุสมผลพอหรือไม่ ก่อนจะให้แย่งเงินจากเงินสดหรือหุ้นที่ถืออยู่.",
   },
   CPRT: {
     whyInteresting: "Copart มีเครือข่ายประมูลซากรถที่เฉพาะทาง ฐานผู้ซื้อกว้าง และโมเดล marketplace ที่ทนกว่าธุรกิจรถทั่วไป.",
@@ -273,7 +275,7 @@ export function getPortfolioContent(locale: Locale) {
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
-        outcomeQuality: "ยังเร็วเกินไปที่จะตัดสิน ระยะสั้นมีไว้บันทึก ไม่ใช่เอาไว้ไล่เทรด.",
+        outcomeQuality: "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. การแกว่งระหว่างวันมีไว้สังเกต ไม่ใช่เหตุผลให้ไล่ซื้อขาย.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -281,14 +283,14 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
         "ตาม execution ของการแยก Mobility Global ของ S&P Global จนถึงวันกระจายหุ้นที่คาดไว้ 1 กรกฎาคม.",
         "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของโครงสร้างพื้นฐาน AI dilution เงื่อนไข preferred ระดับหนี้ และความแข็งแรงของ Search.",
         "มองงาน OpenAI ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
-        "ยังไม่จัดเงินให้ AutoZone หรือ Copart จนกว่าจะเห็นการฟื้นตัวที่ชัดและยืนได้มากกว่าหนึ่งไตรมาส.",
+        "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
       ],
     };
   }
