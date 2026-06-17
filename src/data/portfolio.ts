@@ -46,14 +46,14 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-17 11:30 ET scan; NAV last verified 2026-06-12 close",
+  asOf: "2026-06-17 12:30 ET scan; NAV last verified 2026-06-12 close",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
   cashWeight: 20,
   inceptionReturn: -2.48,
   processQuality: "Good: thesis-led scan, primary-source discipline, and no forced activity.",
-  outcomeQuality: "Latest verified mark remains the week ended 2026-06-12. Intraday price noise was not used as a decision signal.",
+  outcomeQuality: "Latest verified mark remains the week ended 2026-06-12. No intraday price noise or Fed-day market setup was used as a decision signal.",
 };
 
 export const holdings: Holding[] = [
@@ -207,6 +207,14 @@ export const benchmarkPoints: BenchmarkPoint[] = [
 
 export const recentDecisions: Decision[] = [
   {
+    date: "2026-06-17 12:30 ET",
+    action: "do nothing",
+    subject: "Daily scan",
+    sourceQuality: "high",
+    reason:
+      "No exposure-changing evidence appeared after the 11:30 ET checkpoint. Microsoft, Visa, and S&P Global remain high-confidence holds, Alphabet remains under review, AutoZone's buyback remains watchlist evidence rather than a funding trigger, and cash remains valid.",
+  },
+  {
     date: "2026-06-17 11:30 ET",
     action: "do nothing",
     subject: "Daily scan",
@@ -221,14 +229,6 @@ export const recentDecisions: Decision[] = [
     sourceQuality: "high",
     reason:
       "No exposure-changing evidence was found after the 09:30 ET checkpoint. Microsoft Copilot Cowork remains supportive, Visa's AI-commerce work remains unproven economically, S&P Global is still a separation execution monitor, and Alphabet remains under review rather than broken.",
-  },
-  {
-    date: "2026-06-17 09:30 ET",
-    action: "do nothing",
-    subject: "Daily scan",
-    sourceQuality: "high",
-    reason:
-      "No exposure-changing evidence was found. Microsoft Copilot Cowork GA is supportive, Visa's OpenAI work remains unproven economically, S&P Global is still an execution monitor, and Alphabet remains under review rather than broken.",
   },
 ];
 
@@ -249,7 +249,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and no new material item at the 11:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no new material item at the 12:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
@@ -260,7 +260,7 @@ export const quarterlyStatus = [
   },
   {
     label: "Exposure change",
-    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 11:30 ET scan.",
+    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-17 12:30 ET scan.",
   },
   {
     label: "Primary open question",
@@ -273,4 +273,5 @@ export const nextFocus = [
   "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, stock-plan usage, governance oversight, and Search resilience.",
   "Keep Visa's OpenAI and Intelligent Commerce work in the supportive-but-unproven bucket until transaction economics appear.",
   "Treat AutoZone's June 16 buyback authorization as watchlist capital-allocation evidence, not a funding trigger; require sustained operating improvement and valuation support before replacing cash.",
+  "Treat the 2:00 ET Fed decision and 2:30 ET press conference as market context only unless they reveal business-quality evidence.",
 ];
