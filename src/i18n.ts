@@ -172,13 +172,14 @@ export const uiCopy = {
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า แต่ยังต้องรอให้ adoption และ margin ผ่านเข้าผลประกอบการก่อนจะเพิ่มน้ำหนัก.",
+      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 เป็นประเด็นด้านความปลอดภัยที่ต้องตาม เพราะกระทบความเชื่อมั่นต่อ enterprise AI แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักทันทีหลัง Microsoft แก้ไขแล้วตามรายงานของ Varonis.",
     killCondition:
-      "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
+      "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหาความปลอดภัยด้าน enterprise AI ซ้ำจนลูกค้าเสียความเชื่อมั่น capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
     assumptions: [
       "ลูกค้าองค์กรยังย้ายงานขึ้น cloud ต่อเนื่อง.",
       "AI ต้องเพิ่มคุณค่าของสินค้า ไม่ใช่เพิ่มแค่ต้นทุนโครงสร้างพื้นฐาน.",
       "workflow ของ Microsoft ยังฝังอยู่ในองค์กรลึกพอให้ย้ายออกยาก.",
+      "Microsoft ต้องรักษาความปลอดภัยของ Copilot ได้ดีพอจนไม่ทำให้ความเชื่อมั่นลูกค้าองค์กรเสียหายถาวร.",
     ],
   },
   V: {
@@ -229,6 +230,11 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
 };
 
 const thaiDecisionText: Record<string, { subject: string; reason: string }> = {
+  "2026-06-18 14:30 ET": {
+    subject: "สแกนระหว่างวัน",
+    reason:
+      "สแกน 14:30 ET ยังไม่พบหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือน้ำหนักพอร์ต ประเด็น SearchLeak / CVE-2026-42824 ของ Microsoft ถูกเพิ่มเป็นเรื่องที่ต้องตามด้านความเชื่อมั่นต่อ enterprise AI แต่ยังไม่ใช่ thesis break เพราะเป็นช่องโหว่ที่ Microsoft แก้ไขแล้วตามรายงานของ Varonis. Visa, S&P Global และเงินสดยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone ยังเป็น watchlist ด้าน capital allocation ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ.",
+  },
   "2026-06-18 13:30 ET": {
     subject: "สแกนระหว่างวัน",
     reason:
@@ -269,12 +275,12 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกนระหว่างวัน 2026-06-18 13:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกนระหว่างวัน 2026-06-18 14:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 13:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 14:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -285,14 +291,14 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 13:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 14:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
         "ตาม execution ของการแยก Mobility Global ของ S&P Global จนถึงวันกระจายหุ้นที่คาดไว้ 1 กรกฎาคม.",
         "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของโครงสร้างพื้นฐาน AI dilution เงื่อนไข preferred ระดับหนี้ และความแข็งแรงของ Search.",
         "มองงาน OpenAI และ Intelligent Commerce ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
-        "มอง Copilot Cowork ของ Microsoft เป็นหลักฐานด้าน product thesis แต่ยังไม่เพิ่มน้ำหนักจนกว่า adoption และ margin จะผ่านเข้าผลประกอบการ.",
+        "มอง Copilot Cowork และการแก้ SearchLeak ของ Microsoft เป็นหลักฐานที่ต้องตาม ทั้งด้าน adoption, margin และความเชื่อมั่นด้านความปลอดภัยของ enterprise AI.",
         "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
         "มองการเคลื่อนไหวระหว่างวันของ benchmark และบริบทดอกเบี้ยเป็นแค่สภาพตลาด เว้นแต่จะกระทบคุณภาพธุรกิจโดยตรง.",
       ],
