@@ -172,14 +172,14 @@ export const uiCopy = {
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 เป็นประเด็นด้านความปลอดภัยที่ต้องตาม เพราะกระทบความเชื่อมั่นต่อ enterprise AI แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักทันทีหลัง Microsoft แก้ไขแล้วตามรายงานของ Varonis.",
+      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 เป็นประเด็นด้านความปลอดภัยที่ต้องตาม เพราะกระทบความเชื่อมั่นต่อ enterprise AI คดี securities complaint ที่ยื่นเมื่อ 12 มิ.ย. เป็นประเด็นด้านกฎหมายและคุณภาพ disclosure ที่ต้องตามเช่นกัน แต่ข้อกล่าวหายังไม่พิสูจน์ และยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักทันที.",
     killCondition:
-      "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหาความปลอดภัยด้าน enterprise AI ซ้ำจนลูกค้าเสียความเชื่อมั่น capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
+      "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหาความปลอดภัยหรือ disclosure ด้าน enterprise AI ซ้ำจนลูกค้าหรือนักลงทุนเสียความเชื่อมั่น capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
     assumptions: [
       "ลูกค้าองค์กรยังย้ายงานขึ้น cloud ต่อเนื่อง.",
       "AI ต้องเพิ่มคุณค่าของสินค้า ไม่ใช่เพิ่มแค่ต้นทุนโครงสร้างพื้นฐาน.",
       "workflow ของ Microsoft ยังฝังอยู่ในองค์กรลึกพอให้ย้ายออกยาก.",
-      "Microsoft ต้องรักษาความปลอดภัยของ Copilot ได้ดีพอจนไม่ทำให้ความเชื่อมั่นลูกค้าองค์กรเสียหายถาวร.",
+      "Microsoft ต้องรักษาความปลอดภัยและคุณภาพ disclosure ของ Copilot ได้ดีพอจนไม่ทำให้ความเชื่อมั่นเสียหายถาวร.",
     ],
   },
   V: {
@@ -195,12 +195,12 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   SPGI: {
     thesis:
-      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ หลังวัน record date ของ Mobility Global ผ่านไปแล้ว จุดที่ต้องตามคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม.",
+      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ Mobility Global ยังเป็นงาน execution ที่ต้องตาม โดยเฉพาะหนี้ senior notes $2.0B และวงเงิน revolver $500M ของบริษัทที่จะถูกแยกออก เพราะเงินส่วนหนึ่งจะจ่ายกลับให้ S&P Global เมื่อเงื่อนไขการแยกสำเร็จ จุดต่อไปคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม.",
     killCondition:
-      "ต้องทบทวนถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility ทำให้ economics, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
+      "ต้องทบทวนถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility ทำให้ economics, leverage, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
     assumptions: [
       "ตลาดยังไว้ใจ ratings, indices และข้อมูลของบริษัท.",
-      "การแยก Mobility ไม่ทำให้ฐานกำไรหลักเสียหาย.",
+      "การแยก Mobility และโครงสร้างเงินทุนของบริษัทใหม่ไม่ทำให้ฐานกำไรหลักเสียหาย.",
       "ผลิตภัณฑ์ข้อมูลรายได้ประจำยังโตได้พร้อม margin ที่ดี.",
     ],
   },
@@ -230,6 +230,11 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
 };
 
 const thaiDecisionText: Record<string, { subject: string; reason: string }> = {
+  "2026-06-18 15:30 ET": {
+    subject: "สแกนระหว่างวัน",
+    reason:
+      "สแกน 15:30 ET ยังไม่พบหลักฐานที่ต้องปรับพอร์ต คดี securities complaint ของ Microsoft ถูกเพิ่มเป็นประเด็นด้านกฎหมายและคุณภาพ disclosure ที่ต้องตาม แต่ข้อกล่าวหายังไม่พิสูจน์ และยังไม่มีหลักฐานว่าลูกค้า economics หรือธรรมาภิบาลเสียหายถาวร ส่วน S&P Global ต้องตามโครงสร้างเงินทุนของ Mobility Global หลังมี senior notes $2.0B และ revolver $500M เพราะเกี่ยวกับ execution ของการแยกธุรกิจ แต่ยังไม่ทำให้ thesis หลักอ่อนลง Visa ยังแข็งแรงแต่ agentic commerce ยังเป็นเรื่องระยะยาว Alphabet ยังอยู่ระหว่างรีวิว และเงินสดยังสมเหตุสมผล.",
+  },
   "2026-06-18 14:30 ET": {
     subject: "สแกนระหว่างวัน",
     reason:
@@ -275,12 +280,12 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกนระหว่างวัน 2026-06-18 14:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกนระหว่างวัน 2026-06-18 15:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 14:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 15:30 ET ยังไม่เจอหลักฐานที่ต้องปรับพอร์ต คดี Microsoft และโครงสร้างเงินทุนของ Mobility Global เป็นเรื่องที่ต้องตาม ไม่ใช่สัญญาณซื้อขาย.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -291,16 +296,16 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 14:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 15:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
-        "ตาม execution ของการแยก Mobility Global ของ S&P Global จนถึงวันกระจายหุ้นที่คาดไว้ 1 กรกฎาคม.",
+        "ตาม execution ของการแยก Mobility Global ของ S&P Global รวมถึง notes $2.0B, revolver $500M, Form 10, when-issued trading และวันกระจายหุ้นที่คาดไว้ 1 กรกฎาคม.",
         "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของโครงสร้างพื้นฐาน AI dilution เงื่อนไข preferred ระดับหนี้ และความแข็งแรงของ Search.",
         "มองงาน OpenAI และ Intelligent Commerce ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
-        "มอง Copilot Cowork และการแก้ SearchLeak ของ Microsoft เป็นหลักฐานที่ต้องตาม ทั้งด้าน adoption, margin และความเชื่อมั่นด้านความปลอดภัยของ enterprise AI.",
+        "มอง Copilot Cowork, การแก้ SearchLeak และคดี securities complaint ของ Microsoft เป็นเรื่องที่ต้องตาม ทั้งด้าน adoption, margin, security trust และคุณภาพ disclosure.",
         "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
-        "มองการเคลื่อนไหวระหว่างวันของ benchmark และบริบทดอกเบี้ยเป็นแค่สภาพตลาด เว้นแต่จะกระทบคุณภาพธุรกิจโดยตรง.",
+        "มองการเคลื่อนไหวระหว่างวันของ benchmark และข่าว macro เป็นแค่สภาพตลาด เว้นแต่จะกระทบคุณภาพธุรกิจโดยตรง.",
       ],
     };
   }
