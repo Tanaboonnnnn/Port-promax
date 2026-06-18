@@ -236,11 +236,21 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
 };
 
-const thaiDecisions: Record<string, { subject: string; reason: string }> = {
-  "Daily scan": {
-    subject: "สแกนรายวัน",
+const thaiDecisionText: Record<string, { subject: string; reason: string }> = {
+  "2026-06-18 11:30 ET": {
+    subject: "สแกนระหว่างวัน",
     reason:
-      "สแกน 10:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือขนาดสถานะ Microsoft, Visa และ S&P Global ยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืนแต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ต ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ.",
+      "สแกน 11:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือขนาดสถานะ Microsoft, Visa และ S&P Global ยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืนแต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ต ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ. การเคลื่อนไหวระหว่างวันของ benchmark เป็นแค่บริบทตลาด.",
+  },
+  "2026-06-18 10:30 ET": {
+    subject: "สแกนระหว่างวัน",
+    reason:
+      "สแกน 10:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยนคุณภาพธุรกิจหรือ kill condition ของหุ้นที่ถืออยู่ ข่าวสินค้า AI ของ Microsoft และงาน commerce ของ Visa ยังเป็นเรื่องที่ต้องตาม ไม่ใช่เหตุผลเพิ่มน้ำหนักทันที.",
+  },
+  "2026-06-18 09:30 ET": {
+    subject: "สแกนเปิดตลาด",
+    reason:
+      "สแกนช่วงเปิดตลาดยังไม่พบเหตุผลให้ขยับพอร์ต Microsoft, Visa และ S&P Global ยังเป็นแกนหลัก Alphabet ยังต้องพิสูจน์ผลตอบแทนจาก AI capex ส่วน AutoZone และ Copart ยังอยู่ใน watchlist.",
   },
   "Weekly journal": {
     subject: "บันทึกประจำสัปดาห์",
@@ -272,20 +282,23 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกนระหว่างวัน 2026-06-18 10:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกนระหว่างวัน 2026-06-18 11:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 10:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 11:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
-      recentDecisions: recentDecisions.map((decision) => ({ ...decision, ...thaiDecisions[decision.subject] })),
+      recentDecisions: recentDecisions.map((decision) => ({
+        ...decision,
+        ...(thaiDecisionText[decision.date] ?? thaiDecisionText[decision.subject] ?? {}),
+      })),
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 10:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
@@ -294,7 +307,7 @@ export function getPortfolioContent(locale: Locale) {
         "มองงาน OpenAI และ Intelligent Commerce ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
         "มอง Copilot Cowork ของ Microsoft เป็นหลักฐานด้าน product thesis แต่ยังไม่เพิ่มน้ำหนักจนกว่า adoption และ margin จะผ่านเข้าผลประกอบการ.",
         "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
-        "มอง Fed ที่คงดอกเบี้ยและบริบทแถลงข่าวเป็นบริบทตลาดเท่านั้น เว้นแต่จะมีผลต่อคุณภาพธุรกิจโดยตรง.",
+        "มองการเคลื่อนไหวระหว่างวันของ benchmark และบริบทดอกเบี้ยเป็นแค่สภาพตลาด เว้นแต่จะกระทบคุณภาพธุรกิจโดยตรง.",
       ],
     };
   }
