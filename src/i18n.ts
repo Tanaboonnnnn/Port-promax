@@ -90,11 +90,7 @@ export const uiCopy = {
       medium: "medium",
       low: "low",
     } satisfies Record<Confidence, string>,
-    sourceQualityLevels: {
-      high: "high",
-      medium: "medium",
-      low: "low",
-    },
+    sourceQualityLevels: { high: "high", medium: "medium", low: "low" },
   },
   th: {
     languageToggleLabel: "สลับภาษา",
@@ -169,18 +165,14 @@ export const uiCopy = {
       medium: "กลาง",
       low: "ต่ำ",
     } satisfies Record<Confidence, string>,
-    sourceQualityLevels: {
-      high: "สูง",
-      medium: "กลาง",
-      low: "ต่ำ",
-    },
+    sourceQualityLevels: { high: "สูง", medium: "กลาง", low: "ต่ำ" },
   },
 } as const;
 
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork ที่เปิดใช้ทั่วไปเป็นหลักฐานเชิงสินค้า แต่ยังต้องรอให้ adoption และ margin ผ่านเข้าผลประกอบการก่อนจะเพิ่มน้ำหนัก.",
+      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า แต่ยังต้องรอให้ adoption และ margin ผ่านเข้าผลประกอบการก่อนจะเพิ่มน้ำหนัก.",
     killCondition:
       "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
     assumptions: [
@@ -237,30 +229,20 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
 };
 
 const thaiDecisionText: Record<string, { subject: string; reason: string }> = {
+  "2026-06-18 12:30 ET": {
+    subject: "สแกนระหว่างวัน",
+    reason:
+      "สแกน 12:30 ET ยังไม่พบหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือน้ำหนักพอร์ต Microsoft, Visa และ S&P Global ยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืนแต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ต ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ. การเคลื่อนไหวระหว่างวันของ benchmark เป็นแค่บริบทตลาด.",
+  },
   "2026-06-18 11:30 ET": {
     subject: "สแกนระหว่างวัน",
     reason:
-      "สแกน 11:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือขนาดสถานะ Microsoft, Visa และ S&P Global ยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone เป็นข่าวบวกด้านวินัยซื้อหุ้นคืนแต่ยังไม่แรงพอให้ใช้เงินสดแทนหุ้นแกนพอร์ต ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ. การเคลื่อนไหวระหว่างวันของ benchmark เป็นแค่บริบทตลาด.",
+      "สแกน 11:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือขนาดสถานะ ข่าวสินค้า AI ของ Microsoft และงาน commerce ของ Visa ยังเป็นเรื่องที่ต้องตาม ไม่ใช่เหตุผลเพิ่มน้ำหนักทันที.",
   },
   "2026-06-18 10:30 ET": {
     subject: "สแกนระหว่างวัน",
     reason:
-      "สแกน 10:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยนคุณภาพธุรกิจหรือ kill condition ของหุ้นที่ถืออยู่ ข่าวสินค้า AI ของ Microsoft และงาน commerce ของ Visa ยังเป็นเรื่องที่ต้องตาม ไม่ใช่เหตุผลเพิ่มน้ำหนักทันที.",
-  },
-  "2026-06-18 09:30 ET": {
-    subject: "สแกนเปิดตลาด",
-    reason:
-      "สแกนช่วงเปิดตลาดยังไม่พบเหตุผลให้ขยับพอร์ต Microsoft, Visa และ S&P Global ยังเป็นแกนหลัก Alphabet ยังต้องพิสูจน์ผลตอบแทนจาก AI capex ส่วน AutoZone และ Copart ยังอยู่ใน watchlist.",
-  },
-  "Weekly journal": {
-    subject: "บันทึกประจำสัปดาห์",
-    reason:
-      "งานร่วมกับ OpenAI ของ Visa เป็นสัญญาณบวกแต่ยังต้องรอตัวเลขจริง S&P Global ยังต้องตาม execution ของการแยกธุรกิจ ส่วน Alphabet ยังถือไว้ แต่ภาระพิสูจน์เรื่องผลตอบแทนจาก AI สูงขึ้น.",
-  },
-  "Alphabet status change": {
-    subject: "ปรับสถานะ Alphabet",
-    reason:
-      "เอกสารทางการเรื่องเงินลงทุนโครงสร้างพื้นฐาน AI ทำให้คำถามเรื่องผลตอบแทนต่อหุ้นสำคัญขึ้น จึงย้ายเป็นสถานะอยู่ระหว่างรีวิว โดยยังไม่ลดน้ำหนักในตอนนี้.",
+      "สแกน 10:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยนคุณภาพธุรกิจหรือ kill condition ของหุ้นที่ถืออยู่.",
   },
 };
 
@@ -282,23 +264,23 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกนระหว่างวัน 2026-06-18 11:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกนระหว่างวัน 2026-06-18 12:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 11:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 12:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
       recentDecisions: recentDecisions.map((decision) => ({
         ...decision,
-        ...(thaiDecisionText[decision.date] ?? thaiDecisionText[decision.subject] ?? {}),
+        ...(thaiDecisionText[decision.date] ?? {}),
       })),
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 12:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
