@@ -46,7 +46,7 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-18 11:30 ET intraday scan; NAV last verified 2026-06-12 close",
+  asOf: "2026-06-18 12:30 ET intraday scan; NAV last verified 2026-06-12 close",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
@@ -54,7 +54,7 @@ export const portfolioSnapshot = {
   inceptionReturn: -2.48,
   processQuality: "Good: thesis-led scan, primary-source discipline, and no forced activity.",
   outcomeQuality:
-    "Latest verified mark remains the week ended 2026-06-12. The 11:30 ET intraday scan found no exposure-changing company-specific evidence since the 10:30 ET checkpoint; intraday benchmark movement remains market context only.",
+    "Latest verified mark remains the week ended 2026-06-12. The 12:30 ET intraday scan found no exposure-changing company-specific evidence since the 11:30 ET checkpoint; intraday benchmark movement remains market context only.",
 };
 
 export const holdings: Holding[] = [
@@ -69,7 +69,7 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2500,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability, usage-based billing, model choice, partner plugins, and enterprise controls remain supportive product evidence, but not a sizing event yet. New regional AI adoption commentary is useful background, not fresh operating proof.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability, usage-based billing, model choice, partner plugins, and enterprise controls remain supportive product evidence, but not a sizing event yet.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, AI capex repeatedly fails to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
@@ -109,7 +109,7 @@ export const holdings: Holding[] = [
     entryPrice: 403.15,
     value: 2000,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. The Mobility Global record date has passed, and the next evidence is execution quality through Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
+      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. Mobility Global remains a post-record-date execution monitor; next evidence is Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, or capital allocation discipline.",
     assumptions: [
@@ -147,7 +147,7 @@ export const holdings: Holding[] = [
     weight: 20,
     value: 2000,
     thesis:
-      "Cash is a deliberate position because the fifth idea did not clear the written-conviction bar. No 11:30 ET intraday evidence makes a watchlist name clearly superior to cash or the funded holdings.",
+      "Cash is a deliberate position because the fifth idea did not clear the written-conviction bar. No 12:30 ET intraday evidence makes a watchlist name clearly superior to cash or the funded holdings.",
     killCondition:
       "A business with clearer durability, valuation support, and written thesis quality outranks the optionality of cash.",
     assumptions: [
@@ -159,61 +159,29 @@ export const holdings: Holding[] = [
 ];
 
 export const benchmarkPoints: BenchmarkPoint[] = [
-  {
-    label: "Baseline",
-    portfolio: 0,
-    sp500: 0,
-    nasdaq100: 0,
-    smh: 0,
-    vt: 0,
-    note: "Inception baseline for the weekly benchmark series.",
-  },
-  {
-    label: "May 18",
-    portfolio: 0.19,
-    sp500: 0.88,
-    nasdaq100: 1.22,
-    smh: 3.59,
-    vt: 1.34,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22, using SPY as the S&P 500 proxy.",
-  },
-  {
-    label: "May 25",
-    portfolio: 1.62,
-    sp500: 1.45,
-    nasdaq100: 2.89,
-    smh: 3.92,
-    vt: 1.64,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29, using SPY as the S&P 500 proxy.",
-  },
-  {
-    label: "Jun 01",
-    portfolio: -2.23,
-    sp500: -2.5,
-    nasdaq100: -4.54,
-    smh: -4.88,
-    vt: -2.81,
-    note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05, using SPY as the S&P 500 proxy.",
-  },
-  {
-    label: "Jun 08",
-    portfolio: -2.22,
-    sp500: 0.57,
-    nasdaq100: 2.31,
-    smh: 8.82,
-    vt: 1.7,
-    note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close, using SPY as the S&P 500 proxy.",
-  },
+  { label: "Baseline", portfolio: 0, sp500: 0, nasdaq100: 0, smh: 0, vt: 0, note: "Inception baseline for the weekly benchmark series." },
+  { label: "May 18", portfolio: 0.19, sp500: 0.88, nasdaq100: 1.22, smh: 3.59, vt: 1.34, note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22, using SPY as the S&P 500 proxy." },
+  { label: "May 25", portfolio: 1.62, sp500: 1.45, nasdaq100: 2.89, smh: 3.92, vt: 1.64, note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29, using SPY as the S&P 500 proxy." },
+  { label: "Jun 01", portfolio: -2.23, sp500: -2.5, nasdaq100: -4.54, smh: -4.88, vt: -2.81, note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05, using SPY as the S&P 500 proxy." },
+  { label: "Jun 08", portfolio: -2.22, sp500: 0.57, nasdaq100: 2.31, smh: 8.82, vt: 1.7, note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close, using SPY as the S&P 500 proxy." },
 ];
 
 export const recentDecisions: Decision[] = [
+  {
+    date: "2026-06-18 12:30 ET",
+    action: "do nothing",
+    subject: "Daily scan",
+    sourceQuality: "high",
+    reason:
+      "No exposure-changing company-specific evidence appeared since the 11:30 ET checkpoint. Microsoft Copilot Cowork remains supportive product context, Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven, S&P Global remains in Mobility Global execution monitoring, Alphabet remains under review, AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger, Copart remains below the funding bar, and cash remains valid. Intraday benchmark movement was treated as market context only. No weekly performance row was created.",
+  },
   {
     date: "2026-06-18 11:30 ET",
     action: "do nothing",
     subject: "Daily scan",
     sourceQuality: "high",
     reason:
-      "No exposure-changing company-specific evidence appeared since the 10:30 ET checkpoint. Microsoft Copilot Cowork and regional AI-adoption commentary remain supportive product context, not operating-result proof. Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven. S&P Global remains in Mobility Global execution monitoring. Alphabet remains under review. AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger. Copart remains below the funding bar, and cash remains valid. Intraday benchmark movement was treated as market context only. No weekly performance row was created.",
+      "No exposure-changing company-specific evidence appeared since the 10:30 ET checkpoint. Microsoft Copilot Cowork and regional AI-adoption commentary remained supportive product context, not operating-result proof. Visa, S&P Global, Alphabet, AutoZone, Copart, and cash kept the same thesis status and sizing.",
   },
   {
     date: "2026-06-18 10:30 ET",
@@ -221,15 +189,7 @@ export const recentDecisions: Decision[] = [
     subject: "Daily scan",
     sourceQuality: "high",
     reason:
-      "No exposure-changing company-specific evidence appeared since the 09:30 ET checkpoint. Microsoft Copilot Cowork GA and regional AI-adoption commentary remain supportive product context, not operating-result proof. Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven. S&P Global remains in Mobility Global execution monitoring. Alphabet remains under review. AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger. Copart remains below the funding bar, and cash remains valid. No weekly performance row was created.",
-  },
-  {
-    date: "2026-06-18 09:30 ET",
-    action: "do nothing",
-    subject: "Daily scan",
-    sourceQuality: "high",
-    reason:
-      "No exposure-changing company-specific evidence appeared since the 2026-06-17 15:30 ET checkpoint. Microsoft Copilot Cowork GA remains a supportive product monitor item, Visa's OpenAI and Intelligent Commerce work remains supportive but economically unproven, S&P Global remains in Mobility Global execution monitoring, Alphabet remains under review, AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger, Copart remains below the funding bar, and cash remains valid. No weekly performance row was created.",
+      "No exposure-changing company-specific evidence appeared since the 09:30 ET checkpoint. The correct action remained patient holding, with no weekly performance row created.",
   },
 ];
 
@@ -241,32 +201,22 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases reinforces capital-allocation discipline if cash flow and leverage remain healthy.",
     whyNotYet:
-      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but no 11:30 ET intraday evidence makes AutoZone outrank cash or the current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
+      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but no 12:30 ET intraday evidence makes AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
   },
   {
     company: "Copart",
     ticker: "CPRT",
     stance: "do nothing",
-    whyInteresting:
-      "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
+    whyInteresting: "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and no new material item at the 11:30 ET intraday checkpoint lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no new material item at the 12:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
 export const quarterlyStatus = [
-  {
-    label: "Last re-underwrite",
-    value: "Q2 2026, completed 2026-06-01",
-  },
-  {
-    label: "Exposure change",
-    value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-18 11:30 ET intraday scan.",
-  },
-  {
-    label: "Primary open question",
-    value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?",
-  },
+  { label: "Last re-underwrite", value: "Q2 2026, completed 2026-06-01" },
+  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-18 12:30 ET intraday scan." },
+  { label: "Primary open question", value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?" },
 ];
 
 export const nextFocus = [
