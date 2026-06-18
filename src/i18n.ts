@@ -229,6 +229,11 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
 };
 
 const thaiDecisionText: Record<string, { subject: string; reason: string }> = {
+  "2026-06-18 13:30 ET": {
+    subject: "สแกนระหว่างวัน",
+    reason:
+      "สแกน 13:30 ET ยังไม่พบหลักฐานรายบริษัทที่ต้องเปลี่ยน thesis หรือน้ำหนักพอร์ต Microsoft, Visa และ S&P Global ยังถือได้เหมือนเดิม Alphabet ยังอยู่ระหว่างรีวิว AutoZone เป็นหลักฐานบวกด้านวินัยซื้อหุ้นคืนแต่ยังไม่พอให้แย่งเงินจากเงินสดหรือหุ้นแกน ส่วน Copart ยังต่ำกว่าเกณฑ์ซื้อ. การเคลื่อนไหวระหว่างวันของ benchmark เป็นแค่บริบทตลาด.",
+  },
   "2026-06-18 12:30 ET": {
     subject: "สแกนระหว่างวัน",
     reason:
@@ -264,12 +269,12 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "สแกนระหว่างวัน 2026-06-18 12:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "สแกนระหว่างวัน 2026-06-18 13:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: พอร์ตกระจุกตัวแบบมีเหตุผล ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพื่อให้ดูยุ่ง.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 12:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. สแกน 13:30 ET ยังไม่เจอหลักฐานรายบริษัทที่ต้องปรับพอร์ต และไม่ได้สร้างแถวผลตอบแทนรายสัปดาห์ใหม่.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -280,7 +285,7 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 12:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 13:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
