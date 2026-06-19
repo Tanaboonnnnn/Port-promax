@@ -46,7 +46,7 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-18 15:30 ET intraday scan; NAV last verified 2026-06-12 close",
+  asOf: "2026-06-19 09:30 ET market-closed checkpoint; NAV last verified 2026-06-12 close",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9752.37,
@@ -54,7 +54,7 @@ export const portfolioSnapshot = {
   inceptionReturn: -2.48,
   processQuality: "Good: thesis-led scan, primary-source discipline, and no forced activity.",
   outcomeQuality:
-    "Latest verified mark remains the week ended 2026-06-12. The 15:30 ET intraday scan found no exposure-changing evidence. Newly reviewed Microsoft litigation and S&P Global Mobility financing items are monitor items, not trade signals.",
+    "Latest verified mark remains the week ended 2026-06-12. The 2026-06-19 09:30 ET scheduled scan landed on Juneteenth while U.S. equity markets were closed, so no regular-session price action was reviewed. No exposure-changing company-specific evidence was found after the 2026-06-18 15:30 ET checkpoint.",
 };
 
 export const holdings: Holding[] = [
@@ -69,7 +69,7 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2500,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability, usage-based billing, model choice, partner plugins, and enterprise controls remain supportive product evidence. CVE-2026-42824 / SearchLeak remains a product-security monitor item after NVD recorded an M365 Copilot information-disclosure vulnerability and Varonis said Microsoft remediated it. A June 12, 2026 securities complaint alleging Microsoft misled investors about Copilot and Azure is now a legal/disclosure-quality monitor item; allegations are unproven and do not change the thesis without evidence of durable customer, economics, or governance damage.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Copilot Cowork general availability, usage-based billing, model choice, partner plugins, and enterprise controls remain supportive product evidence. CVE-2026-42824 / SearchLeak remains a product-security monitor item after NVD recorded an M365 Copilot information-disclosure vulnerability and Varonis said Microsoft remediated it. A June 12, 2026 securities complaint alleging Microsoft misled investors about Copilot and Azure remains a legal/disclosure-quality monitor item; allegations are unproven and do not change the thesis without evidence of durable customer, economics, or governance damage. The 2026-06-19 checkpoint found no new company-specific evidence that changed this view.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair customer and investor trust, AI capex repeatedly fails to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
@@ -90,7 +90,7 @@ export const holdings: Holding[] = [
     entryPrice: 322.52,
     value: 2000,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI, Intelligent Commerce, token, stablecoin, and agentic-commerce work remains strategically supportive but still economically unproven.",
+      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI, Intelligent Commerce, token, stablecoin, and agentic-commerce work remains strategically supportive but still economically unproven. The 2026-06-19 checkpoint found no new company-specific evidence that changed the thesis.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
@@ -110,7 +110,7 @@ export const holdings: Holding[] = [
     entryPrice: 403.15,
     value: 2000,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. Mobility Global remains a separation execution monitor: the spin vehicle priced $2.0B of senior notes and entered a $500M revolver, with proceeds intended to fund a cash payment to S&P Global after the separation conditions are satisfied. Next evidence remains Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
+      "Ratings, indices, benchmarks, and financial data are embedded infrastructure. Mobility Global remains a separation execution monitor: the spin vehicle priced $2.0B of senior notes and entered a $500M revolver, with proceeds intended to fund a cash payment to S&P Global after the separation conditions are satisfied. Next evidence remains Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics. The 2026-06-19 checkpoint found no new company-specific evidence that changed this view.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, leverage, or capital allocation discipline.",
     assumptions: [
@@ -130,7 +130,7 @@ export const holdings: Holding[] = [
     entryPrice: 396.78,
     value: 1500,
     thesis:
-      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the approved larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns.",
+      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the approved larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns. The 2026-06-19 checkpoint found no new company-specific evidence that broke the thesis or removed the under-review status.",
     killCondition:
       "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, or AI capex fails to produce durable profit.",
     assumptions: [
@@ -148,7 +148,7 @@ export const holdings: Holding[] = [
     weight: 20,
     value: 2000,
     thesis:
-      "Cash is a deliberate position because the fifth idea did not clear the written-conviction bar. No 15:30 ET intraday evidence makes a watchlist name clearly superior to cash or the funded holdings.",
+      "Cash is a deliberate position because the fifth idea did not clear the written-conviction bar. No 2026-06-19 market-closed checkpoint evidence makes a watchlist name clearly superior to cash or the funded holdings.",
     killCondition:
       "A business with clearer durability, valuation support, and written thesis quality outranks the optionality of cash.",
     assumptions: [
@@ -169,6 +169,14 @@ export const benchmarkPoints: BenchmarkPoint[] = [
 
 export const recentDecisions: Decision[] = [
   {
+    date: "2026-06-19 09:30 ET",
+    action: "do nothing",
+    subject: "Market-closed scan",
+    sourceQuality: "high",
+    reason:
+      "The scheduled scan landed on Juneteenth, when U.S. equity markets are closed, so it was recorded as a market-closed checkpoint rather than a regular-session intraday scan. No exposure-changing company-specific evidence was found after the 2026-06-18 15:30 ET checkpoint. Microsoft Copilot Cowork, SearchLeak/CVE-2026-42824, and the securities complaint remain monitor items; Visa's OpenAI commerce work remains supportive but economically unproven; S&P Global Mobility financing and separation mechanics remain execution monitors; Alphabet remains under review; AutoZone and Copart remain below the funding bar. No weekly performance row was created.",
+  },
+  {
     date: "2026-06-18 15:30 ET",
     action: "do nothing",
     subject: "Daily scan",
@@ -184,14 +192,6 @@ export const recentDecisions: Decision[] = [
     reason:
       "No exposure-changing company-specific evidence appeared since the 13:30 ET checkpoint. SearchLeak / CVE-2026-42824 is now a Microsoft product-security monitor item because it touches enterprise AI trust, but Microsoft remediated it per Varonis and no reviewed evidence shows demand impairment or a thesis break. Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven, S&P Global remains in Mobility Global execution monitoring, Alphabet remains under review, AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger, Copart remains below the funding bar, and cash remains valid. No weekly performance row was created.",
   },
-  {
-    date: "2026-06-18 13:30 ET",
-    action: "do nothing",
-    subject: "Daily scan",
-    sourceQuality: "high",
-    reason:
-      "No exposure-changing company-specific evidence appeared since the 12:30 ET checkpoint. Microsoft Copilot Cowork remains supportive product context, Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven, S&P Global remains in Mobility Global execution monitoring, Alphabet remains under review, AutoZone's buyback remains watchlist capital-allocation evidence rather than a funding trigger, Copart remains below the funding bar, and cash remains valid. Intraday benchmark movement was treated as market context only. No weekly performance row was created.",
-  },
 ];
 
 export const watchlist: WatchlistItem[] = [
@@ -202,7 +202,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases reinforces capital-allocation discipline if cash flow and leverage remain healthy.",
     whyNotYet:
-      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but no 15:30 ET intraday evidence makes AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
+      "Fiscal Q3 repaired some weakness and the new authorization is constructive, but no 2026-06-19 market-closed checkpoint evidence makes AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
   },
   {
     company: "Copart",
@@ -210,21 +210,21 @@ export const watchlist: WatchlistItem[] = [
     stance: "do nothing",
     whyInteresting: "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and no new material item at the 15:30 ET checkpoint lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and no 2026-06-19 market-closed checkpoint item lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
 export const quarterlyStatus = [
   { label: "Last re-underwrite", value: "Q2 2026, completed 2026-06-01" },
-  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-18 15:30 ET intraday scan." },
+  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-19 09:30 ET market-closed checkpoint." },
   { label: "Primary open question", value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?" },
 ];
 
 export const nextFocus = [
-  "Monitor S&P Global Mobility Global separation mechanics, including the $2.0B notes, $500M revolver, Form 10 effectiveness, expected when-issued trading, and the July 1 expected distribution.",
+  "Monitor S&P Global Mobility Global separation mechanics, including the $2.0B notes, $500M revolver, Form 10 effectiveness, expected when-issued trading around June 26, and the July 1 expected distribution.",
   "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, stock-plan usage, governance oversight, and Search resilience.",
   "Keep Visa's OpenAI and Intelligent Commerce work in the supportive-but-unproven bucket until transaction economics appear.",
   "Treat Microsoft Copilot Cowork GA, usage-based billing, model choice, partner plugins, enterprise controls, SearchLeak remediation, and the securities complaint as monitor items until adoption, margins, security trust, and disclosure quality show up in operating evidence.",
   "Treat AutoZone's June 16 buyback authorization as watchlist capital-allocation evidence, not a funding trigger; require sustained operating improvement and valuation support before replacing cash.",
-  "Treat intraday benchmark moves and macro headlines as market context only unless they reveal company-specific business-quality evidence.",
+  "Treat the Juneteenth market closure as a process check only: no intraday benchmark move, no weekly performance row, and no trade without company-specific evidence.",
 ];
