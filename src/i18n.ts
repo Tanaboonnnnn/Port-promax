@@ -172,7 +172,7 @@ export const uiCopy = {
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 และคดี securities complaint เป็นประเด็นด้านความปลอดภัย กฎหมาย และคุณภาพ disclosure ที่ต้องตาม แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักในพอร์ต. เช็กพอยต์ 19 มิ.ย. 13:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยนมุมมองนี้.",
+      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 และคดี securities complaint เป็นประเด็นด้านความปลอดภัย กฎหมาย และคุณภาพ disclosure ที่ต้องตาม แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักในพอร์ต. เช็กพอยต์ 19 มิ.ย. 14:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยนมุมมองนี้.",
     killCondition:
       "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหาความปลอดภัยหรือ disclosure ด้าน enterprise AI ซ้ำจนลูกค้าหรือนักลงทุนเสียความเชื่อมั่น capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
     assumptions: [
@@ -184,7 +184,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   V: {
     thesis:
-      "Visa เป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนัก แต่ได้ประโยชน์จากเงินสดที่ค่อย ๆ ถูกแทนด้วยดิจิทัล งาน OpenAI, token, stablecoin และ agentic commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่ใช่หลักฐานกำไรที่ใช้เพิ่มน้ำหนักได้. เช็กพอยต์ 19 มิ.ย. 13:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยน thesis.",
+      "Visa เป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนัก แต่ได้ประโยชน์จากเงินสดที่ค่อย ๆ ถูกแทนด้วยดิจิทัล งาน OpenAI, token, stablecoin และ agentic commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่ใช่หลักฐานกำไรที่ใช้เพิ่มน้ำหนักได้. เช็กพอยต์ 19 มิ.ย. 14:30 ET ไม่พบหลักฐานใหม่ที่เปลี่ยน thesis.",
     killCondition:
       "ลดน้ำหนัก thesis ถ้าค่าธรรมเนียมถูกกดแรงกว่าที่คิด กฎระเบียบทำลายอำนาจต่อรอง หรือรางชำระเงินใหม่เลี่ยง Visa ได้กว้างโดยบริษัทไม่ได้มีส่วนร่วมทดแทน.",
     assumptions: [
@@ -195,7 +195,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   SPGI: {
     thesis:
-      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ Mobility Global ยังเป็นงาน execution ที่ต้องตาม โดยเฉพาะหนี้ senior notes $2.0B และวงเงิน revolver $500M ของบริษัทที่จะถูกแยกออก จุดต่อไปคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม. เช็กพอยต์ 19 มิ.ย. 13:30 ET ไม่พบหลักฐานใหม่ที่ทำให้ thesis อ่อนลง.",
+      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ Mobility Global ยังเป็นงาน execution ที่ต้องตาม โดยเฉพาะหนี้ senior notes $2.0B และวงเงิน revolver $500M ของบริษัทที่จะถูกแยกออก จุดต่อไปคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม. เช็กพอยต์ 19 มิ.ย. 14:30 ET ไม่พบหลักฐานใหม่ที่ทำให้ thesis อ่อนลง.",
     killCondition:
       "ต้องทบทวนถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility ทำให้ economics, leverage, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
     assumptions: [
@@ -206,7 +206,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   GOOGL: {
     thesis:
-      "Alphabet ยังมีสินทรัพย์ชั้นดีอย่าง Search, YouTube, Cloud และเงินสด แต่คำถามใหญ่ยังเหมือนเดิม: capex และโครงสร้างเงินทุนด้าน AI จะคืนกลับมาเป็นมูลค่าต่อหุ้นได้แค่ไหน จึงยังถือ แต่ให้อยู่ระหว่างรีวิว. เช็กพอยต์ 19 มิ.ย. 13:30 ET ไม่พบหลักฐานใหม่ที่ทำให้ thesis เสียหรือทำให้หลุดจากสถานะ under review.",
+      "Alphabet ยังมีสินทรัพย์ชั้นดีอย่าง Search, YouTube, Cloud และเงินสด แต่คำถามใหญ่ยังเหมือนเดิม: capex และโครงสร้างเงินทุนด้าน AI จะคืนกลับมาเป็นมูลค่าต่อหุ้นได้แค่ไหน จึงยังถือ แต่ให้อยู่ระหว่างรีวิว. เช็กพอยต์ 19 มิ.ย. 14:30 ET ไม่พบหลักฐานใหม่ที่ทำให้ thesis เสียหรือทำให้หลุดจากสถานะ under review.",
     killCondition:
       "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution หรือ capex ด้าน AI ไม่เริ่มสร้างกำไรที่จับต้องได้.",
     assumptions: [
@@ -218,7 +218,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   USD: {
     company: "เงินสด",
     thesis:
-      "เงินสดเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต เช็กพอยต์ 19 มิ.ย. 13:30 ET ยังไม่มีไอเดียใหม่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
+      "เงินสดเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต เช็กพอยต์ 19 มิ.ย. 14:30 ET ยังไม่มีไอเดียใหม่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
     killCondition:
       "เงินสดควรถูกใช้เมื่อเจอธุรกิจคุณภาพสูงที่ thesis ชัด ราคาไม่ต้องสมบูรณ์แบบ และคาดหวังผลตอบแทนดีกว่าการรออย่างมีเหตุผล.",
     assumptions: [
@@ -234,11 +234,11 @@ const thaiWatchlist: Record<string, { whyInteresting: string; whyNotYet: string 
     whyInteresting:
       "อะไหล่รถเป็นตลาดที่ demand ทนพอสมควร AutoZone กระจายสินค้าเก่ง และมีวินัยซื้อหุ้นคืนมายาวนาน วงเงินซื้อคืนใหม่ $1.5B ช่วยย้ำว่าเรื่องนี้ยังเป็นส่วนสำคัญของ capital allocation.",
     whyNotYet:
-      "ข่าวซื้อคืนเป็นบวก แต่เช็กพอยต์ 19 มิ.ย. 13:30 ET ยังไม่มีหลักฐานใหม่ที่ทำให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นกำไร กระแสเงินสด leverage และ valuation หนุนชัดกว่านี้ก่อน.",
+      "ข่าวซื้อคืนเป็นบวก แต่เช็กพอยต์ 19 มิ.ย. 14:30 ET ยังไม่มีหลักฐานใหม่ที่ทำให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นกำไร กระแสเงินสด leverage และ valuation หนุนชัดกว่านี้ก่อน.",
   },
   CPRT: {
     whyInteresting: "Copart มีเครือข่ายประมูลซากรถที่เฉพาะทาง ฐานผู้ซื้อกว้าง และโมเดล marketplace ที่ทนกว่าธุรกิจรถทั่วไป.",
-    whyNotYet: "เช็กพอยต์ 19 มิ.ย. 13:30 ET ไม่พบหลักฐานใหม่ สัญญาณฟื้นตัวยังไม่ชัดพอเมื่อเทียบกับโอกาสที่พอร์ตถืออยู่แล้ว.",
+    whyNotYet: "เช็กพอยต์ 19 มิ.ย. 14:30 ET ไม่พบหลักฐานใหม่ สัญญาณฟื้นตัวยังไม่ชัดพอเมื่อเทียบกับโอกาสที่พอร์ตถืออยู่แล้ว.",
   },
 };
 
@@ -247,12 +247,12 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "เช็กพอยต์วันตลาดปิด 2026-06-19 13:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
+        asOf: "เช็กพอยต์วันตลาดปิด 2026-06-19 14:30 ET; NAV ยืนยันล่าสุดจากราคาปิด 2026-06-12",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
         processQuality: "ดี: ยึด thesis ใช้หลักฐานชั้นต้น และไม่ซื้อขายเพียงเพราะระบบสแกนทำงานในวันตลาดปิด.",
         outcomeQuality:
-          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. เช็กพอยต์ 19 มิ.ย. 13:30 ET ตรงกับ Juneteenth ซึ่งตลาดหุ้นสหรัฐฯ ปิด จึงไม่มีราคา intraday ให้ประเมิน และไม่พบหลักฐานรายบริษัทที่ต้องปรับพอร์ต.",
+          "มูลค่าล่าสุดยังอิงราคาปิด 12 มิ.ย. เช็กพอยต์ 19 มิ.ย. 14:30 ET ตรงกับ Juneteenth ซึ่งตลาดหุ้นสหรัฐฯ ปิด จึงไม่มีราคา intraday ให้ประเมิน และไม่พบหลักฐานรายบริษัทที่ต้องปรับพอร์ต.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -260,7 +260,7 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังเช็กพอยต์วันตลาดปิด 19 มิ.ย. 13:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังเช็กพอยต์วันตลาดปิด 19 มิ.ย. 14:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
@@ -295,7 +295,7 @@ export function formatPointLabel(label: string, locale: Locale) {
 
 function translateDecision(date: string) {
   const previousCheckpoint =
-    date === "2026-06-19 13:30 ET" ? "12:30 ET" : date === "2026-06-19 12:30 ET" ? "11:30 ET" : "10:30 ET";
+    date === "2026-06-19 14:30 ET" ? "13:30 ET" : date === "2026-06-19 13:30 ET" ? "12:30 ET" : "11:30 ET";
 
   return {
     subject: "สแกนวันตลาดปิด",
