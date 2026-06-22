@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import { PerformanceChart } from "./components/PerformanceChart";
+import { latestScan } from "./data/latestScan";
 import { getPortfolioContent, languageLabels, uiCopy } from "./i18n";
 import type { Locale } from "./i18n";
 
@@ -10,6 +11,7 @@ function App() {
   const [language, setLanguage] = useState<Locale>("en");
 
   const copy = uiCopy[language];
+  const localizedScan = latestScan[language];
   const {
     benchmarkPoints,
     holdings,
@@ -20,12 +22,44 @@ function App() {
     watchlist,
   } = useMemo(() => getPortfolioContent(language), [language]);
 
-  const selectedHolding = useMemo(
-    () => holdings.find((holding) => holding.ticker === selectedTicker) ?? holdings[0],
-    [holdings, selectedTicker],
+  const displayPortfolioSnapshot = useMemo(
+    () => ({
+      ...portfolioSnapshot,
+      asOf: localizedScan.asOf,
+      processQuality: localizedScan.processQuality,
+      outcomeQuality: localizedScan.outcomeQuality,
+    }),
+    [localizedScan, portfolioSnapshot],
   );
 
-  const investedWeight = holdings
+  const displayHoldings = useMemo(() => {
+    const holdingUpdates = localizedScan.holdingUpdates as Record<string, Partial<(typeof holdings)[number]>>;
+    return holdings.map((holding) => ({ ...holding, ...holdingUpdates[holding.ticker] }));
+  }, [holdings, localizedScan]);
+
+  const displayWatchlist = useMemo(() => {
+    const watchlistUpdates = localizedScan.watchlistUpdates as Record<string, Partial<(typeof watchlist)[number]>>;
+    return watchlist.map((item) => ({ ...item, ...watchlistUpdates[item.ticker] }));
+  }, [localizedScan, watchlist]);
+
+  const displayQuarterlyStatus = useMemo(() => {
+    const quarterlyUpdates = localizedScan.quarterlyStatusUpdates as Record<string, string>;
+    return quarterlyStatus.map((item) => ({ ...item, value: quarterlyUpdates[item.label] ?? item.value }));
+  }, [localizedScan, quarterlyStatus]);
+
+  const displayRecentDecisions = useMemo(
+    () => [localizedScan.decision, ...recentDecisions.filter((decision) => decision.date !== localizedScan.decision.date)],
+    [localizedScan, recentDecisions],
+  );
+
+  const displayNextFocus = localizedScan.nextFocus.length > 0 ? localizedScan.nextFocus : nextFocus;
+
+  const selectedHolding = useMemo(
+    () => displayHoldings.find((holding) => holding.ticker === selectedTicker) ?? displayHoldings[0],
+    [displayHoldings, selectedTicker],
+  );
+
+  const investedWeight = displayHoldings
     .filter((holding) => holding.ticker !== "USD")
     .reduce((sum, holding) => sum + holding.weight, 0);
 
@@ -34,8 +68,8 @@ function App() {
       <header className="topbar">
         <div>
           <p className="kicker">{copy.kicker}</p>
-          <h1>{portfolioSnapshot.name}</h1>
-          <p>{portfolioSnapshot.mandate}</p>
+          <h1>{displayPortfolioSnapshot.name}</h1>
+          <p>{displayPortfolioSnapshot.mandate}</p>
         </div>
         <div className="topbar-actions">
           <div className="language-switch" aria-label={copy.languageToggleLabel}>
@@ -57,15 +91,15 @@ function App() {
           <dl className="account-strip" aria-label={copy.accountFactsAria}>
             <div>
               <dt>{copy.asOf}</dt>
-              <dd>{portfolioSnapshot.asOf}</dd>
+              <dd>{displayPortfolioSnapshot.asOf}</dd>
             </div>
             <div>
               <dt>{copy.nav}</dt>
-              <dd>${portfolioSnapshot.latestValue.toLocaleString()}</dd>
+              <dd>${displayPortfolioSnapshot.latestValue.toLocaleString()}</dd>
             </div>
             <div>
               <dt>{copy.cash}</dt>
-              <dd>{portfolioSnapshot.cashWeight}%</dd>
+              <dd>{displayPortfolioSnapshot.cashWeight}%</dd>
             </div>
             <div>
               <dt>{copy.invested}</dt>
@@ -87,19 +121,19 @@ function App() {
       <section className="snapshot-grid" aria-label={copy.snapshotAria}>
         <div>
           <span className="label">{copy.startingCapital}</span>
-          <strong>${portfolioSnapshot.startingCapital.toLocaleString()}</strong>
+          <strong>${displayPortfolioSnapshot.startingCapital.toLocaleString()}</strong>
         </div>
         <div>
           <span className="label">{copy.sinceInception}</span>
-          <strong>{portfolioSnapshot.inceptionReturn.toFixed(2)}%</strong>
+          <strong>{displayPortfolioSnapshot.inceptionReturn.toFixed(2)}%</strong>
         </div>
         <div>
           <span className="label">{copy.processQuality}</span>
-          <strong>{portfolioSnapshot.processQuality}</strong>
+          <strong>{displayPortfolioSnapshot.processQuality}</strong>
         </div>
         <div>
           <span className="label">{copy.outcomeQuality}</span>
-          <strong>{portfolioSnapshot.outcomeQuality}</strong>
+          <strong>{displayPortfolioSnapshot.outcomeQuality}</strong>
         </div>
       </section>
 
@@ -125,7 +159,7 @@ function App() {
                     <span>{copy.confidence}</span>
                     <span>{copy.action}</span>
                   </div>
-                  {holdings.map((holding) => (
+                  {displayHoldings.map((holding) => (
                     <button
                       className={`holding-row ${selectedTicker === holding.ticker ? "selected" : ""}`}
                       key={holding.ticker}
@@ -145,7 +179,7 @@ function App() {
               <section className="two-column">
                 <Panel title={copy.recentDecisions} eyebrow={copy.decisionLog}>
                   <div className="decision-list">
-                    {recentDecisions.map((decision) => (
+                    {displayRecentDecisions.map((decision) => (
                       <article key={`${decision.date}-${decision.subject}`}>
                         <div>
                           <time>{decision.date}</time>
@@ -162,7 +196,7 @@ function App() {
 
                 <Panel title={copy.watchlist} eyebrow={copy.watchlistEyebrow}>
                   <div className="watchlist">
-                    {watchlist.map((item) => (
+                    {displayWatchlist.map((item) => (
                       <article key={item.ticker}>
                         <div>
                           <strong>{item.company}</strong>
@@ -180,7 +214,7 @@ function App() {
             <section className="ledger-panel" aria-labelledby="ledger-title">
               <p className="eyebrow">{copy.ledgerEyebrow}</p>
               <h2 id="ledger-title">{copy.thesisInventory}</h2>
-              {holdings.map((holding) => (
+              {displayHoldings.map((holding) => (
                 <article key={holding.ticker}>
                   <div>
                     <strong>{holding.company}</strong>
@@ -221,7 +255,7 @@ function App() {
           </section>
           <section className="quarterly">
             <h3>{copy.quarterlyStatus}</h3>
-            {quarterlyStatus.map((item) => (
+            {displayQuarterlyStatus.map((item) => (
               <div key={item.label}>
                 <span>{item.label}</span>
                 <p>{item.value}</p>
@@ -231,7 +265,7 @@ function App() {
           <section>
             <h3>{copy.nextFocus}</h3>
             <ol>
-              {nextFocus.map((item) => (
+              {displayNextFocus.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ol>
