@@ -172,7 +172,7 @@ export const uiCopy = {
 const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   MSFT: {
     thesis:
-      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 และคดี securities complaint เป็นประเด็นด้านความปลอดภัย กฎหมาย และคุณภาพ disclosure ที่ต้องตาม แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนักในพอร์ต. สัปดาห์นี้ราคาหุ้นอ่อน แต่ยังไม่เจอหลักฐานรายบริษัทที่ทำให้ thesis เปลี่ยน.",
+      "Microsoft ยังเป็นแกนพอร์ตที่อธิบายได้ง่าย: ซอฟต์แวร์องค์กรเหนียวแน่น Azure ยังมี runway และ AI มีโอกาสเพิ่มมูลค่าให้ฐานลูกค้าเดิม Copilot Cowork เป็นหลักฐานเชิงสินค้า ส่วน SearchLeak / CVE-2026-42824 และคดี securities complaint เป็นประเด็นด้านความปลอดภัย กฎหมาย และคุณภาพ disclosure ที่ต้องตาม แต่ยังไม่ใช่เหตุผลเพิ่มหรือลดน้ำหนัก รอบสแกน 22 มิ.ย. ยังไม่พบหลักฐานทางการใหม่ที่ทำให้ thesis เปลี่ยน.",
     killCondition:
       "ลดความมั่นใจทันทีถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหาความปลอดภัยหรือ disclosure ด้าน enterprise AI ซ้ำจนลูกค้าหรือนักลงทุนเสียความเชื่อมั่น capex ด้าน AI ไม่แปลงเป็นกำไร หรือผู้บริหารจัดสรรทุนพลาดซ้ำจนกระทบผลตอบแทนต่อหุ้น.",
     assumptions: [
@@ -184,7 +184,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   V: {
     thesis:
-      "Visa เป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนัก แต่ได้ประโยชน์จากเงินสดที่ค่อย ๆ ถูกแทนด้วยดิจิทัล งาน OpenAI, token, stablecoin และ agentic commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่ใช่หลักฐานกำไรที่ใช้เพิ่มน้ำหนักได้. รีวิวสัปดาห์นี้ไม่พบข้อมูลใหม่ที่ทำให้ thesis เปลี่ยน.",
+      "Visa เป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนัก แต่ได้ประโยชน์จากเงินสดที่ค่อย ๆ ถูกแทนด้วยดิจิทัล งาน OpenAI, token, stablecoin และ agentic commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่ใช่หลักฐานกำไรที่ใช้เพิ่มน้ำหนักได้ รอบสแกน 22 มิ.ย. ยังไม่พบข้อมูลใหม่ที่กระทบคุณภาพเครือข่ายหรือ economics ของธุรกิจ.",
     killCondition:
       "ลดน้ำหนัก thesis ถ้าค่าธรรมเนียมถูกกดแรงกว่าที่คิด กฎระเบียบทำลายอำนาจต่อรอง หรือรางชำระเงินใหม่เลี่ยง Visa ได้กว้างโดยบริษัทไม่ได้มีส่วนร่วมทดแทน.",
     assumptions: [
@@ -195,7 +195,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   SPGI: {
     thesis:
-      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ Mobility Global ยังเป็นงาน execution ที่ต้องตาม โดยเฉพาะหนี้ senior notes $2.0B และวงเงิน revolver $500M ของบริษัทที่จะถูกแยกออก จุดต่อไปคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม. ราคาหุ้นสัปดาห์นี้อ่อน แต่ยังไม่ทำให้ thesis อ่อนลง.",
+      "S&P Global คือ infrastructure ของตลาดทุนผ่าน ratings, indices, benchmarks และข้อมูลการเงินที่ลูกค้าต้องใช้ซ้ำ Mobility Global ยังเป็นงาน execution ที่ต้องตาม โดยเฉพาะหนี้ senior notes $2.0B และวงเงิน revolver $500M ของบริษัทที่จะถูกแยกออก รอบสแกน 22 มิ.ย. ยังไม่พบข้อมูลใหม่ที่เปลี่ยนตารางเวลา จุดต่อไปคือ Form 10, when-issued trading และกลไกกระจายหุ้นวันที่ 1 กรกฎาคม.",
     killCondition:
       "ต้องทบทวนถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility ทำให้ economics, leverage, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
     assumptions: [
@@ -206,7 +206,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   },
   GOOGL: {
     thesis:
-      "Alphabet ยังมีสินทรัพย์ชั้นดีอย่าง Search, YouTube, Cloud และเงินสด แต่คำถามใหญ่ยังเหมือนเดิม: capex และโครงสร้างเงินทุนด้าน AI จะคืนกลับมาเป็นมูลค่าต่อหุ้นได้แค่ไหน สัปดาห์นี้ราคาฟื้น แต่ราคาที่ดีขึ้นยังไม่พอให้ถอดสถานะ under review.",
+      "Alphabet ยังมีสินทรัพย์ชั้นดีอย่าง Search, YouTube, Cloud และเงินสด แต่คำถามใหญ่ยังเหมือนเดิม: capex และโครงสร้างเงินทุนด้าน AI จะคืนกลับมาเป็นมูลค่าต่อหุ้นได้แค่ไหน รอบสแกน 22 มิ.ย. ยังไม่พอถอดสถานะ under review เพราะภาระลงทุน AI และ dilution ยังเป็นคำถามหลัก.",
     killCondition:
       "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution หรือ capex ด้าน AI ไม่เริ่มสร้างกำไรที่จับต้องได้.",
     assumptions: [
@@ -218,7 +218,7 @@ const thaiHoldingText: Record<string, Partial<(typeof holdings)[number]>> = {
   USD: {
     company: "เงินสด",
     thesis:
-      "เงินสดเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต AutoZone มีข่าวซื้อคืนหุ้นที่ช่วยให้กรณีน่าดูขึ้น แต่ยังไม่มีไอเดียใหม่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
+      "เงินสดเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต AutoZone มีข่าวซื้อคืนหุ้นที่ช่วยให้กรณีน่าดูขึ้น แต่รอบสแกน 22 มิ.ย. ยังไม่มีไอเดียใหม่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
     killCondition:
       "เงินสดควรถูกใช้เมื่อเจอธุรกิจคุณภาพสูงที่ thesis ชัด ราคาไม่ต้องสมบูรณ์แบบ และคาดหวังผลตอบแทนดีกว่าการรออย่างมีเหตุผล.",
     assumptions: [
@@ -234,11 +234,11 @@ const thaiWatchlist: Record<string, { whyInteresting: string; whyNotYet: string 
     whyInteresting:
       "อะไหล่รถเป็นตลาดที่ demand ทนพอสมควร AutoZone กระจายสินค้าเก่ง และมีวินัยซื้อหุ้นคืนมายาวนาน วงเงินซื้อคืนใหม่ $1.5B ช่วยย้ำว่า capital allocation ยังเป็นจุดแข็งที่ต้องตาม.",
     whyNotYet:
-      "ข่าวซื้อคืนเป็นบวก แต่ยังไม่พอให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นกำไร กระแสเงินสด leverage และ valuation หนุนชัดกว่านี้ก่อน.",
+      "ข่าวซื้อคืนเป็นบวก แต่รอบสแกน 22 มิ.ย. ยังไม่พอให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นกำไร กระแสเงินสด leverage และ valuation หนุนชัดกว่านี้ก่อน.",
   },
   CPRT: {
     whyInteresting: "Copart มีเครือข่ายประมูลซากรถที่เฉพาะทาง ฐานผู้ซื้อกว้าง และโมเดล marketplace ที่ทนกว่าธุรกิจรถทั่วไป.",
-    whyNotYet: "สัญญาณฟื้นตัวยังไม่ชัดพอเมื่อเทียบกับโอกาสที่พอร์ตถืออยู่แล้ว จึงยังเป็น watchlist ไม่ใช่ตำแหน่งลงทุน.",
+    whyNotYet: "สัญญาณฟื้นตัวยังไม่ชัดพอเมื่อเทียบกับโอกาสที่พอร์ตถืออยู่แล้ว รอบสแกน 22 มิ.ย. จึงยังเป็น watchlist ไม่ใช่ตำแหน่งลงทุน.",
   },
 };
 
@@ -247,12 +247,12 @@ export function getPortfolioContent(locale: Locale) {
     return {
       portfolioSnapshot: {
         ...portfolioSnapshot,
-        asOf: "บันทึกสัปดาห์ 2026-06-21; วัดผลเต็มช่วงจากราคาปิด 12 มิ.ย. ถึงราคาปิด 18 มิ.ย.",
+        asOf: "สแกนระหว่างตลาด 2026-06-22 09:30 ET; มูลค่าพอร์ตล่าสุดยังอิงบันทึกสัปดาห์ 2026-06-21",
         mandate:
           "พอร์ตจำลอง $10,000 เน้นถือธุรกิจดีให้นานพอ เขียน thesis ให้ชัด และถือเงินสดได้เมื่อ conviction ยังไม่ถึง.",
-        processQuality: "ดี: ใช้ช่วงเวลาเดียวกันเทียบทุก benchmark ทบทวน thesis รายตัว และไม่ซื้อขายเพียงเพราะสัปดาห์นี้แพ้ตลาด.",
+        processQuality: "ดี: เช็กแหล่งข้อมูลหลักก่อน ไม่บังคับให้ซื้อขาย และยังรักษาวินัยว่า benchmark ต้องอัปเดตเฉพาะรอบรายสัปดาห์.",
         outcomeQuality:
-          "ผลลัพธ์ระยะสั้นอ่อน: พอร์ต -0.46% ในสัปดาห์สั้นเพราะ Juneteenth และแพ้ S&P 500/SPY, Nasdaq-100/QQQ, SMH และ VT แต่ผลตอบแทนหนึ่งสัปดาห์ยังไม่ใช่เหตุผลเปลี่ยน thesis.",
+          "รอบสแกนระหว่างวันไม่ได้เพิ่มจุดผลตอบแทนใหม่ และยังไม่พบหลักฐานที่เปลี่ยน thesis จึงคงมูลค่าพอร์ตและชุด benchmark จากบันทึกสัปดาห์ล่าสุดไว้ตามเดิม.",
       },
       holdings: holdings.map((holding) => ({ ...holding, ...thaiHoldingText[holding.ticker] })),
       benchmarkPoints: benchmarkPoints.map((point) => ({ ...point, note: translateBenchmarkNote(point.label, point.note) })),
@@ -260,7 +260,7 @@ export function getPortfolioContent(locale: Locale) {
       watchlist: watchlist.map((item) => ({ ...item, ...thaiWatchlist[item.ticker] })),
       quarterlyStatus: [
         { label: "รีวิวล่าสุด", value: "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-06-01" },
-        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังบันทึกสัปดาห์ 2026-06-15 Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
+        { label: "มีการปรับพอร์ตไหม", value: "ไม่มี หลังสแกน 2026-06-22 09:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม." },
         { label: "คำถามหลัก", value: "capex ด้าน AI ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?" },
       ],
       nextFocus: [
@@ -269,6 +269,7 @@ export function getPortfolioContent(locale: Locale) {
         "มองงาน OpenAI และ Intelligent Commerce ของ Visa เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เพิ่มน้ำหนักจนกว่าจะเห็น economics ของธุรกรรมจริง.",
         "มอง Copilot Cowork, การแก้ SearchLeak และคดี securities complaint ของ Microsoft เป็นเรื่องที่ต้องตาม ทั้งด้าน adoption, margin, security trust และคุณภาพ disclosure.",
         "เก็บข่าวซื้อหุ้นคืนใหม่ของ AutoZone ไว้เป็นหลักฐานด้าน capital allocation แต่ยังไม่ใช้เงินสดจนกว่าผลประกอบการและ valuation จะหนุนชัดกว่านี้.",
+        "มองประเด็นตลาดเช้า 22 มิ.ย. เช่น เจรจาอิหร่าน ตัวเลข PCE ที่จะออก และงบ Micron เป็นบริบทโอกาสลงทุน ไม่ใช่สัญญาณซื้อขาย จนกว่าจะกระทบคุณภาพธุรกิจจริง.",
         "รักษาวินัย benchmark: ทุกสัปดาห์ต้องใช้ช่วงเวลาเดียวกันสำหรับพอร์ต, S&P 500, Nasdaq-100, SMH และ VT.",
       ],
     };
@@ -295,6 +296,14 @@ export function formatPointLabel(label: string, locale: Locale) {
 }
 
 function translateDecision(date: string) {
+  if (date === "2026-06-22 09:30 ET") {
+    return {
+      subject: "สแกนระหว่างตลาด",
+      reason:
+        "รอบสแกนช่วงเปิดตลาดไม่พบหลักฐานรายบริษัทใหม่หลังบันทึกสัปดาห์ 2026-06-21 ที่เปลี่ยน thesis, conviction, kill condition หรือ opportunity cost. Microsoft ยังมีประเด็นความปลอดภัยและ disclosure เป็นรายการติดตาม Visa ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics S&P Global ยังต้องตาม execution การแยก Mobility Alphabet ยัง under review เพราะ capex และ dilution ด้าน AI ยังไม่เคลียร์ AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่มจุด benchmark ระหว่างวัน.",
+    };
+  }
+
   if (date === "2026-06-21 weekly journal") {
     return {
       subject: "บันทึกสัปดาห์ 15 มิ.ย.",
