@@ -46,15 +46,15 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-22 10:30 ET intraday market-hours scan; latest NAV remains the 2026-06-21 weekly journal mark",
+  asOf: "2026-06-22 11:30 ET intraday market-hours scan; latest NAV remains the 2026-06-21 weekly journal mark",
   localContext: "America/New_York",
   startingCapital: 10000,
   latestValue: 9707.19,
   cashWeight: 20,
   inceptionReturn: -2.93,
-  processQuality: "Good: primary-source scan, one Microsoft infrastructure monitor recorded, no forced action, and weekly-only benchmark discipline preserved.",
+  processQuality: "Good: primary-source scan, Microsoft infrastructure monitor maintained, no forced action, and weekly-only benchmark discipline preserved.",
   outcomeQuality:
-    "No intraday mark-to-market point was added. The 10:30 ET scan recorded Chevron's 20-year power agreement tied to a Microsoft West Texas data center as an AI infrastructure monitor, not a thesis-status or sizing change.",
+    "No intraday mark-to-market point was added. Fresh checks after the 10:54 ET checkpoint found no new exposure-changing evidence; Chevron's 20-year power agreement tied to a Microsoft West Texas data center remains an AI infrastructure monitor, not a thesis-status or sizing change.",
 };
 
 export const holdings: Holding[] = [
@@ -69,7 +69,7 @@ export const holdings: Holding[] = [
     entryPrice: 421.92,
     value: 2248.06,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Chevron's June 22 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center adds supportive evidence that Microsoft is securing AI infrastructure inputs, while also reinforcing power access and AI capital intensity as underwriting monitors. Copilot Cowork general availability remains supportive product evidence. SearchLeak / CVE-2026-42824 and the June 12 securities complaint remain security and disclosure-quality monitor items, not thesis breaks.",
+      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Chevron's June 22 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center adds supportive evidence that Microsoft is securing AI infrastructure inputs, while also reinforcing power access, execution timing, energy sourcing, and AI capital intensity as underwriting monitors. Fresh checks through the 11:30 ET scan found no newer Microsoft-specific item that changed thesis status, confidence, sizing, or kill conditions. Copilot Cowork general availability remains supportive product evidence. SearchLeak / CVE-2026-42824 and the June 12 securities complaint remain security and disclosure-quality monitor items, not thesis breaks.",
     killCondition:
       "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair customer and investor trust, AI capex and power commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
@@ -91,7 +91,7 @@ export const holdings: Holding[] = [
     entryPrice: 322.52,
     value: 2029.27,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI, Intelligent Commerce, token, stablecoin, and agentic-commerce work remains strategically supportive but still economically unproven. The June 22 10:30 ET scan found no new evidence that changed network quality, economics, or capital allocation.",
+      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI, Intelligent Commerce, token, stablecoin, and agentic-commerce work remains strategically supportive but still economically unproven. The June 22 11:30 ET scan found no new evidence that changed network quality, economics, or capital allocation.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
@@ -111,7 +111,7 @@ export const holdings: Holding[] = [
     entryPrice: 403.15,
     value: 2038.55,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded market infrastructure. Mobility Global remains a separation execution monitor: the spin vehicle priced $2.0B of senior notes and entered a $500M revolver, with proceeds intended to fund a cash payment to S&P Global after separation conditions are satisfied. The June 22 10:30 ET scan found no new evidence changing the timetable; next evidence remains Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
+      "Ratings, indices, benchmarks, and financial data are embedded market infrastructure. Mobility Global remains a separation execution monitor: the spin vehicle priced $2.0B of senior notes and entered a $500M revolver, with proceeds intended to fund a cash payment to S&P Global after separation conditions are satisfied. The June 22 11:30 ET scan found no new evidence changing the timetable; next evidence remains Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, leverage, or capital allocation discipline.",
     assumptions: [
@@ -131,7 +131,7 @@ export const holdings: Holding[] = [
     entryPrice: 396.78,
     value: 1391.31,
     thesis:
-      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns. The June 22 10:30 ET scan did not remove the under-review status; it reinforced that AI capital intensity and equity issuance remain the central opportunity-cost question.",
+      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns. The June 22 11:30 ET scan did not remove the under-review status; it reinforced that AI capital intensity and equity issuance remain the central opportunity-cost question.",
     killCondition:
       "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, or AI capex fails to produce durable profit.",
     assumptions: [
@@ -149,7 +149,7 @@ export const holdings: Holding[] = [
     weight: 20,
     value: 2000,
     thesis:
-      "Cash is a deliberate position because the fifth idea has not cleared the written-conviction bar. AutoZone's buyback authorization improved the watchlist discussion, but neither AutoZone nor Copart clearly outranks cash or the funded holdings today. The June 22 10:30 ET scan did not surface a better use for this reserve.",
+      "Cash is a deliberate position because the fifth idea has not cleared the written-conviction bar. AutoZone's buyback authorization improved the watchlist discussion, but neither AutoZone nor Copart clearly outranks cash or the funded holdings today. The June 22 11:30 ET scan did not surface a better use for this reserve.",
     killCondition:
       "A business with clearer durability, valuation support, and written thesis quality outranks the optionality of cash.",
     assumptions: [
@@ -171,12 +171,12 @@ export const benchmarkPoints: BenchmarkPoint[] = [
 
 export const recentDecisions: Decision[] = [
   {
-    date: "2026-06-22 10:30 ET",
+    date: "2026-06-22 11:30 ET",
     action: "do nothing",
     subject: "Intraday market-hours scan",
     sourceQuality: "high",
     reason:
-      "The regular-session scan recorded one new Microsoft-relevant infrastructure item: Chevron's 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center. This supports the AI capacity runway but also reinforces power access, data-center execution, and AI capital intensity as monitor items. It did not change thesis status, confidence, position size, or kill conditions. Visa, S&P Global, Alphabet, AutoZone, Copart, and cash had no new thesis-changing evidence. No weekly benchmark point was added.",
+      "Fresh regular-session checks after the 10:54 ET checkpoint found no new exposure-changing evidence. The material item for the morning remains Chevron's 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center. This supports the AI capacity runway but also reinforces power access, data-center execution, energy sourcing, and AI capital intensity as monitor items. It did not change thesis status, confidence, position size, or kill conditions. Visa, S&P Global, Alphabet, AutoZone, Copart, and cash had no new thesis-changing evidence. No weekly benchmark point was added.",
   },
   {
     date: "2026-06-22 09:30 ET",
@@ -212,7 +212,7 @@ export const watchlist: WatchlistItem[] = [
     whyInteresting:
       "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases reinforces capital-allocation discipline if cash flow and leverage remain healthy.",
     whyNotYet:
-      "The buyback authorization is constructive, but the June 22 10:30 ET scan still does not make AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
+      "The buyback authorization is constructive, but the June 22 11:30 ET scan still does not make AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
   },
   {
     company: "Copart",
@@ -220,13 +220,13 @@ export const watchlist: WatchlistItem[] = [
     stance: "do nothing",
     whyInteresting: "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and the June 22 10:30 ET scan found no new evidence that lifted it above the funding bar versus cash and current holdings.",
+      "Fiscal Q3 improvement was modest, and the June 22 11:30 ET scan found no new evidence that lifted it above the funding bar versus cash and current holdings.",
   },
 ];
 
 export const quarterlyStatus = [
   { label: "Last re-underwrite", value: "Q2 2026, completed 2026-06-01" },
-  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-22 10:30 ET scan." },
+  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-22 11:30 ET scan." },
   { label: "Primary open question", value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?" },
 ];
 
