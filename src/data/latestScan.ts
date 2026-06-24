@@ -1,20 +1,20 @@
 export const latestScan = {
   en: {
-    asOf: "2026-06-24 10:30 ET intraday market-hours scan; latest NAV remains the 2026-06-21 weekly journal mark",
+    asOf: "2026-06-24 11:30 ET intraday market-hours scan; latest NAV remains the 2026-06-21 weekly journal mark",
     processQuality:
-      "Good: regular-session scan, primary/current-source discipline, no forced action, no weekly benchmark row created, S&P Global separation timing rechecked, Alphabet Dow inclusion treated as market-structure context rather than business evidence, and AI infrastructure return concerns kept as monitor items for Microsoft and Alphabet.",
+      "Good: regular-session scan, primary/current-source discipline, no forced action, no weekly benchmark row created, and no intraday NAV invented. The scan rechecked the S&P Global separation timetable, Alphabet Dow inclusion, Microsoft AI infrastructure/disclosure monitors, Visa AI-commerce economics, and AutoZone/Copart opportunity cost.",
     outcomeQuality:
-      "No intraday mark-to-market point was added. Fresh checks after the 2026-06-24 09:30 ET checkpoint found no tracked-company filing, earnings item, or management commentary that changed thesis status, confidence, sizing, kill conditions, or watchlist stance.",
+      "No intraday mark-to-market point was added. Fresh checks after the 2026-06-24 10:30 ET checkpoint found no tracked-company filing, earnings item, official release, or management commentary that changed thesis status, confidence, sizing, kill conditions, or watchlist stance.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains the portfolio's clearest compounder because enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation still work together. Fresh 10:30 ET checks found no new Microsoft filing, earnings item, or management commentary after the 09:30 ET checkpoint. Azure Copilot Observability Agent general availability, Mount Pleasant datacenter execution, and Chevron Project Kilby remain supportive AI/cloud monitor items. The securities complaint alleging Copilot and Azure disclosure issues remains relevant to disclosure quality, but it is still an allegation and not thesis-breaking evidence.",
+          "Microsoft remains the portfolio's clearest compounder because enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation still work together. Fresh 11:30 ET checks found no new Microsoft filing, earnings item, official release, or management commentary after the 10:30 ET checkpoint. Azure Copilot Observability Agent general availability, Mount Pleasant datacenter execution, and Chevron Project Kilby remain supportive AI/cloud monitor items. The securities complaint alleging Copilot and Azure disclosure issues is still unproven and remains a disclosure-quality monitor, not thesis-breaking evidence.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair customer and investor trust, AI capex and power commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
       V: {
         thesis:
-          "Visa remains an asset-light global payment network with durable acceptance, authorization, tokenization, and fraud-control relevance. Fresh 10:30 ET checks found no new Visa filing, release, earnings item, or management commentary after the 09:30 ET checkpoint. OpenAI and Intelligent Commerce remain strategically useful but economically unproven, so they support monitoring rather than a sizing change.",
+          "Visa remains an asset-light global payment network with durable acceptance, authorization, tokenization, and fraud-control relevance. Fresh 11:30 ET checks found no new Visa filing, release, earnings item, or management commentary after the 10:30 ET checkpoint. OpenAI and Intelligent Commerce remain strategically useful but economically unproven, so they support monitoring rather than a sizing change.",
       },
       SPGI: {
         thesis:
@@ -22,7 +22,7 @@ export const latestScan = {
       },
       GOOGL: {
         thesis:
-          "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, governance, talent depth, and market concern about AI infrastructure returns keep the burden of proof high. Fresh 10:30 ET checks added one market-structure item: Alphabet is scheduled to replace Verizon in the Dow Jones Industrial Average before the June 29 open. That may affect recognition and flows, but it does not improve business quality or answer the AI return questions. Alphabet remains hold / under review / medium confidence.",
+          "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, governance, talent depth, and market concern about AI infrastructure returns keep the burden of proof high. The 11:30 ET scan found no new Alphabet filing, earnings item, official release, or management commentary after the 10:30 ET checkpoint. Alphabet's scheduled Dow Jones Industrial Average addition before the June 29 open remains market-structure context only: it may affect recognition or flows, but it does not answer the AI capex, dilution, governance, talent-depth, or per-share-return questions. Alphabet remains hold / under review / medium confidence.",
         killCondition:
           "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
         assumptions: [
@@ -35,35 +35,35 @@ export const latestScan = {
       },
       USD: {
         thesis:
-          "Cash remains a deliberate position because no fifth idea has cleared the written-conviction bar. The 10:30 ET scan found no new evidence that makes AutoZone or Copart clearly outrank cash or the current funded holdings.",
+          "Cash remains a deliberate position because no fifth idea has cleared the written-conviction bar. The 11:30 ET scan found no new evidence that makes AutoZone or Copart clearly outrank cash or the current funded holdings.",
       },
     },
     decision: {
-      date: "2026-06-24 10:30 ET",
+      date: "2026-06-24 11:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Fresh regular-session checks after the 09:30 ET checkpoint found no exposure-changing evidence for Microsoft, Visa, S&P Global, Alphabet, AutoZone, or Copart. Microsoft AI infrastructure/product-depth items remain supportive, and the unproven Copilot/Azure securities complaint stays a disclosure-quality monitor rather than a sizing event. Visa's AI-commerce work remains supportive but not yet economically proven. S&P Global remains in Mobility Global separation execution monitoring. Alphabet's scheduled Dow inclusion is market-structure recognition, not business-quality evidence, and Alphabet remains under review because AI capex, dilution, governance, talent depth, and per-share AI infrastructure returns remain unresolved. Micron's after-close earnings remain broad AI infrastructure opportunity-cost context only. AutoZone and Copart remain below the funding bar. No weekly benchmark point was added.",
+        "Fresh regular-session checks after the 10:30 ET checkpoint found no exposure-changing evidence for Microsoft, Visa, S&P Global, Alphabet, AutoZone, or Copart. Microsoft AI infrastructure/product-depth items remain supportive, and the unproven Copilot/Azure securities complaint stays a disclosure-quality monitor rather than a sizing event. Visa's AI-commerce work remains supportive but not yet economically proven. S&P Global remains in Mobility Global separation execution monitoring. Alphabet's scheduled Dow inclusion is market-structure recognition, not business-quality evidence, and Alphabet remains under review because AI capex, dilution, governance, talent depth, and per-share AI infrastructure returns remain unresolved. Micron's after-close earnings remain broad AI infrastructure opportunity-cost context only. AutoZone and Copart remain below the funding bar. No weekly benchmark point was added.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "AutoZone's June 16 buyback authorization remains constructive capital-allocation evidence, but the 10:30 ET scan still does not make it outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
+          "AutoZone's June 16 buyback authorization remains constructive capital-allocation evidence, but the 11:30 ET scan still does not make it outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
       },
       CPRT: {
         whyNotYet:
-          "Copart remains a quality watchlist business, but fiscal Q3 improvement was modest and the 10:30 ET scan found no new evidence that lifted it above the funding bar versus cash and current holdings.",
+          "Copart remains a quality watchlist business, but fiscal Q3 improvement was modest and the 11:30 ET scan found no new evidence that lifted it above the funding bar versus cash and current holdings.",
       },
     },
     quarterlyStatusUpdates: {
       "Exposure change":
-        "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-24 10:30 ET scan.",
+        "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-24 11:30 ET scan.",
       "Primary open question":
         "Can Alphabet's AI capex, financing, dilution, governance, talent depth, and infrastructure returns still produce durable per-share value?",
     },
     nextFocus: [
-      "Monitor Microsoft's datacenter execution, Chevron/Project Kilby power agreement, Azure agentic-operations product adoption, and the unproven Copilot/Azure disclosure complaint: the key underwriting question is whether AI capacity and product depth convert into durable per-share returns without damaging trust.",
+      "Monitor Microsoft's datacenter execution, Chevron/Project Kilby power agreement, Azure agentic-operations product adoption, and the unproven Copilot/Azure disclosure complaint. The underwriting question is whether AI capacity and product depth convert into durable per-share returns without damaging trust.",
       "Monitor S&P Global Mobility Global separation mechanics, including expected when-issued trading around June 26 and the July 1 expected distribution.",
       "Monitor Alphabet AI talent retention and AI infrastructure returns. Treat the June 29 Dow inclusion as market-structure context, not proof of stronger intrinsic value.",
       "Track Micron's after-close earnings and broader AI infrastructure sentiment as opportunity-cost context for Microsoft and Alphabet, but require company-specific evidence before changing exposure.",
@@ -75,21 +75,21 @@ export const latestScan = {
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาด 2026-06-24 10:30 ET; มูลค่าพอร์ตล่าสุดยังอิงบันทึกรายสัปดาห์ 2026-06-21",
+    asOf: "สแกนระหว่างตลาด 2026-06-24 11:30 ET; มูลค่าพอร์ตล่าสุดยังอิงบันทึกรายสัปดาห์ 2026-06-21",
     processQuality:
-      "ดี: สแกนระหว่างตลาดจากแหล่งข้อมูลหลักก่อน ไม่บังคับให้ซื้อขาย ไม่เพิ่มแถว benchmark รายสัปดาห์ เช็กกรอบเวลาการแยก Mobility ของ S&P Global ซ้ำ มองข่าว Alphabet เข้า Dow เป็นบริบทเชิงโครงสร้างตลาด ไม่ใช่หลักฐานคุณภาพธุรกิจ และยังติดตามคำถามเรื่องผลตอบแทนจาก AI infrastructure ของ Microsoft กับ Alphabet.",
+      "ดี: สแกนในเวลาตลาดจากแหล่งข้อมูลหลักก่อน ไม่บังคับให้ซื้อขาย ไม่เพิ่มแถว benchmark รายสัปดาห์ และไม่แต่ง NAV ระหว่างวันขึ้นมาเอง รอบนี้เช็กซ้ำเรื่องการแยก Mobility ของ S&P Global, ข่าว Alphabet เข้า Dow, ประเด็น AI infrastructure/disclosure ของ Microsoft, economics ของ AI-commerce ที่ Visa และ opportunity cost ของ AutoZone/Copart.",
     outcomeQuality:
-      "รอบนี้ไม่ได้เพิ่มจุด mark-to-market ระหว่างวัน หลังเช็กต่อจากรอบ 2026-06-24 09:30 ET ยังไม่พบ filing, งบ หรือคำพูดผู้บริหารใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยน thesis, ความมั่นใจ, น้ำหนัก, kill condition หรือ watchlist stance.",
+      "รอบนี้ไม่ได้เพิ่มจุด mark-to-market ระหว่างวัน หลังเช็กต่อจากรอบ 2026-06-24 10:30 ET ยังไม่พบ filing, งบ, ข่าวบริษัท หรือคำพูดผู้บริหารใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยน thesis, ความมั่นใจ, น้ำหนัก, kill condition หรือ watchlist stance.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น compounder ที่อธิบายได้ชัดที่สุดในพอร์ต เพราะซอฟต์แวร์องค์กร, Azure, demand ด้าน AI infrastructure, ช่องทางจัดจำหน่าย และกระแสเงินสดยังหนุนกันดี รอบ 10:30 ET ยังไม่พบ filing, งบ หรือคำพูดผู้บริหารใหม่หลังรอบ 09:30 ET. Azure Copilot Observability Agent, ดาต้าเซ็นเตอร์ Mount Pleasant และ Chevron Project Kilby ยังเป็นหลักฐานสนับสนุนด้าน cloud/AI ที่ต้องติดตาม ส่วนคดี securities complaint เรื่อง Copilot และ Azure ยังเป็นข้อกล่าวหา เป็นประเด็นด้าน disclosure quality ไม่ใช่หลักฐานที่ทำให้ thesis เสีย.",
+          "Microsoft ยังเป็น compounder ที่อธิบายได้ชัดที่สุดในพอร์ต เพราะซอฟต์แวร์องค์กร, Azure, demand ด้าน AI infrastructure, ช่องทางจัดจำหน่าย และกระแสเงินสดยังหนุนกันดี รอบ 11:30 ET ยังไม่พบ filing, งบ, ข่าวบริษัท หรือคำพูดผู้บริหารใหม่หลังรอบ 10:30 ET. Azure Copilot Observability Agent, ดาต้าเซ็นเตอร์ Mount Pleasant และ Chevron Project Kilby ยังเป็นหลักฐานสนับสนุนด้าน cloud/AI ที่ต้องติดตาม ส่วนคดี securities complaint เรื่อง Copilot และ Azure ยังเป็นข้อกล่าวหา เป็นประเด็นด้าน disclosure quality ไม่ใช่หลักฐานที่ทำให้ thesis เสีย.",
         killCondition:
           "ทบทวนหนักถ้าความทนทานของ cloud หรือซอฟต์แวร์องค์กรเสื่อมจริง ความผิดพลาดซ้ำ ๆ ด้าน AI security หรือ disclosure ทำลายความเชื่อมั่นของลูกค้าและนักลงทุน capex กับสัญญาพลังงานด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมอย่างต่อเนื่อง.",
       },
       V: {
         thesis:
-          "Visa ยังเป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนักและมีบทบาทสำคัญด้าน acceptance, authorization, tokenization และ fraud control รอบ 10:30 ET ยังไม่พบ filing, ข่าวบริษัท, งบ หรือคำพูดผู้บริหารใหม่หลังรอบ 09:30 ET. งาน OpenAI และ Intelligent Commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เห็น economics ชัดพอ จึงเป็นเรื่องต้องติดตาม ไม่ใช่เหตุเพิ่มน้ำหนัก.",
+          "Visa ยังเป็นเครือข่ายชำระเงินที่ใช้ทุนไม่หนักและมีบทบาทสำคัญด้าน acceptance, authorization, tokenization และ fraud control รอบ 11:30 ET ยังไม่พบ filing, ข่าวบริษัท, งบ หรือคำพูดผู้บริหารใหม่หลังรอบ 10:30 ET. งาน OpenAI และ Intelligent Commerce เป็นบวกเชิงกลยุทธ์ แต่ยังไม่เห็น economics ชัดพอ จึงเป็นเรื่องต้องติดตาม ไม่ใช่เหตุเพิ่มน้ำหนัก.",
       },
       SPGI: {
         thesis:
@@ -97,7 +97,7 @@ export const latestScan = {
       },
       GOOGL: {
         thesis:
-          "Alphabet ยังมี Search, YouTube, Cloud และเงินสดที่แข็งแรงมาก แต่ภาระลงทุน AI, dilution, governance, ความลึกของทีม AI และคำถามเรื่องผลตอบแทนจาก AI infrastructure ยังทำให้ต้องระวังเป็นพิเศษ รอบ 10:30 ET มีข่าวเชิงโครงสร้างตลาดหนึ่งเรื่อง: Alphabet จะเข้า Dow Jones Industrial Average แทน Verizon ก่อนเปิดตลาดวันที่ 29 มิ.ย. เรื่องนี้อาจมีผลด้านการรับรู้และ flow แต่ไม่ได้ตอบคำถามเรื่องคุณภาพธุรกิจหรือผลตอบแทนจาก AI. สถานะยังเป็น hold / under review / medium confidence.",
+          "Alphabet ยังมี Search, YouTube, Cloud และเงินสดที่แข็งแรงมาก แต่ภาระลงทุน AI, dilution, governance, ความลึกของทีม AI และคำถามเรื่องผลตอบแทนจาก AI infrastructure ยังทำให้ต้องระวังเป็นพิเศษ รอบ 11:30 ET ยังไม่พบ filing, งบ, ข่าวบริษัท หรือคำพูดผู้บริหารใหม่หลังรอบ 10:30 ET. ข่าวเข้า Dow Jones Industrial Average ก่อนเปิดตลาดวันที่ 29 มิ.ย. ยังเป็นแค่บริบทเชิงโครงสร้างตลาด อาจมีผลด้านการรับรู้หรือ flow แต่ไม่ได้ตอบคำถามเรื่อง capex, dilution, governance, ความลึกของทีม AI หรือผลตอบแทนต่อหุ้น. สถานะยังเป็น hold / under review / medium confidence.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution capex ด้าน AI ไม่เริ่มสร้างกำไรที่จับต้องได้ หรือการเสียบุคลากร AI ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
         assumptions: [
@@ -111,30 +111,30 @@ export const latestScan = {
       USD: {
         company: "เงินสด",
         thesis:
-          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต รอบ 10:30 ET ยังไม่มีหลักฐานใหม่ที่ทำให้ AutoZone หรือ Copart ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
+          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือ ไม่ใช่ช่องว่างในพอร์ต รอบ 11:30 ET ยังไม่มีหลักฐานใหม่ที่ทำให้ AutoZone หรือ Copart ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดพอ.",
       },
     },
     decision: {
-      date: "2026-06-24 10:30 ET",
+      date: "2026-06-24 11:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างตลาด",
       sourceQuality: "high",
       reason:
-        "หลังเช็กต่อจากรอบ 09:30 ET ยังไม่พบหลักฐานใหม่ที่ทำให้ต้องปรับพอร์ตใน Microsoft, Visa, S&P Global, Alphabet, AutoZone หรือ Copart. หลักฐานด้าน AI infrastructure และ product depth ของ Microsoft ยังเป็นบวก ส่วนคดี Copilot/Azure ยังเป็นข้อกล่าวหาและเป็นประเด็นติดตามด้าน disclosure quality ไม่ใช่เหตุให้ปรับน้ำหนัก. งาน AI commerce ของ Visa ยังเป็นบวกแต่ยังพิสูจน์ economics ไม่พอ. S&P Global ยังต้องตาม execution ของ Mobility Global. ข่าว Alphabet เข้า Dow เป็นบริบทเชิงโครงสร้างตลาด ไม่ใช่หลักฐานว่าธุรกิจดีขึ้น และ Alphabet ยังอยู่ระหว่างรีวิวเรื่อง capex, dilution, governance, ความลึกของทีม AI และผลตอบแทนจาก AI infrastructure. งบ Micron หลังปิดตลาดเป็นแค่บริบท opportunity cost ของ AI infrastructure. AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่มจุด benchmark รายสัปดาห์.",
+        "หลังเช็กต่อจากรอบ 10:30 ET ยังไม่พบหลักฐานใหม่ที่ทำให้ต้องปรับพอร์ตใน Microsoft, Visa, S&P Global, Alphabet, AutoZone หรือ Copart. หลักฐานด้าน AI infrastructure และ product depth ของ Microsoft ยังเป็นบวก ส่วนคดี Copilot/Azure ยังเป็นข้อกล่าวหาและเป็นประเด็นติดตามด้าน disclosure quality ไม่ใช่เหตุให้ปรับน้ำหนัก. งาน AI commerce ของ Visa ยังเป็นบวกแต่ยังพิสูจน์ economics ไม่พอ. S&P Global ยังต้องตาม execution ของ Mobility Global. ข่าว Alphabet เข้า Dow เป็นบริบทเชิงโครงสร้างตลาด ไม่ใช่หลักฐานว่าธุรกิจดีขึ้น และ Alphabet ยังอยู่ระหว่างรีวิวเรื่อง capex, dilution, governance, ความลึกของทีม AI และผลตอบแทนจาก AI infrastructure. งบ Micron หลังปิดตลาดเป็นแค่บริบท opportunity cost ของ AI infrastructure. AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่มจุด benchmark รายสัปดาห์.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "ข่าวซื้อคืนหุ้นวันที่ 16 มิ.ย. ยังเป็นบวกด้าน capital allocation แต่รอบ 10:30 ET ยังไม่พอให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นผลประกอบการที่ต่อเนื่อง valuation ที่รับได้ และวินัย balance sheet ชัดกว่านี้ก่อน.",
+          "ข่าวซื้อคืนหุ้นวันที่ 16 มิ.ย. ยังเป็นบวกด้าน capital allocation แต่รอบ 11:30 ET ยังไม่พอให้ AutoZone ดีกว่าเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นผลประกอบการที่ต่อเนื่อง valuation ที่รับได้ และวินัย balance sheet ชัดกว่านี้ก่อน.",
       },
       CPRT: {
         whyNotYet:
-          "Copart ยังเป็นธุรกิจคุณภาพที่ควรเฝ้าดู แต่สัญญาณฟื้นตัวจาก Q3 ยังเป็นแค่ระดับ modest รอบ 10:30 ET ยังไม่มีข้อมูลใหม่ที่ทำให้ควรใช้เงินสดซื้อแทนหุ้นที่ถืออยู่.",
+          "Copart ยังเป็นธุรกิจคุณภาพที่ควรเฝ้าดู แต่สัญญาณฟื้นตัวจาก Q3 ยังเป็นแค่ระดับ modest รอบ 11:30 ET ยังไม่มีข้อมูลใหม่ที่ทำให้ควรใช้เงินสดซื้อแทนหุ้นที่ถืออยู่.",
       },
     },
     quarterlyStatusUpdates: {
       "มีการปรับพอร์ตไหม":
-        "ไม่มี หลังสแกน 2026-06-24 10:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
+        "ไม่มี หลังสแกน 2026-06-24 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
       "คำถามหลัก":
         "capex โครงสร้างเงินทุน governance ความลึกของทีม AI และผลตอบแทนจาก AI infrastructure ของ Alphabet จะสร้างมูลค่าต่อหุ้นคุ้มกับเงินที่ลงไปหรือไม่?",
     },
