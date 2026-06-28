@@ -46,15 +46,16 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "2026-06-22 11:30 ET intraday market-hours scan; latest NAV remains the 2026-06-21 weekly journal mark",
+  asOf: "Week of 2026-06-22, recorded 2026-06-28; close-to-close period 2026-06-18 to 2026-06-26",
   localContext: "America/New_York",
   startingCapital: 10000,
-  latestValue: 9707.19,
-  cashWeight: 20,
-  inceptionReturn: -2.93,
-  processQuality: "Good: primary-source scan, Microsoft infrastructure monitor maintained, no forced action, and weekly-only benchmark discipline preserved.",
+  latestValue: 9595.31,
+  cashWeight: 20.84,
+  inceptionReturn: -4.05,
+  processQuality:
+    "Good: the weekly review used one close-to-close period for the portfolio and every benchmark, separated business evidence from price action, and kept the weekly-only performance log discipline.",
   outcomeQuality:
-    "No intraday mark-to-market point was added. Fresh checks after the 10:54 ET checkpoint found no new exposure-changing evidence; Chevron's 20-year power agreement tied to a Microsoft West Texas data center remains an AI infrastructure monitor, not a thesis-status or sizing change.",
+    "Mixed but acceptable: the portfolio declined 1.15% for the week, but it held up better than S&P 500/SPY, Nasdaq-100/QQQ, SMH, and VT because cash and Visa offset part of the Alphabet and Microsoft drawdown.",
 };
 
 export const holdings: Holding[] = [
@@ -64,20 +65,19 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 25,
+    weight: 23.03,
     shares: 5.925294,
     entryPrice: 421.92,
-    value: 2248.06,
+    value: 2209.96,
     thesis:
-      "Core enterprise software, Azure scale, AI infrastructure demand, distribution, and cash generation make Microsoft the portfolio's clearest compounder. Chevron's June 22 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center adds supportive evidence that Microsoft is securing AI infrastructure inputs, while also reinforcing power access, execution timing, energy sourcing, and AI capital intensity as underwriting monitors. Fresh checks through the 11:30 ET scan found no newer Microsoft-specific item that changed thesis status, confidence, sizing, or kill conditions. Copilot Cowork general availability remains supportive product evidence. SearchLeak / CVE-2026-42824 and the June 12 securities complaint remain security and disclosure-quality monitor items, not thesis breaks.",
+      "Microsoft remains the portfolio's clearest quality-growth compounder. Enterprise software distribution, Azure scale, AI infrastructure demand, and cash generation still justify ownership. This week added useful product and infrastructure monitors, including Mount Pleasant datacenter execution, Copilot workflow depth, and water/resource execution, but none proves per-share AI returns yet.",
     killCondition:
-      "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair customer and investor trust, AI capex and power commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
+      "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair trust, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
       "Commercial cloud demand remains durable.",
-      "AI products strengthen distribution and monetization instead of eroding free cash flow quality.",
+      "AI products strengthen Microsoft 365 and Azure economics rather than only increasing capital intensity.",
       "Enterprise switching costs and bundled workflows remain hard to displace.",
-      "Microsoft can secure power and data-center capacity without letting AI infrastructure commitments dilute per-share compounding.",
-      "Microsoft can keep enterprise AI security and disclosure quality tight enough that Copilot trust is not structurally impaired.",
+      "Power, water, and datacenter execution stay manageable enough to protect per-share compounding.",
     ],
   },
   {
@@ -86,17 +86,17 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 20,
+    weight: 21.73,
     shares: 6.201166,
     entryPrice: 322.52,
-    value: 2029.27,
+    value: 2085.02,
     thesis:
-      "Visa is an asset-light payment network with global acceptance, tokenization, authorization, and fraud-control relevance as commerce evolves. OpenAI, Intelligent Commerce, token, stablecoin, and agentic-commerce work remains strategically supportive but still economically unproven. The June 22 11:30 ET scan found no new evidence that changed network quality, economics, or capital allocation.",
+      "Visa remains an asset-light payment network with durable acceptance, authorization, tokenization, and fraud-control relevance. Visa Destinations is strategically useful for travel engagement and partner depth, but the week did not provide evidence of transaction economics strong enough to change sizing.",
     killCondition:
       "Network economics deteriorate, regulation materially compresses pricing power, or new payment rails bypass Visa at scale without offsetting participation.",
     assumptions: [
       "Payment digitization continues globally.",
-      "Visa remains useful in AI-initiated, tokenized, and programmable commerce.",
+      "Visa remains relevant in AI-initiated, tokenized, and programmable commerce.",
       "Legal and regulatory pressure stays manageable.",
     ],
   },
@@ -106,17 +106,17 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "strengthening",
     confidence: "high",
-    weight: 20,
+    weight: 21.10,
     shares: 4.960933,
     entryPrice: 403.15,
-    value: 2038.55,
+    value: 2024.85,
     thesis:
-      "Ratings, indices, benchmarks, and financial data are embedded market infrastructure. Mobility Global remains a separation execution monitor: the spin vehicle priced $2.0B of senior notes and entered a $500M revolver, with proceeds intended to fund a cash payment to S&P Global after separation conditions are satisfied. The June 22 11:30 ET scan found no new evidence changing the timetable; next evidence remains Form 10 effectiveness, expected when-issued trading around June 26, and July 1 distribution mechanics.",
+      "S&P Global remains embedded market infrastructure through ratings, indices, benchmarks, and financial data. The Mobility Global separation moved into its expected when-issued trading window, keeping the thesis in strengthening status so long as the distribution mechanics remain clean.",
     killCondition:
       "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility separation damages focus, economics, leverage, or capital allocation discipline.",
     assumptions: [
       "The core ratings and data franchises remain trusted.",
-      "Mobility separation financing and mechanics complete without damaging the operating base.",
+      "Mobility Global separation mechanics complete without damaging the operating base.",
       "High-margin recurring data products continue compounding.",
     ],
   },
@@ -126,18 +126,18 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "under review",
     confidence: "medium",
-    weight: 15,
+    weight: 13.29,
     shares: 3.780432,
     entryPrice: 396.78,
-    value: 1391.31,
+    value: 1275.48,
     thesis:
-      "Search, YouTube, Cloud, and cash generation remain exceptional, but AI infrastructure funding, dilution, the larger Class C stock-plan reserve, and rejected AI oversight proposals keep the burden of proof high for per-share returns. The June 22 11:30 ET scan did not remove the under-review status; it reinforced that AI capital intensity and equity issuance remain the central opportunity-cost question.",
+      "Alphabet still owns exceptional assets in Search, YouTube, Cloud, and cash generation, but the stock remains under review. The week reinforced the same burden of proof: AI infrastructure funding, dilution, governance, talent depth, and per-share returns must improve before the position can deserve more capital.",
     killCondition:
-      "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, or AI capex fails to produce durable profit.",
+      "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
     assumptions: [
       "Search and YouTube remain resilient while AI interfaces change.",
       "Cloud growth and backlog convert into attractive returns.",
-      "Debt, preferred/common issuance, stock-plan dilution, and capex do not dilute per-share compounding beyond the thesis.",
+      "AI financing, stock-plan dilution, and capex do not dilute per-share compounding beyond the thesis.",
     ],
   },
   {
@@ -146,10 +146,10 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 20,
+    weight: 20.84,
     value: 2000,
     thesis:
-      "Cash is a deliberate position because the fifth idea has not cleared the written-conviction bar. AutoZone's buyback authorization improved the watchlist discussion, but neither AutoZone nor Copart clearly outranks cash or the funded holdings today. The June 22 11:30 ET scan did not surface a better use for this reserve.",
+      "Cash remains a deliberate position because no fifth idea has cleared the written-conviction bar. It reduced the portfolio's downside this week and still preserves optionality without violating the mandate.",
     killCondition:
       "A business with clearer durability, valuation support, and written thesis quality outranks the optionality of cash.",
     assumptions: [
@@ -162,29 +162,30 @@ export const holdings: Holding[] = [
 
 export const benchmarkPoints: BenchmarkPoint[] = [
   { label: "Baseline", portfolio: 0, sp500: 0, nasdaq100: 0, smh: 0, vt: 0, note: "Inception baseline for the weekly benchmark series." },
-  { label: "May 18", portfolio: 0.19, sp500: 0.88, nasdaq100: 1.22, smh: 3.59, vt: 1.34, note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22, using SPY as the S&P 500 proxy." },
-  { label: "May 25", portfolio: 1.62, sp500: 1.45, nasdaq100: 2.89, smh: 3.92, vt: 1.64, note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29, using SPY as the S&P 500 proxy." },
-  { label: "Jun 01", portfolio: -2.23, sp500: -2.5, nasdaq100: -4.54, smh: -4.88, vt: -2.81, note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05, using SPY as the S&P 500 proxy." },
-  { label: "Jun 08", portfolio: -2.22, sp500: 0.57, nasdaq100: 2.31, smh: 8.82, vt: 1.7, note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close, using SPY as the S&P 500 proxy." },
-  { label: "Jun 15", portfolio: -0.46, sp500: 0.67, nasdaq100: 2.67, smh: 6.44, vt: 0.88, note: "Full Juneteenth-shortened weekly comparison from Friday 2026-06-12 close to Thursday 2026-06-18 close, using SPY for S&P 500 and QQQ for Nasdaq-100." },
+  { label: "May 18", portfolio: 0.19, sp500: 0.88, nasdaq100: 1.22, smh: 3.59, vt: 1.34, note: "Backfilled close-to-close weekly return from Friday 2026-05-15 to Friday 2026-05-22." },
+  { label: "May 25", portfolio: 1.62, sp500: 1.45, nasdaq100: 2.89, smh: 3.92, vt: 1.64, note: "Backfilled close-to-close weekly return from Friday 2026-05-22 to Friday 2026-05-29." },
+  { label: "Jun 01", portfolio: -2.23, sp500: -2.5, nasdaq100: -4.54, smh: -4.88, vt: -2.81, note: "Backfilled close-to-close weekly return from Friday 2026-05-29 to Friday 2026-06-05." },
+  { label: "Jun 08", portfolio: -2.22, sp500: 0.57, nasdaq100: 2.31, smh: 8.82, vt: 1.7, note: "Full weekly comparison from Friday 2026-06-05 close to Friday 2026-06-12 close." },
+  { label: "Jun 15", portfolio: -0.46, sp500: 0.67, nasdaq100: 2.67, smh: 6.44, vt: 0.88, note: "Juneteenth-shortened weekly comparison from Friday 2026-06-12 close to Thursday 2026-06-18 close." },
+  { label: "Jun 22", portfolio: -1.15, sp500: -2.38, nasdaq100: -4.5, smh: -7.31, vt: -2.43, note: "Full weekly comparison from Thursday 2026-06-18 close to Friday 2026-06-26 close, using SPY for S&P 500 and QQQ for Nasdaq-100." },
 ];
 
 export const recentDecisions: Decision[] = [
   {
-    date: "2026-06-22 11:30 ET",
+    date: "2026-06-28 weekly journal",
     action: "do nothing",
-    subject: "Intraday market-hours scan",
+    subject: "Week of 2026-06-22",
     sourceQuality: "high",
     reason:
-      "Fresh regular-session checks after the 10:54 ET checkpoint found no new exposure-changing evidence. The material item for the morning remains Chevron's 20-year Project Kilby power agreement for a Microsoft-operated West Texas data center. This supports the AI capacity runway but also reinforces power access, data-center execution, energy sourcing, and AI capital intensity as monitor items. It did not change thesis status, confidence, position size, or kill conditions. Visa, S&P Global, Alphabet, AutoZone, Copart, and cash had no new thesis-changing evidence. No weekly benchmark point was added.",
+      "Portfolio -1.15% beat S&P 500/SPY -2.38%, Nasdaq-100/QQQ -4.50%, SMH -7.31%, and VT -2.43% for the same full close-to-close period. The outcome was helped by cash and Visa, not by a better business thesis. No kill condition was triggered, and no holding earned a size change.",
   },
   {
-    date: "2026-06-22 09:30 ET",
+    date: "2026-06-26 15:30 ET",
     action: "do nothing",
     subject: "Intraday market-hours scan",
     sourceQuality: "high",
     reason:
-      "The regular-session scan found no new company-specific evidence after the 2026-06-21 weekly journal that changed thesis status, conviction, kill conditions, or opportunity cost. Microsoft security/disclosure items remain monitors; Visa's OpenAI and Intelligent Commerce work remains strategically supportive but economically unproven; S&P Global Mobility Global remains an execution monitor ahead of expected when-issued trading and July distribution mechanics; Alphabet remains under review because AI capital intensity and dilution remain unresolved; AutoZone and Copart remain below the funding bar. No weekly benchmark point was added.",
+      "Fresh regular-session checks found no additional tracked-company official release, filing, earnings item, or management commentary that changed thesis status, confidence, sizing, kill conditions, or watchlist stance. No weekly benchmark point was added during the intraday scan.",
   },
   {
     date: "2026-06-21 weekly journal",
@@ -192,15 +193,7 @@ export const recentDecisions: Decision[] = [
     subject: "Week of 2026-06-15",
     sourceQuality: "high",
     reason:
-      "Portfolio -0.46% trailed S&P 500/SPY +0.67%, Nasdaq-100/QQQ +2.67%, SMH +6.44%, and VT +0.88% for the full shortened week from the 2026-06-12 close to the 2026-06-18 close. No active holding triggered a kill condition. Microsoft and S&P Global price weakness did not change the business theses; Visa and Alphabet rose but did not justify sizing changes; Alphabet remains under review; cash remains deliberate. AutoZone's $1.5B buyback authorization improved the watchlist case but did not clear the funding bar.",
-  },
-  {
-    date: "2026-06-19 15:30 ET",
-    action: "do nothing",
-    subject: "Market-closed scan",
-    sourceQuality: "high",
-    reason:
-      "The scheduled scan landed on Juneteenth, when U.S. equity markets were closed, so it was recorded as a market-closed checkpoint rather than a regular-session intraday scan. No exposure-changing company-specific evidence was found after the 2026-06-19 14:30 ET checkpoint. Microsoft security/disclosure items remain monitors; Visa's OpenAI commerce work remains supportive but economically unproven; S&P Global Mobility financing and separation mechanics remain execution monitors; Alphabet remains under review; AutoZone and Copart remain below the funding bar.",
+      "Portfolio -0.46% trailed S&P 500/SPY +0.67%, Nasdaq-100/QQQ +2.67%, SMH +6.44%, and VT +0.88% for the shortened week. No active holding triggered a kill condition.",
   },
 ];
 
@@ -210,9 +203,9 @@ export const watchlist: WatchlistItem[] = [
     ticker: "AZO",
     stance: "do nothing",
     whyInteresting:
-      "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases reinforces capital-allocation discipline if cash flow and leverage remain healthy.",
+      "Strong parts distribution model, resilient repair demand, and long buyback history. The June 16 authorization for another $1.5B of repurchases remains constructive capital-allocation evidence.",
     whyNotYet:
-      "The buyback authorization is constructive, but the June 22 11:30 ET scan still does not make AutoZone outrank cash or current funded holdings without more durable operating evidence, valuation support, and continued balance-sheet discipline.",
+      "A buyback authorization alone does not outrank cash or the funded holdings. Nick still needs stronger operating durability, valuation support, and evidence that AutoZone can compound faster than the portfolio average.",
   },
   {
     company: "Copart",
@@ -220,23 +213,21 @@ export const watchlist: WatchlistItem[] = [
     stance: "do nothing",
     whyInteresting: "Unique salvage-auction network, global buyer base, and durable marketplace characteristics.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, and the June 22 11:30 ET scan found no new evidence that lifted it above the funding bar versus cash and current holdings.",
+      "The latest improvement remains too modest to beat cash or the current holdings. It stays on the watchlist rather than receiving capital.",
   },
 ];
 
 export const quarterlyStatus = [
   { label: "Last re-underwrite", value: "Q2 2026, completed 2026-06-01" },
-  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-22 11:30 ET scan." },
-  { label: "Primary open question", value: "Can Alphabet's AI capex, financing, dilution, and governance setup still produce durable per-share value?" },
+  { label: "Exposure change", value: "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the week of 2026-06-22." },
+  { label: "Primary open question", value: "Can Alphabet's AI capex, financing, dilution, governance, talent depth, and infrastructure returns still produce durable per-share value?" },
 ];
 
 export const nextFocus = [
-  "Monitor Microsoft's Chevron/Project Kilby power agreement as an AI infrastructure input: first power target, execution timing, capital intensity, energy sourcing, and whether capacity converts into durable returns.",
-  "Monitor S&P Global Mobility Global separation mechanics, including the $2.0B notes, $500M revolver, Form 10 effectiveness, expected when-issued trading around June 26, and the July 1 expected distribution.",
-  "Require Alphabet evidence on AI infrastructure returns, dilution, preferred terms, debt load, stock-plan usage, governance oversight, and Search resilience.",
-  "Keep Visa's OpenAI and Intelligent Commerce work in the supportive-but-unproven bucket until transaction economics appear.",
-  "Treat Microsoft Copilot Cowork, SearchLeak remediation, and the securities complaint as monitor items until adoption, margins, security trust, and disclosure quality show up in operating evidence.",
-  "Treat AutoZone's June 16 buyback authorization as watchlist capital-allocation evidence, not a funding trigger; require sustained operating improvement and valuation support before replacing cash.",
-  "Treat June 22 market context, including Iran talks, the coming PCE release, and Micron earnings, as opportunity-cost context only unless they translate into business-quality evidence for a tracked company.",
-  "Keep benchmark discipline tight: every weekly comparison should use one shared period for the portfolio, S&P 500, Nasdaq-100, SMH, and VT.",
+  "Monitor S&P Global Mobility Global separation mechanics through the expected July 1 distribution.",
+  "Require Alphabet evidence on AI infrastructure returns, dilution, preferred/common financing terms, governance oversight, and Search resilience.",
+  "Monitor Microsoft AI infrastructure execution, water/resource intensity, enterprise Copilot adoption, and whether AI capacity converts into durable per-share returns.",
+  "Monitor Visa Destinations for real economics: cross-border volume, issuer or merchant adoption, premium-card engagement, or measurable transaction contribution.",
+  "Keep AutoZone and Copart on the watchlist until either clearly outranks cash and current funded holdings.",
+  "Keep weekly benchmark discipline tight: every return should use one shared period for the portfolio, S&P 500, Nasdaq-100, SMH, and VT.",
 ];
