@@ -1,6 +1,6 @@
 export const latestScan = {
   en: {
-    asOf: "2026-06-29 11:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
+    asOf: "2026-06-29 12:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
     processQuality:
       "Good: the scan started from the written theses, checked official company and filing surfaces first, separated already-known monitor items from fresh evidence, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
@@ -8,7 +8,7 @@ export const latestScan = {
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains a high-confidence hold with an intact thesis. Fresh checks after the 10:30 ET checkpoint did not find a new official Microsoft filing, release, earnings item, or management comment that changes the thesis. The June 29 customer-use-case evidence remains useful Copilot product-depth context, but it is not yet proof of adoption scale, margin expansion, or per-share AI returns. AI infrastructure execution, Copilot monetization, resource intensity, security/disclosure trust, and per-share returns remain the active monitors.",
+          "Microsoft remains a high-confidence hold with an intact thesis. Fresh checks after the 11:30 ET checkpoint did not find a new official Microsoft filing, release, earnings item, or management comment that changes the thesis. The June 29 customer-use-case evidence remains useful Copilot product-depth context, but it is not yet proof of adoption scale, margin expansion, or per-share AI returns. AI infrastructure execution, Copilot monetization, resource intensity, security/disclosure trust, and per-share returns remain the active monitors.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair trust, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
@@ -28,16 +28,16 @@ export const latestScan = {
       },
       USD: {
         thesis:
-          "Cash remains deliberate and justified. No watchlist company or new tracked-company evidence clearly outranked the current funded holdings or the optionality of cash during this scan.",
+          "Cash remains deliberate and justified. Copart's CEO transition is material watchlist evidence, but it does not clear the funding bar. No watchlist company or new tracked-company evidence clearly outranked the current funded holdings or the optionality of cash during this scan.",
       },
     },
     decision: {
-      date: "2026-06-29 11:30 ET",
+      date: "2026-06-29 12:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh official-source checks after the 2026-06-29 10:30 ET checkpoint found no additional tracked-company release, filing, earnings item, management commentary, or market development that changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or watchlist stance. Microsoft customer-use-case evidence from the prior checkpoint remains product-depth context, not adoption-scale or per-share-return proof. S&P Global's Mobility Global separation remains the closest execution monitor during the June 26 to June 30 when-issued trading window, with July 1 distribution mechanics still the next proof point. Alphabet remains under review; Visa Destinations remains strategic but economically unproven; AutoZone and Copart remain below the funding bar. No Weekly Journal or Performance Log row was created.",
+        "Do nothing. Fresh official-source checks after the 2026-06-29 11:30 ET checkpoint found no live-holding release, filing, earnings item, management commentary, or market development that changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, or kill condition. The one new material tracked-company item was Copart's June 29 CEO transition: Jeff Liaw will step down as CEO and director effective July 31, 2026, while Executive Chairman and former CEO Jay Adair will resume the CEO role and Liaw will support the transition as Special Advisor. That matters for watchlist management quality and continuity, but it is not enough to fund Copart over cash or the current holdings. S&P Global's Mobility Global distribution mechanics remain the closest live-holding execution monitor; Alphabet remains under review; Visa Destinations remains strategic but economically unproven. No Weekly Journal or Performance Log row was created.",
     },
     watchlistUpdates: {
       AZO: {
@@ -46,25 +46,25 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "Copart's official investor page still points to fiscal Q3 2026 as the latest result. The business remains worth watching, but the evidence is still too modest to replace cash or a current holding.",
+          "Copart now has a material leadership-transition monitor. The June 29 company announcement says Jeff Liaw will step down as CEO and director on July 31, 2026, Jay Adair will return as CEO, and Liaw will support the handoff as Special Advisor. Jay Adair's return provides continuity, but an unexpected CEO reversal still needs follow-up evidence on execution, culture, customer relationships, and capital allocation before Copart can outrank cash or a current holding.",
       },
     },
     quarterlyStatusUpdates: {
-      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-29 11:30 ET scan.",
+      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-29 12:30 ET scan.",
       "Primary open question":
-        "Can S&P Global complete Mobility Global distribution mechanics cleanly, and can Microsoft and Alphabet convert AI infrastructure spending into durable per-share value without weakening free-cash-flow quality?",
+        "Can S&P Global complete Mobility Global distribution mechanics cleanly, can Microsoft and Alphabet convert AI infrastructure spending into durable per-share value, and does Copart's CEO transition preserve the quality that originally made the business worth watching?",
     },
     nextFocus: [
       "Watch S&P Global's Mobility Global when-issued trading through June 30 and expected July 1 distribution mechanics.",
       "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
       "Monitor Microsoft AI infrastructure execution, water/resource intensity, enterprise Copilot adoption, security/disclosure trust, and per-share AI returns; treat customer stories as useful but not financial proof.",
       "Monitor Visa Destinations for actual economics: cross-border volume, issuer and merchant adoption, premium-card engagement, or transaction contribution.",
-      "Keep AutoZone and Copart on the watchlist until either clearly outranks cash and current funded holdings.",
+      "Put Copart's CEO transition on the watchlist checklist: execution continuity, customer retention, operating discipline, and whether Jay Adair's return is stabilizing rather than a signal of deeper issues.",
       "Keep intraday scans out of the weekly Performance Log; benchmark rows are updated only during weekly reviews.",
     ],
   },
   th: {
-    asOf: "สแกนระหว่างวัน 2026-06-29 11:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+    asOf: "สแกนระหว่างวัน 2026-06-29 12:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
       "ดี: รอบนี้เริ่มจาก thesis เดิม เช็กแหล่งข้อมูลทางการของบริษัทและ filings ก่อน แยกเรื่องที่รู้อยู่แล้วออกจากหลักฐานใหม่ และไม่แตะ Performance Log รายสัปดาห์.",
     outcomeQuality:
@@ -72,7 +72,7 @@ export const latestScan = {
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. หลังเช็กข้อมูลใหม่ต่อจาก 10:30 ET ไม่พบ filing, release, earnings item หรือคำพูดผู้บริหารจาก Microsoft ที่เปลี่ยน thesis. หลักฐาน customer use case วันที่ 29 มิ.ย. ยังเป็นบริบทด้าน product depth ของ Copilot ที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานว่า adoption scale, margin หรือผลตอบแทนต่อหุ้นจาก AI ดีขึ้นแล้ว. ประเด็นที่ต้องตามยังเป็น execution ของ AI infrastructure, monetization ของ Copilot, การใช้ทรัพยากร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้น.",
+          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. หลังเช็กข้อมูลใหม่ต่อจาก 11:30 ET ไม่พบ filing, release, earnings item หรือคำพูดผู้บริหารจาก Microsoft ที่เปลี่ยน thesis. หลักฐาน customer use case วันที่ 29 มิ.ย. ยังเป็นบริบทด้าน product depth ของ Copilot ที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานว่า adoption scale, margin หรือผลตอบแทนต่อหุ้นจาก AI ดีขึ้นแล้ว. ประเด็นที่ต้องตามยังเป็น execution ของ AI infrastructure, monetization ของ Copilot, การใช้ทรัพยากร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้น.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI security หรือ disclosure ซ้ำจน trust เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
@@ -92,16 +92,16 @@ export const latestScan = {
       },
       USD: {
         thesis:
-          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือและยังมีเหตุผล รอบนี้ยังไม่มีหุ้นใน watchlist หรือหลักฐานใหม่ของหุ้นที่ถืออยู่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดเจน.",
+          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือและยังมีเหตุผล การเปลี่ยน CEO ของ Copart เป็นข้อมูล watchlist ที่ต้องตาม แต่ยังไม่พอให้ใช้เงินสดซื้อหุ้น รอบนี้ยังไม่มีหุ้นใน watchlist หรือหลักฐานใหม่ของหุ้นที่ถืออยู่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดเจน.",
       },
     },
     decision: {
-      date: "2026-06-29 11:30 ET",
+      date: "2026-06-29 12:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างวัน",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลังเช็กข้อมูลทางการใหม่ต่อจาก 2026-06-29 10:30 ET ไม่พบ release, filing, earnings item, management commentary หรือพัฒนาการตลาดของบริษัทที่ติดตามที่เปลี่ยนคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, thesis status, ความมั่นใจ, น้ำหนักพอร์ต, kill condition หรือสถานะ watchlist. หลักฐาน customer use case ของ Microsoft จากรอบก่อนยังเป็นบริบทด้าน product depth ไม่ใช่หลักฐาน adoption scale หรือผลตอบแทนต่อหุ้น. ประเด็นใกล้สุดยังเป็น Mobility Global ของ S&P Global ในช่วง when-issued trading 26-30 มิ.ย. และกลไก distribution วันที่ 1 ก.ค. Alphabet ยัง under review, Visa Destinations ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics, AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
+        "ไม่ทำอะไร หลังเช็กข้อมูลทางการใหม่ต่อจาก 2026-06-29 11:30 ET ไม่พบ release, filing, earnings item, management commentary หรือพัฒนาการตลาดของหุ้นที่ถืออยู่ที่เปลี่ยนคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, thesis status, ความมั่นใจ, น้ำหนักพอร์ต หรือ kill condition. รายการใหม่ที่มีสาระคือ Copart ประกาศเปลี่ยน CEO วันที่ 29 มิ.ย.: Jeff Liaw จะลงจากตำแหน่ง CEO และกรรมการ มีผล 31 ก.ค. 2026, Jay Adair ซึ่งเป็น Executive Chairman และอดีต CEO จะกลับมาเป็น CEO และ Liaw จะช่วยช่วงเปลี่ยนผ่านในฐานะ Special Advisor. เรื่องนี้สำคัญต่อคุณภาพผู้บริหารและความต่อเนื่องของ watchlist แต่ยังไม่พอให้ Copart ชนะเงินสดหรือหุ้นที่ถืออยู่. ประเด็นใกล้สุดของหุ้นในพอร์ตยังเป็นกลไก distribution ของ Mobility Global, Alphabet ยัง under review, Visa Destinations ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics และไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
     },
     watchlistUpdates: {
       AZO: {
@@ -110,20 +110,20 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "หน้า investor relations ของ Copart ยังชี้ว่างบ fiscal Q3 2026 เป็นรายการล่าสุด ธุรกิจยังน่าตาม แต่หลักฐานการฟื้นตัวยังไม่แรงพอให้แทนเงินสดหรือหุ้นในพอร์ต.",
+          "Copart มี monitor ใหม่เรื่องการเปลี่ยน CEO. ประกาศบริษัทวันที่ 29 มิ.ย. ระบุว่า Jeff Liaw จะลงจากตำแหน่ง CEO และกรรมการวันที่ 31 ก.ค. 2026, Jay Adair จะกลับมาเป็น CEO และ Liaw จะช่วยส่งต่องานในฐานะ Special Advisor. การกลับมาของ Adair ช่วยเรื่องความต่อเนื่อง แต่การเปลี่ยนกลับแบบนี้ยังต้องดู execution, culture, ความสัมพันธ์กับลูกค้า และวินัยจัดสรรทุนก่อน จึงยังไม่ชนะเงินสดหรือหุ้นในพอร์ต.",
       },
     },
     quarterlyStatusUpdates: {
-      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-29 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
+      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-29 12:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
       "คำถามหลัก":
-        "S&P Global จะปิดกลไก distribution ของ Mobility Global ได้สะอาดหรือไม่ และ Microsoft กับ Alphabet จะเปลี่ยน AI infrastructure spending เป็นมูลค่าต่อหุ้นที่ทนทานโดยไม่ทำให้คุณภาพ free cash flow แย่ลงได้หรือไม่?",
+        "S&P Global จะปิดกลไก distribution ของ Mobility Global ได้สะอาดหรือไม่, Microsoft กับ Alphabet จะเปลี่ยน AI infrastructure spending เป็นมูลค่าต่อหุ้นที่ทนทานได้หรือไม่ และการเปลี่ยน CEO ของ Copart จะรักษาคุณภาพธุรกิจที่ทำให้น่าตามต่อได้หรือเปล่า?",
     },
     nextFocus: [
       "ตาม when-issued trading ของ Mobility Global ถึง 30 มิ.ย. และกลไก distribution ที่คาดไว้ 1 ก.ค.",
       "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของ AI infrastructure, dilution, เงื่อนไข financing, governance, การรักษา talent และความแข็งแรงของ Search ก่อนเปลี่ยน conviction.",
       "ตาม Microsoft เรื่อง execution ของ AI infrastructure, การใช้น้ำ/ทรัพยากร, adoption ของ Copilot ในองค์กร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้นจาก AI; มอง customer stories เป็นหลักฐานที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานการเงิน.",
       "ตาม Visa Destinations ให้เห็น economics จริง เช่น cross-border volume, issuer/merchant adoption, premium-card engagement หรือ contribution ต่อธุรกรรม.",
-      "เก็บ AutoZone และ Copart ไว้ใน watchlist จนกว่าจะมีตัวใดชนะทั้งเงินสดและหุ้นที่ถืออยู่ได้ชัดเจน.",
+      "เพิ่มการเปลี่ยน CEO ของ Copart ใน checklist: ความต่อเนื่องของ execution, การรักษาลูกค้า, วินัยดำเนินงาน และการกลับมาของ Jay Adair เป็นสัญญาณช่วยเสถียรภาพมากกว่าสัญญาณปัญหาลึกหรือไม่.",
       "ไม่เอารอบสแกนระหว่างวันไปปนใน Performance Log รายสัปดาห์; benchmark จะอัปเดตเฉพาะรอบ weekly review.",
     ],
   },
