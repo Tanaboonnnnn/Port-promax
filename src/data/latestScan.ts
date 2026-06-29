@@ -1,28 +1,28 @@
 export const latestScan = {
   en: {
-    asOf: "2026-06-29 10:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
+    asOf: "2026-06-29 11:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
     processQuality:
-      "Good: the scan started from the written theses, checked official company and filing surfaces first, treated customer-use-case evidence as product depth rather than financial proof, and left the weekly-only Performance Log untouched.",
+      "Good: the scan started from the written theses, checked official company and filing surfaces first, separated already-known monitor items from fresh evidence, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
-      "No intraday performance judgment was made. Ordinary price movement was ignored; the only items surfaced were those relevant to thesis quality, kill conditions, opportunity cost, or long-term compounding evidence.",
+      "No intraday performance judgment was made. Ordinary price movement was ignored; only evidence tied to business quality, moat durability, capital allocation, growth quality, kill conditions, or opportunity cost was carried forward.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains a high-confidence hold with an intact thesis. The incremental official items after the 09:30 ET checkpoint were Microsoft Source Asia customer stories dated June 29: KAsset signed an MOU with Microsoft Thailand to apply data and AI across fund-management workflows, and Johnson Stokes & Master described governed Microsoft 365 Copilot agent use in regulated legal work. These are useful product-depth and customer-use-case signals, but they are not yet proof of adoption scale, margin expansion, or per-share AI returns. AI infrastructure execution, Copilot monetization, resource intensity, security/disclosure trust, and per-share returns remain the active monitors.",
+          "Microsoft remains a high-confidence hold with an intact thesis. Fresh checks after the 10:30 ET checkpoint did not find a new official Microsoft filing, release, earnings item, or management comment that changes the thesis. The June 29 customer-use-case evidence remains useful Copilot product-depth context, but it is not yet proof of adoption scale, margin expansion, or per-share AI returns. AI infrastructure execution, Copilot monetization, resource intensity, security/disclosure trust, and per-share returns remain the active monitors.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security or disclosure failures impair trust, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
       V: {
         thesis:
-          "Visa remains a high-confidence hold with an intact thesis. Fresh checks did not find a newer official Visa item that changes network quality, regulatory risk, management quality, or capital allocation. Visa Destinations remains strategically relevant to travel engagement and partner depth, but it is still not proof of transaction economics.",
+          "Visa remains a high-confidence hold with an intact thesis. Visa's newsroom still shows Visa Destinations as the latest material release. No newer official item changed network quality, regulatory risk, management quality, capital allocation, or growth quality. Visa Destinations remains strategically relevant to travel engagement and partner depth, but it is still not proof of transaction economics.",
       },
       SPGI: {
         thesis:
-          "S&P Global remains a high-confidence hold with a strengthening thesis. The Mobility Global separation is still inside the expected June 26 to June 30 when-issued trading window, with regular-way Mobility Global trading and distribution mechanics expected around July 1. This is the nearest execution proof point, not a reason to trade before the mechanics complete.",
+          "S&P Global remains a high-confidence hold with a strengthening thesis. Mobility Global is still in the expected June 26 to June 30 when-issued trading window, with expected July 1 distribution mechanics as the nearest execution proof point. No new official item changed the separation monitor or the position size.",
       },
       GOOGL: {
         thesis:
-          "Alphabet remains hold / under review / medium confidence. Fresh official checks did not answer the unresolved AI funding, dilution, governance, talent depth, or infrastructure-return questions. Alphabet's Dow addition remains market-structure context, not business-quality evidence, so the under-review status stays in place.",
+          "Alphabet remains hold / under review / medium confidence. Fresh official checks did not answer the unresolved AI funding, dilution, governance, talent-depth, or infrastructure-return questions. Dow inclusion and previously logged annual-meeting governance context remain monitors, not business-quality proof, so the under-review status stays in place.",
         killCondition:
           "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
       },
@@ -32,12 +32,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-06-29 10:30 ET",
+      date: "2026-06-29 11:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh checks after the 2026-06-29 09:30 ET checkpoint found incremental Microsoft official customer-use-case evidence in asset-management and regulated legal workflows. It supports the Copilot product-depth monitor, but it does not yet prove adoption scale, margin expansion, or per-share AI returns. No tracked-company filing, earnings item, management commentary, or company release changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or watchlist stance. S&P Global's Mobility Global separation remains the closest execution monitor during the June 26 to June 30 when-issued trading window, with July 1 distribution mechanics still the next proof point. Alphabet remains under review; Visa Destinations remains strategic but economically unproven; AutoZone and Copart remain below the funding bar. No Weekly Journal or Performance Log row was created.",
+        "Do nothing. Fresh official-source checks after the 2026-06-29 10:30 ET checkpoint found no additional tracked-company release, filing, earnings item, management commentary, or market development that changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or watchlist stance. Microsoft customer-use-case evidence from the prior checkpoint remains product-depth context, not adoption-scale or per-share-return proof. S&P Global's Mobility Global separation remains the closest execution monitor during the June 26 to June 30 when-issued trading window, with July 1 distribution mechanics still the next proof point. Alphabet remains under review; Visa Destinations remains strategic but economically unproven; AutoZone and Copart remain below the funding bar. No Weekly Journal or Performance Log row was created.",
     },
     watchlistUpdates: {
       AZO: {
@@ -50,43 +50,43 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-29 10:30 ET scan.",
+      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-29 11:30 ET scan.",
       "Primary open question":
         "Can S&P Global complete Mobility Global distribution mechanics cleanly, and can Microsoft and Alphabet convert AI infrastructure spending into durable per-share value without weakening free-cash-flow quality?",
     },
     nextFocus: [
       "Watch S&P Global's Mobility Global when-issued trading through June 30 and expected July 1 distribution mechanics.",
       "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
-      "Monitor Microsoft AI infrastructure execution, water/resource intensity, enterprise Copilot adoption, security/disclosure trust, and per-share AI returns; treat new customer stories as useful but not financial proof.",
+      "Monitor Microsoft AI infrastructure execution, water/resource intensity, enterprise Copilot adoption, security/disclosure trust, and per-share AI returns; treat customer stories as useful but not financial proof.",
       "Monitor Visa Destinations for actual economics: cross-border volume, issuer and merchant adoption, premium-card engagement, or transaction contribution.",
       "Keep AutoZone and Copart on the watchlist until either clearly outranks cash and current funded holdings.",
       "Keep intraday scans out of the weekly Performance Log; benchmark rows are updated only during weekly reviews.",
     ],
   },
   th: {
-    asOf: "สแกนระหว่างวัน 2026-06-29 10:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+    asOf: "สแกนระหว่างวัน 2026-06-29 11:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
-      "ดี: รอบนี้เริ่มจาก thesis เดิม เช็กแหล่งข้อมูลบริษัทและ filings ก่อน มอง use case จากลูกค้าเป็นหลักฐานด้าน product depth ไม่ใช่หลักฐานผลประกอบการ และไม่แตะ Performance Log รายสัปดาห์.",
+      "ดี: รอบนี้เริ่มจาก thesis เดิม เช็กแหล่งข้อมูลทางการของบริษัทและ filings ก่อน แยกเรื่องที่รู้อยู่แล้วออกจากหลักฐานใหม่ และไม่แตะ Performance Log รายสัปดาห์.",
     outcomeQuality:
-      "ไม่ได้ตัดสินผลลัพธ์จากราคาช่วงระหว่างวัน ความเคลื่อนไหวของราคาถือเป็น noise เว้นแต่จะสะท้อนคุณภาพธุรกิจจริง รอบนี้จึงบันทึกเฉพาะเรื่องที่กระทบ thesis, kill condition, opportunity cost หรือศักยภาพ compounding ระยะยาว.",
+      "ไม่ได้ตัดสินผลลัพธ์จากราคาช่วงระหว่างวัน ความเคลื่อนไหวของราคาถือเป็น noise เว้นแต่จะสะท้อนคุณภาพธุรกิจจริง รอบนี้จึงบันทึกเฉพาะเรื่องที่กระทบคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, kill condition หรือ opportunity cost.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. รายการใหม่จากแหล่งทางการหลัง 09:30 ET คือ customer stories ของ Microsoft Source Asia วันที่ 29 มิ.ย.: KAsset ลงนาม MOU กับ Microsoft Thailand เพื่อใช้ data และ AI ในงาน fund management และ Johnson Stokes & Master เล่าการใช้ Microsoft 365 Copilot agents แบบมี governance ในงานกฎหมายที่ถูกกำกับสูง. ทั้งสองเรื่องเป็นหลักฐานด้าน product depth และ use case ของลูกค้า แต่ยังไม่ใช่หลักฐานว่า adoption scale, margin หรือผลตอบแทนต่อหุ้นจาก AI ดีขึ้นแล้ว. ประเด็นที่ต้องตามยังเป็น execution ของ AI infrastructure, monetization ของ Copilot, การใช้ทรัพยากร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้น.",
+          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. หลังเช็กข้อมูลใหม่ต่อจาก 10:30 ET ไม่พบ filing, release, earnings item หรือคำพูดผู้บริหารจาก Microsoft ที่เปลี่ยน thesis. หลักฐาน customer use case วันที่ 29 มิ.ย. ยังเป็นบริบทด้าน product depth ของ Copilot ที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานว่า adoption scale, margin หรือผลตอบแทนต่อหุ้นจาก AI ดีขึ้นแล้ว. ประเด็นที่ต้องตามยังเป็น execution ของ AI infrastructure, monetization ของ Copilot, การใช้ทรัพยากร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้น.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI security หรือ disclosure ซ้ำจน trust เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
       V: {
         thesis:
-          "Visa ยังเป็น high-confidence hold และ thesis ยัง intact. รอบนี้ไม่พบข้อมูลทางการใหม่ที่เปลี่ยนคุณภาพเครือข่าย ความเสี่ยงกฎระเบียบ คุณภาพผู้บริหาร หรือ capital allocation. Visa Destinations ยังน่าสนใจเชิงกลยุทธ์ต่อ travel engagement และพันธมิตร แต่ยังไม่ใช่หลักฐานของ transaction economics.",
+          "Visa ยังเป็น high-confidence hold และ thesis ยัง intact. หน้า newsroom ของ Visa ยังชี้ว่า Visa Destinations เป็น release สำคัญล่าสุด ไม่พบข้อมูลทางการใหม่ที่เปลี่ยนคุณภาพเครือข่าย ความเสี่ยงกฎระเบียบ คุณภาพผู้บริหาร capital allocation หรือคุณภาพการเติบโต. Visa Destinations ยังน่าสนใจเชิงกลยุทธ์ต่อ travel engagement และพันธมิตร แต่ยังไม่ใช่หลักฐานของ transaction economics.",
       },
       SPGI: {
         thesis:
-          "S&P Global ยังเป็น high-confidence hold และ thesis ยัง strengthening. Mobility Global ยังอยู่ในช่วง when-issued trading ที่บริษัทคาดไว้ระหว่าง 26-30 มิ.ย. โดยจุดพิสูจน์ถัดไปคือ regular-way trading และกลไก distribution ประมาณ 1 ก.ค. นี่เป็นงาน execution ที่ต้องตาม ไม่ใช่เหตุผลให้รีบซื้อขายก่อนหลักฐานครบ.",
+          "S&P Global ยังเป็น high-confidence hold และ thesis ยัง strengthening. Mobility Global ยังอยู่ในช่วง when-issued trading ที่บริษัทคาดไว้ระหว่าง 26-30 มิ.ย. โดยจุดพิสูจน์ถัดไปคือกลไก distribution ที่คาดไว้วันที่ 1 ก.ค. รอบนี้ไม่มีข้อมูลทางการใหม่ที่เปลี่ยน monitor เรื่อง separation หรือน้ำหนักพอร์ต.",
       },
       GOOGL: {
         thesis:
-          "Alphabet ยังเป็น hold / under review / medium confidence. รอบนี้ยังไม่มีข้อมูลทางการที่ตอบคำถามเรื่อง AI funding, dilution, governance, talent depth หรือผลตอบแทนจาก infrastructure. การเข้า Dow ยังเป็นบริบทโครงสร้างตลาด ไม่ใช่หลักฐานคุณภาพธุรกิจ จึงยังไม่ถอดสถานะ under review.",
+          "Alphabet ยังเป็น hold / under review / medium confidence. รอบนี้ยังไม่มีข้อมูลทางการที่ตอบคำถามเรื่อง AI funding, dilution, governance, talent depth หรือผลตอบแทนจาก infrastructure. การเข้า Dow และข้อมูล governance จาก annual meeting ที่บันทึกไว้ก่อนหน้าเป็น monitor ต่อไป แต่ยังไม่ใช่หลักฐานคุณภาพธุรกิจ จึงยังไม่ถอดสถานะ under review.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
       },
@@ -96,12 +96,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-06-29 10:30 ET",
+      date: "2026-06-29 11:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างวัน",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลังเช็กข้อมูลใหม่ต่อจาก 2026-06-29 09:30 ET พบหลักฐานทางการเพิ่มจาก Microsoft เรื่อง use case ของลูกค้าในธุรกิจจัดการกองทุนและงานกฎหมายที่ถูกกำกับสูง ซึ่งช่วยเสริม monitor ด้าน product depth ของ Copilot แต่ยังไม่พิสูจน์ adoption scale, margin expansion หรือผลตอบแทนต่อหุ้นจาก AI. ไม่พบ filing, earnings item, management commentary หรือ company release ของบริษัทที่ติดตามที่เปลี่ยนคุณภาพธุรกิจ moat ความทนทาน capital allocation คุณภาพการเติบโต thesis status ความมั่นใจ น้ำหนักพอร์ต kill condition หรือสถานะ watchlist. ประเด็นใกล้สุดยังเป็น Mobility Global ของ S&P Global ในช่วง when-issued trading 26-30 มิ.ย. และกลไก distribution วันที่ 1 ก.ค. Alphabet ยัง under review, Visa Destinations ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics, AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
+        "ไม่ทำอะไร หลังเช็กข้อมูลทางการใหม่ต่อจาก 2026-06-29 10:30 ET ไม่พบ release, filing, earnings item, management commentary หรือพัฒนาการตลาดของบริษัทที่ติดตามที่เปลี่ยนคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, thesis status, ความมั่นใจ, น้ำหนักพอร์ต, kill condition หรือสถานะ watchlist. หลักฐาน customer use case ของ Microsoft จากรอบก่อนยังเป็นบริบทด้าน product depth ไม่ใช่หลักฐาน adoption scale หรือผลตอบแทนต่อหุ้น. ประเด็นใกล้สุดยังเป็น Mobility Global ของ S&P Global ในช่วง when-issued trading 26-30 มิ.ย. และกลไก distribution วันที่ 1 ก.ค. Alphabet ยัง under review, Visa Destinations ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics, AutoZone กับ Copart ยังไม่ผ่านเกณฑ์ใช้เงินสด และไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
     },
     watchlistUpdates: {
       AZO: {
@@ -114,14 +114,14 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-29 10:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
+      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-29 11:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
       "คำถามหลัก":
         "S&P Global จะปิดกลไก distribution ของ Mobility Global ได้สะอาดหรือไม่ และ Microsoft กับ Alphabet จะเปลี่ยน AI infrastructure spending เป็นมูลค่าต่อหุ้นที่ทนทานโดยไม่ทำให้คุณภาพ free cash flow แย่ลงได้หรือไม่?",
     },
     nextFocus: [
       "ตาม when-issued trading ของ Mobility Global ถึง 30 มิ.ย. และกลไก distribution ที่คาดไว้ 1 ก.ค.",
       "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของ AI infrastructure, dilution, เงื่อนไข financing, governance, การรักษา talent และความแข็งแรงของ Search ก่อนเปลี่ยน conviction.",
-      "ตาม Microsoft เรื่อง execution ของ AI infrastructure, การใช้น้ำ/ทรัพยากร, adoption ของ Copilot ในองค์กร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้นจาก AI; มอง customer stories ใหม่เป็นหลักฐานที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานการเงิน.",
+      "ตาม Microsoft เรื่อง execution ของ AI infrastructure, การใช้น้ำ/ทรัพยากร, adoption ของ Copilot ในองค์กร, trust ด้าน security/disclosure และผลตอบแทนต่อหุ้นจาก AI; มอง customer stories เป็นหลักฐานที่มีประโยชน์ แต่ยังไม่ใช่หลักฐานการเงิน.",
       "ตาม Visa Destinations ให้เห็น economics จริง เช่น cross-border volume, issuer/merchant adoption, premium-card engagement หรือ contribution ต่อธุรกรรม.",
       "เก็บ AutoZone และ Copart ไว้ใน watchlist จนกว่าจะมีตัวใดชนะทั้งเงินสดและหุ้นที่ถืออยู่ได้ชัดเจน.",
       "ไม่เอารอบสแกนระหว่างวันไปปนใน Performance Log รายสัปดาห์; benchmark จะอัปเดตเฉพาะรอบ weekly review.",
