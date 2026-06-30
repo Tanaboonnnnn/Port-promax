@@ -1,6 +1,6 @@
 export const latestScan = {
   en: {
-    asOf: "2026-06-30 09:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
+    asOf: "2026-06-30 10:30 ET intraday market-hours scan; latest full weekly record remains Week of 2026-06-22",
     processQuality:
       "Good: the scan started from the written theses, checked official company, investor-relations, filing, and product surfaces first, treated secondary reporting as context only, ignored ordinary price noise, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
@@ -8,19 +8,19 @@ export const latestScan = {
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains a high-confidence hold with an intact thesis. Fresh checks after the 2026-06-29 15:30 ET checkpoint found no official Microsoft filing or earnings item that changes the business case. Official GitHub/Copilot billing documentation keeps the Copilot monetization monitor active, while secondary reporting about strong GitHub AI-coding demand and outages is useful but lower-quality context. The evidence supports product demand and pricing experimentation, but it also keeps reliability, capacity, customer trust, and per-share AI returns on the checklist.",
+          "Microsoft remains a high-confidence hold with an intact thesis. Fresh checks after the 2026-06-30 09:30 ET checkpoint found no new official Microsoft filing or earnings item that changes the business case. Partner Center guidance still keeps usage-based Copilot billing, customer adoption, governance, reliability, and pricing acceptance on the monitor list, but no new evidence proves margin expansion or per-share AI returns.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, or disclosure failures impair trust, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
       V: {
         thesis:
-          "Visa remains a high-confidence hold with an intact thesis. Visa's investor filing surface still shows the June 26 8-K as the latest relevant filing. The $250M U.S. litigation escrow deposit and Class B conversion-rate adjustments remain capital-structure and litigation-risk plumbing rather than a change to the network moat, long-term growth engine, thesis status, position size, or kill condition. Visa Destinations remains strategic but economically unproven.",
+          "Visa remains a high-confidence hold with an intact thesis. The new material item in this scan is Visa's June 30 CEMEA release on AI, tokenization, and stablecoin settlement. It says tokenized transactions in CEMEA rose from 26% in 2023 to 70% in 2026, stablecoin settlement volumes in the region increased nearly 60 times since launch, VisaNet stablecoin settlement was running at roughly a $7B annualized pace as of March 2026, and more than 160 stablecoin-linked card programs are live or in development globally. This supports Visa's programmable-commerce and network-relevance monitor, but it is still not enough to change sizing because the release does not yet prove incremental transaction economics, margins, or durable issuer/merchant adoption.",
         killCondition:
           "Structural network disintermediation, adverse regulation that permanently damages transaction economics, loss of payment-flow relevance, or capital allocation that no longer protects Class A holders over time.",
       },
       SPGI: {
         thesis:
-          "S&P Global remains a high-confidence hold with a strengthening thesis. June 30 is the final expected when-issued trading day for Mobility Global before the expected 12:01 a.m. New York City time July 1 distribution and regular-way MBGL trading. This is the nearest live execution proof point. No evidence found in this scan changed position size or thesis status.",
+          "S&P Global remains a high-confidence hold with a strengthening thesis. June 30 is still the final expected when-issued trading day for Mobility Global before the expected 12:01 a.m. New York City time July 1 distribution and regular-way MBGL trading. This remains the nearest live execution proof point. No evidence found in this scan changed position size or thesis status.",
       },
       GOOGL: {
         thesis:
@@ -30,16 +30,16 @@ export const latestScan = {
       },
       USD: {
         thesis:
-          "Cash remains deliberate and justified. No watchlist company or new tracked-company evidence clearly outranked the current funded holdings or the optionality of cash during this scan.",
+          "Cash remains deliberate and justified. Visa's June 30 CEMEA update is constructive, but no watchlist company or new tracked-company evidence clearly outranked the current funded holdings or the optionality of cash during this scan.",
       },
     },
     decision: {
-      date: "2026-06-30 09:30 ET",
+      date: "2026-06-30 10:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh checks after the 2026-06-29 15:30 ET checkpoint found no tracked-company official release, filing, earnings item, management commentary, or market development that changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or opportunity cost. S&P Global's Mobility Global separation is the closest live execution checkpoint because June 30 is expected to be the final when-issued trading day before the July 1 distribution. Microsoft/GitHub Copilot usage-based billing and demand/reliability context keeps the AI monetization and trust monitor active, but does not prove adoption economics or per-share AI returns. Visa, Alphabet, AutoZone, and Copart had no new exposure-changing official evidence. No Weekly Journal or Performance Log row was created.",
+        "Do nothing. Fresh checks after the 2026-06-30 09:30 ET checkpoint found one material tracked-company official item: Visa's June 30 CEMEA release on AI, tokenization, and stablecoin settlement. It is constructive for Visa's long-term network relevance in programmable commerce, but it does not yet prove incremental transaction economics, margin contribution, or durable adoption, so Visa's thesis remains intact and position size is unchanged. No new Microsoft, S&P Global, Alphabet, AutoZone, or Copart evidence changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or opportunity cost. S&P Global's July 1 Mobility Global distribution remains the closest execution checkpoint. No Weekly Journal or Performance Log row was created.",
     },
     watchlistUpdates: {
       AZO: {
@@ -52,21 +52,21 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-30 09:30 ET scan.",
+      "Exposure change": "None. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged after the 2026-06-30 10:30 ET scan.",
       "Primary open question":
-        "Can S&P Global complete Mobility Global distribution mechanics cleanly, can Microsoft and Alphabet convert AI infrastructure spending into durable per-share value, can Visa keep legal/capital-structure mechanics from distracting from network compounding, and does Copart's CEO transition preserve the quality that originally made the business worth watching?",
+        "Can Visa turn AI, tokenization, and stablecoin settlement capabilities into durable transaction economics while S&P Global completes Mobility Global cleanly, Microsoft and Alphabet convert AI infrastructure spending into per-share value, and Copart's CEO transition preserves operating quality?",
     },
     nextFocus: [
       "Watch S&P Global's expected July 1 Mobility Global distribution and the transition from MBGL WI to regular-way MBGL trading.",
+      "Track Visa's June 30 CEMEA AI, token, and stablecoin evidence for measurable transaction economics, issuer/acquirer adoption, merchant acceptance, cross-border volume, settlement economics, and risk controls.",
       "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
       "Monitor Microsoft AI infrastructure execution, enterprise Copilot adoption, GitHub/Copilot reliability, pricing acceptance, security/disclosure trust, resource intensity, and per-share AI returns.",
-      "Monitor Visa's litigation escrow and Class B/C mechanics as capital-structure hygiene; separately watch Visa Destinations for actual economics such as cross-border volume, issuer and merchant adoption, premium-card engagement, or transaction contribution.",
       "Keep Copart's CEO transition on the watchlist checklist: execution continuity, customer retention, operating discipline, and whether Jay Adair's return is stabilizing rather than a sign of deeper issues.",
       "Keep intraday scans out of the weekly Performance Log; benchmark rows are updated only during weekly reviews.",
     ],
   },
   th: {
-    asOf: "สแกนระหว่างวัน 2026-06-30 09:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+    asOf: "สแกนระหว่างวัน 2026-06-30 10:30 ET; ข้อมูลรายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
       "ดี: รอบนี้เริ่มจาก thesis เดิม เช็กข้อมูลทางการ หน้า investor relations, filings และหน้าผลิตภัณฑ์ก่อน ใช้ข่าวรองเป็นบริบทเท่านั้น ตัดราคาช่วงสั้นออกจากการตัดสินใจ และไม่แตะ Performance Log รายสัปดาห์.",
     outcomeQuality:
@@ -74,19 +74,19 @@ export const latestScan = {
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. หลังเช็กข้อมูลใหม่ต่อจาก 2026-06-29 15:30 ET ไม่พบ filing หรือ earnings item ทางการที่เปลี่ยนเคสธุรกิจ เอกสารทางการเรื่อง usage-based billing ของ GitHub/Copilot ทำให้ monitor ด้าน monetization ยังสำคัญ ส่วนข่าวรองเรื่องดีมานด์ AI coding ของ GitHub ที่แข็งแรงและปัญหา outage เป็นบริบทที่มีประโยชน์แต่คุณภาพหลักฐานต่ำกว่า ภาพรวมยังสนับสนุนดีมานด์และการทดลองราคา แต่ต้องตาม reliability, capacity, trust ของลูกค้า และผลตอบแทนต่อหุ้นจาก AI ต่อไป.",
+          "Microsoft ยังเป็น high-confidence hold และ thesis ยัง intact. หลังเช็กข้อมูลใหม่ต่อจาก 2026-06-30 09:30 ET ไม่พบ filing หรือ earnings item ทางการใหม่ที่เปลี่ยนเคสธุรกิจ คำแนะนำของ Partner Center ยังทำให้ต้องตาม usage-based billing ของ Copilot, adoption ของลูกค้า, governance, reliability และการยอมรับราคา แต่ยังไม่มีหลักฐานใหม่ที่พิสูจน์ margin expansion หรือผลตอบแทนต่อหุ้นจาก AI.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability หรือ disclosure ซ้ำจน trust เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
       V: {
         thesis:
-          "Visa ยังเป็น high-confidence hold และ thesis ยัง intact. หน้าข้อมูล filing ของ Visa ยังชี้ว่า 8-K วันที่ 26 มิ.ย. เป็น filing ล่าสุดที่เกี่ยวข้อง การเติมเงิน $250M เข้า U.S. litigation escrow และการปรับ conversion rate ของ Class B ยังเป็นเรื่อง capital structure กับ litigation-risk plumbing ไม่ใช่การเปลี่ยน moat ของเครือข่าย payment, เครื่องยนต์การเติบโตระยะยาว, thesis status, น้ำหนักพอร์ต หรือ kill condition. Visa Destinations ยังเป็นบวกเชิงกลยุทธ์ แต่ยังไม่พิสูจน์ economics.",
+          "Visa ยังเป็น high-confidence hold และ thesis ยัง intact. รายการที่ควรบันทึกในรอบนี้คือ release วันที่ 30 มิ.ย. ของ Visa CEMEA เรื่อง AI, tokenization และ stablecoin settlement บริษัทระบุว่าสัดส่วนธุรกรรมแบบ tokenized ใน CEMEA เพิ่มจาก 26% ในปี 2023 เป็น 70% ในปี 2026, ปริมาณ stablecoin settlement ในภูมิภาคโตเกือบ 60 เท่าตั้งแต่เริ่มใช้, stablecoin settlement บน VisaNet มี run rate ราว $7B ต่อปี ณ มี.ค. 2026 และมีโปรแกรมบัตรที่ผูกกับ stablecoin มากกว่า 160 โปรแกรมที่ใช้งานแล้วหรืออยู่ระหว่างพัฒนา เรื่องนี้หนุน monitor ด้าน programmable commerce และความเกี่ยวข้องของเครือข่าย Visa แต่ยังไม่พอให้เพิ่มน้ำหนัก เพราะยังไม่ได้พิสูจน์ economics ต่อธุรกรรม, margin หรือ adoption ที่ทนทานจาก issuer และ merchant.",
         killCondition:
           "ทบทวนหนักถ้าเครือข่ายถูก disintermediate แบบถาวร กฎระเบียบทำลาย economics ของธุรกรรม บริษัทเสียความเกี่ยวข้องกับ payment flows หรือ capital allocation ไม่ช่วยปกป้องผู้ถือ Class A ในระยะยาว.",
       },
       SPGI: {
         thesis:
-          "S&P Global ยังเป็น high-confidence hold และ thesis ยัง strengthening. วันที่ 30 มิ.ย. เป็นวันสุดท้ายที่บริษัทคาดว่าจะมี when-issued trading ของ Mobility Global ก่อน distribution เวลา 12:01 a.m. New York City time วันที่ 1 ก.ค. และก่อน MBGL เริ่ม regular-way trading นี่คือจุดพิสูจน์ execution ที่ใกล้ที่สุด รอบนี้ไม่พบหลักฐานที่ทำให้ต้องเปลี่ยนน้ำหนักหรือ thesis status.",
+          "S&P Global ยังเป็น high-confidence hold และ thesis ยัง strengthening. วันที่ 30 มิ.ย. ยังเป็นวันสุดท้ายที่บริษัทคาดว่าจะมี when-issued trading ของ Mobility Global ก่อน distribution เวลา 12:01 a.m. New York City time วันที่ 1 ก.ค. และก่อน MBGL เริ่ม regular-way trading นี่คือจุดพิสูจน์ execution ที่ใกล้ที่สุด รอบนี้ไม่พบหลักฐานที่ทำให้ต้องเปลี่ยนน้ำหนักหรือ thesis status.",
       },
       GOOGL: {
         thesis:
@@ -96,16 +96,16 @@ export const latestScan = {
       },
       USD: {
         thesis:
-          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือ รอบนี้ยังไม่มีหุ้นใน watchlist หรือหลักฐานใหม่ของหุ้นที่ถืออยู่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดเจน.",
+          "เงินสดยังเป็นตำแหน่งที่ตั้งใจถือ อัปเดต Visa วันที่ 30 มิ.ย. เป็นสัญญาณเชิงบวก แต่รอบนี้ยังไม่มีหุ้นใน watchlist หรือหลักฐานใหม่ของหุ้นที่ถืออยู่ที่ชนะทั้งหุ้นเดิมและความยืดหยุ่นของเงินสดได้ชัดเจน.",
       },
     },
     decision: {
-      date: "2026-06-30 09:30 ET",
+      date: "2026-06-30 10:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างวัน",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลังเช็กข้อมูลใหม่ต่อจาก 2026-06-29 15:30 ET ไม่พบ release, filing, earnings item, management commentary หรือพัฒนาการตลาดของบริษัทที่ติดตาม ซึ่งเปลี่ยนคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, thesis status, ความมั่นใจ, น้ำหนักพอร์ต, kill condition หรือ opportunity cost. S&P Global ยังมีจุดพิสูจน์ใกล้สุดคือ separation ของ Mobility Global เพราะ 30 มิ.ย. คาดว่าเป็นวันสุดท้ายของ when-issued trading ก่อน distribution วันที่ 1 ก.ค. ส่วน Microsoft/GitHub Copilot ยังต้องตามเรื่อง usage-based billing, ดีมานด์, reliability และ trust แต่ยังไม่ใช่หลักฐานว่า adoption economics หรือผลตอบแทนต่อหุ้นจาก AI พิสูจน์แล้ว. Visa, Alphabet, AutoZone และ Copart ไม่มีหลักฐานทางการใหม่ที่เปลี่ยน exposure. ไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
+        "ไม่ทำอะไร หลังเช็กข้อมูลใหม่ต่อจาก 2026-06-30 09:30 ET พบรายการทางการที่ควรบันทึกหนึ่งรายการ คือ release วันที่ 30 มิ.ย. ของ Visa CEMEA เรื่อง AI, tokenization และ stablecoin settlement ข้อมูลนี้เป็นบวกต่อความเกี่ยวข้องระยะยาวของเครือข่าย Visa ใน programmable commerce แต่ยังไม่พิสูจน์ economics ต่อธุรกรรม, margin contribution หรือ adoption ที่ทนทาน จึงยังคง thesis ของ Visa เป็น intact และไม่เปลี่ยนน้ำหนักพอร์ต Microsoft, S&P Global, Alphabet, AutoZone และ Copart ไม่มีหลักฐานใหม่ที่เปลี่ยนคุณภาพธุรกิจ moat, capital allocation, คุณภาพการเติบโต, thesis status, ความมั่นใจ, น้ำหนักพอร์ต, kill condition หรือ opportunity cost. จุดพิสูจน์ใกล้สุดยังเป็น distribution ของ Mobility Global วันที่ 1 ก.ค. ไม่มีการเพิ่ม Weekly Journal หรือ Performance Log.",
     },
     watchlistUpdates: {
       AZO: {
@@ -118,15 +118,15 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-30 09:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
+      "มีการปรับพอร์ตไหม": "ไม่มี หลังสแกน 2026-06-30 10:30 ET Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม.",
       "คำถามหลัก":
-        "S&P Global จะปิด distribution ของ Mobility Global ได้สะอาดหรือไม่, Microsoft กับ Alphabet จะเปลี่ยน AI infrastructure spending เป็นมูลค่าต่อหุ้นที่ทนทานได้หรือไม่, Visa จะจัดการ litigation/capital-structure mechanics โดยไม่รบกวน network compounding ได้หรือไม่ และการเปลี่ยน CEO ของ Copart จะรักษาคุณภาพธุรกิจที่ทำให้น่าตามต่อได้หรือเปล่า?",
+        "Visa จะเปลี่ยน AI, tokenization และ stablecoin settlement เป็น economics ของธุรกรรมที่ทนทานได้หรือไม่, S&P Global จะปิด Mobility Global ได้สะอาดหรือไม่, Microsoft กับ Alphabet จะเปลี่ยน AI infrastructure spending เป็นมูลค่าต่อหุ้นได้หรือไม่ และการเปลี่ยน CEO ของ Copart จะรักษาคุณภาพการดำเนินงานได้แค่ไหน?",
     },
     nextFocus: [
       "ตาม distribution ของ Mobility Global วันที่ 1 ก.ค. และการเปลี่ยนจาก MBGL WI เป็น regular-way MBGL.",
+      "ตามหลักฐาน Visa วันที่ 30 มิ.ย. เรื่อง AI, token และ stablecoin ว่าจะมี economics จริงผ่าน transaction volume, issuer/acquirer adoption, merchant acceptance, cross-border volume, settlement economics และ risk controls หรือไม่.",
       "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของ AI infrastructure, dilution, เงื่อนไข financing, governance, การรักษา talent และความแข็งแรงของ Search ก่อนเปลี่ยน conviction.",
       "ตาม Microsoft เรื่อง execution ของ AI infrastructure, adoption ของ Copilot ในองค์กร, reliability ของ GitHub/Copilot, การยอมรับราคาใหม่, trust ด้าน security/disclosure, การใช้ทรัพยากร และผลตอบแทนต่อหุ้นจาก AI.",
-      "ตาม Visa ทั้งเรื่อง litigation escrow/Class B-C mechanics ในฐานะ capital-structure hygiene และ Visa Destinations ในฐานะตัวเลือกการเติบโตที่ต้องพิสูจน์ economics.",
       "เก็บการเปลี่ยน CEO ของ Copart ไว้ใน checklist: ความต่อเนื่องของ execution, การรักษาลูกค้า, วินัยดำเนินงาน และการกลับมาของ Jay Adair เป็นแรงประคองหรือเป็นสัญญาณของปัญหาลึก.",
       "ไม่เอารอบสแกนระหว่างวันไปปนใน Performance Log รายสัปดาห์; benchmark จะอัปเดตเฉพาะรอบ weekly review.",
     ],
