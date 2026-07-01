@@ -54,6 +54,7 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
+      "Last re-underwrite": "Q2 2026, completed 2026-07-01 09:12 ICT / 2026-06-30 22:12 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
         "Can Alphabet prove durable per-share AI returns, can S&P Global complete Mobility Global cleanly after this pre-distribution checkpoint, and can Microsoft/Visa turn AI-related product evidence into measurable economics?",
@@ -79,28 +80,54 @@ export const latestScan = {
           "Microsoft ยังเป็น hold / intact / high confidence. FY26 Q3 ยืนยันว่า cloud และ Azure ยังมี demand แข็งแรง ส่วน SKU Microsoft 365 Business with Copilot ที่จะเป็นถาวรวันที่ 1 ก.ค. ทำให้ภาพ monetization ในกลุ่ม SMB ชัดขึ้น แต่ยังต้องพิสูจน์ว่า AI capex, reliability, พลังงาน, น้ำ และ capacity จะกลับมาเป็นผลตอบแทนต่อหุ้นที่ทนทาน จึงยังไม่เพิ่มน้ำหนัก.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability หรือ disclosure ซ้ำจน trust เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
+        assumptions: [
+          "ลูกค้าองค์กรยังใช้ cloud และ Microsoft 365 ต่อเนื่อง.",
+          "AI ต้องช่วยเพิ่มมูลค่าของ Microsoft 365 และ Azure ไม่ใช่เพิ่มแต่ต้นทุนโครงสร้างพื้นฐาน.",
+          "workflow ของ Microsoft ยังฝังลึกพอให้ลูกค้าย้ายออกยาก.",
+          "การจัดการพลังงาน น้ำ reliability และดาต้าเซ็นเตอร์ต้องไม่ทำให้ผลตอบแทนต่อหุ้นเสียหาย.",
+        ],
       },
       V: {
         thesis:
           "Visa ยังเป็น hold / intact / high confidence. ตัวเลข fiscal Q2 ทั้ง payment volume, cross-border และ transaction growth ยังรองรับ thesis เครือข่ายชำระเงินได้ดี หลักฐานเดือนมิ.ย. เรื่อง AI, tokenization และ stablecoin ช่วยย้ำว่า Visa ยังเกี่ยวข้องกับ commerce รุ่นใหม่ แต่ต้องเห็น economics ต่อธุรกรรม, settlement economics, adoption จาก issuer/acquirer และ risk controls ก่อนค่อยคิดเรื่องเพิ่มน้ำหนัก.",
         killCondition:
           "ทบทวนหนักถ้าเครือข่ายถูก disintermediate แบบถาวร กฎระเบียบทำลาย economics ของธุรกรรม บริษัทเสียความเกี่ยวข้องกับ payment flows หรือ capital allocation ไม่ช่วยปกป้องผู้ถือ Class A ในระยะยาว.",
+        assumptions: [
+          "การชำระเงินดิจิทัลยังโตต่อทั่วโลก.",
+          "Visa ยังมีบทบาทใน AI commerce, tokenized payment และ programmable money.",
+          "แรงกดดันด้านกฎระเบียบและคดีความยังไม่ทำลาย economics ของเครือข่ายถาวร.",
+        ],
       },
       SPGI: {
         thesis:
           "S&P Global ยังเป็น hold / strengthening / high confidence. ผล Q1 และแผนแยก Mobility Global ยังหนุน thesis เรื่องธุรกิจที่โฟกัสขึ้น แต่รอบนี้เกิดก่อนเวลา distribution ที่คาดไว้ 12:01 a.m. New York วันที่ 1 ก.ค. ดังนั้น execution ยังเป็นจุดพิสูจน์ที่ใกล้ที่สุด ไม่ใช่เรื่องที่เสร็จแล้ว.",
         killCondition:
           "ทบทวนหนักถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility ทำให้ economics, leverage, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
+        assumptions: [
+          "ลูกค้ายังพึ่งพา ratings, indices, benchmarks และข้อมูลของ S&P Global.",
+          "การแยก Mobility Global ต้องไม่ทำให้ฐานกำไรหลักหรือวินัยจัดสรรทุนเสียหาย.",
+          "ธุรกิจข้อมูลรายได้ประจำยังโตได้พร้อม margin ที่ดี.",
+        ],
       },
       GOOGL: {
         thesis:
           "Alphabet ยังเป็น hold / under review / medium confidence. ผล Q1 ของ Search และ Cloud ยังพอให้ถือได้ แต่ยังไม่มีหลักฐานทางการใหม่ที่ตอบคำถามเรื่องผลตอบแทนจาก AI infrastructure, dilution, governance, capital intensity, talent depth หรือ per-share compounding ได้ชัดพอ น้ำหนักจึงยังเล็กกว่า Microsoft, Visa และ S&P Global.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
+        assumptions: [
+          "Search และ YouTube ยังรักษาความแข็งแรงได้แม้พฤติกรรมค้นหาผ่าน AI เพิ่มขึ้น.",
+          "Cloud ต้องโตพร้อมคุณภาพกำไร ไม่ใช่โตเพราะใช้เงินลงทุนมากขึ้นอย่างเดียว.",
+          "AI capex, financing และ dilution ต้องไม่ลด per-share compounding จน thesis เปลี่ยน.",
+        ],
       },
       USD: {
         thesis:
           "เงินสดยังเป็น hold / intact / high confidence. จากราคาหุ้นล่าสุด เงินสดอยู่ราว 20.6% ของพอร์ต ยังต่ำกว่าเพดานปกติ 40% และยังมีเหตุผล เพราะ AutoZone กับ Copart ยังไม่ชนะทั้งหุ้นที่ถืออยู่และความยืดหยุ่นของเงินสดได้ชัดเจน.",
+        assumptions: [
+          "ไม่ต้องซื้อเพิ่มถ้าหลักฐานยังไม่ถึงเกณฑ์.",
+          "ไอเดียใหม่ต้องดีกว่าเงินสดและหุ้นที่ถืออยู่.",
+          "เงินสดยังอยู่ในกรอบ mandate และช่วยลดการตัดสินใจแบบฝืน ๆ.",
+        ],
       },
     },
     decision: {
@@ -122,6 +149,7 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
+      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จเมื่อ 2026-07-01 09:12 น. เวลาไทย / 2026-06-30 22:12 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
         "Alphabet จะพิสูจน์ผลตอบแทนต่อหุ้นจาก AI ได้ไหม, S&P Global จะปิด Mobility Global ได้สะอาดหลังเช็กพอยต์ก่อน distribution นี้หรือไม่ และ Microsoft/Visa จะเปลี่ยนหลักฐานด้าน AI ให้เป็น economics จริงได้แค่ไหน?",
