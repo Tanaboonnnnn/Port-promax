@@ -1,14 +1,14 @@
 export const latestScan = {
   en: {
-    asOf: "2026-07-01 14:30 ET intraday market-hours scan; latest complete weekly benchmark record remains Week of 2026-06-22",
+    asOf: "2026-07-01 15:30 ET intraday market-hours scan; latest complete weekly benchmark record remains Week of 2026-06-22",
     processQuality:
-      "Good: the scan started from the written theses, checked official company and investor-relations sources first, treated S&P Global post-spin execution evidence as business-relevant, treated Microsoft Copilot promotional pricing as adoption-friction context rather than durable economics proof, and left the weekly-only Performance Log untouched.",
+      "Good: the scan started from the written theses, checked official company and investor-relations sources first, treated S&P Global post-spin execution evidence as business-relevant, carried forward Copart's CEO-call checkpoint as watchlist evidence, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
-      "Intraday price movement was ignored. Fresh checks after 13:30 ET found no additional official tracked-company evidence that changed exposure. S&P Global's completed Mobility Global separation remains today's main owned-position thesis update; Microsoft's Copilot Business add-on discount remains a monetization/adoption monitor, not a sizing trigger. No position size, thesis status, confidence level, or kill condition changed.",
+      "Intraday price movement was ignored. Fresh checks after 14:30 ET found no additional official tracked-company evidence that changed exposure. S&P Global's completed Mobility Global separation remains today's main owned-position thesis update; Copart's July 6 incoming-CEO call remains a watchlist checkpoint, not a buy signal. No position size, thesis status, confidence level, or kill condition changed.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains hold / intact / high confidence. Fresh checks after 13:30 ET did not add exposure-changing evidence. The official Microsoft 365 Copilot pricing page still shows a Copilot Business add-on discount window from July 1 through September 30, 2026 for eligible Business-plan customers, with first-year promotional pricing and annual commitment terms. This may reduce SMB adoption friction and supports the Copilot monetization monitor, but it does not yet prove durable paid adoption, renewal quality, retention, margin contribution, reliability, or per-share AI returns.",
+          "Microsoft remains hold / intact / high confidence. Fresh checks after 14:30 ET did not add exposure-changing evidence. The official Microsoft 365 Copilot pricing page still shows a Copilot Business add-on discount window from July 1 through September 30, 2026 for eligible Business-plan customers, with first-year promotional pricing and annual commitment terms. This may reduce SMB adoption friction and supports the Copilot monetization monitor, but it does not yet prove durable paid adoption, renewal quality, retention, margin contribution, reliability, or per-share AI returns.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, or disclosure failures impair trust, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
@@ -36,12 +36,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-01 14:30 ET",
+      date: "2026-07-01 15:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh checks after 13:30 ET found no additional official tracked-company evidence that changed business quality, moat durability, thesis status, confidence, sizing, kill conditions, or opportunity cost. S&P Global's same-day Mobility Global separation remains the material owned-position item: completed separation, distribution to eligible SPGI holders, and MBGL regular-way NYSE trading. This strengthens the SPGI execution read but is not a sizing trigger before post-spin settlement, recast financials, retained-business economics, leverage, and capital allocation are verified. Microsoft Copilot Business promotional pricing remains an adoption-friction monitor rather than proof of durable AI economics. Copart's July 6 investor call with incoming CEO Jay Adair remains a watchlist checkpoint, not evidence that Copart outranks cash or current holdings. No Weekly Journal or Performance Log row was created because this was an intraday scan.",
+        "Do nothing. Fresh checks after 14:30 ET found no additional official tracked-company evidence that changed business quality, moat durability, thesis status, confidence, sizing, kill conditions, or opportunity cost. S&P Global's same-day Mobility Global separation remains the material owned-position item: completed separation, distribution to eligible SPGI holders, and MBGL regular-way NYSE trading. This strengthens the SPGI execution read but is not a sizing trigger before post-spin settlement, recast financials, retained-business economics, leverage, and capital allocation are verified. Copart's July 6 investor call with incoming CEO Jay Adair remains a watchlist checkpoint, not evidence that Copart outranks cash or current holdings. Microsoft Copilot Business promotional pricing remains an adoption-friction monitor rather than proof of durable AI economics, and Visa's AI/token/stablecoin items remain strategically constructive but economically unproven. No Weekly Journal or Performance Log row was created because this was an intraday scan.",
     },
     watchlistUpdates: {
       AZO: {
@@ -54,7 +54,7 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan completed 2026-07-01 14:30 ET",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan completed 2026-07-01 15:30 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
         "Can S&P Global prove clean post-spin economics after the Mobility Global separation, can Alphabet prove durable per-share AI returns, and can Microsoft/Visa turn AI-related product evidence into measurable economics?",
@@ -70,15 +70,15 @@ export const latestScan = {
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-01 14:30 ET; ข้อมูล benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-01 15:30 ET; ข้อมูล benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
-      "ดี: รอบนี้เริ่มจาก thesis เดิม ตรวจแหล่งทางการของบริษัทและ investor relations ก่อน มอง post-spin ของ S&P Global เป็นหลักฐานด้าน execution ที่เกี่ยวกับธุรกิจจริง และมองโปรโมชันราคา Copilot ของ Microsoft เป็นข้อมูลติดตามเรื่องแรงเสียดทานในการขาย ไม่ใช่หลักฐานเศรษฐศาสตร์ระยะยาว จึงไม่แตะ Performance Log เพราะยังไม่ใช่รอบ weekly review.",
+      "ดี: รอบนี้เริ่มจาก thesis เดิม ตรวจแหล่งทางการของบริษัทและ investor relations ก่อน มอง post-spin ของ S&P Global เป็นหลักฐานด้าน execution ที่เกี่ยวกับธุรกิจจริง เก็บ call ของ Copart กับ CEO คนใหม่ไว้เป็น checkpoint ของ watchlist และไม่แตะ Performance Log เพราะยังไม่ใช่รอบ weekly review.",
     outcomeQuality:
-      "ไม่ใช้ราคาผันผวนระหว่างวันเป็นเหตุผลตัดสินใจ หลัง 13:30 ET ไม่พบข้อมูลทางการใหม่ของบริษัทที่ติดตามซึ่งควรเปลี่ยนน้ำหนักพอร์ต ประเด็นหลักของหุ้นที่ถืออยู่วันนี้ยังเป็นการแยก Mobility Global ของ S&P Global ที่เสร็จแล้ว ส่วนส่วนลด Copilot Business add-on ของ Microsoft ยังเป็น monitor ด้าน monetization และ adoption ไม่ใช่เหตุผลเพิ่มน้ำหนัก วันนี้ไม่มีการเปลี่ยนน้ำหนัก thesis status, confidence หรือ kill condition.",
+      "ไม่ใช้ราคาผันผวนระหว่างวันเป็นเหตุผลตัดสินใจ หลัง 14:30 ET ไม่พบข้อมูลทางการใหม่ของบริษัทที่ติดตามซึ่งควรเปลี่ยนน้ำหนักพอร์ต ประเด็นหลักของหุ้นที่ถืออยู่วันนี้ยังเป็นการแยก Mobility Global ของ S&P Global ที่เสร็จแล้ว ส่วน call วันที่ 6 ก.ค. ของ Copart ยังเป็น checkpoint ของ watchlist ไม่ใช่สัญญาณซื้อ วันนี้ไม่มีการเปลี่ยนน้ำหนัก thesis status, confidence หรือ kill condition.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น hold / intact / high confidence. หลัง 13:30 ET ไม่พบหลักฐานใหม่ที่ควรเปลี่ยนน้ำหนักพอร์ต หน้า pricing ทางการของ Microsoft 365 Copilot ยังระบุว่า Copilot Business add-on มีช่วงส่วนลดตั้งแต่ 1 ก.ค. ถึง 30 ก.ย. 2026 สำหรับลูกค้า Business plan ที่เข้าเกณฑ์ โดยเป็นโปรโมชันปีแรกและต้องมี annual commitment เรื่องนี้อาจช่วยลดแรงต้านในการเริ่มใช้ของกลุ่ม SMB และสนับสนุน monitor เรื่อง monetization ของ Copilot แต่ยังไม่พิสูจน์ paid adoption ที่ทน, คุณภาพ renewal, retention, margin contribution, reliability หรือผลตอบแทนต่อหุ้นจาก AI.",
+          "Microsoft ยังเป็น hold / intact / high confidence. หลัง 14:30 ET ไม่พบหลักฐานใหม่ที่ควรเปลี่ยนน้ำหนักพอร์ต หน้า pricing ทางการของ Microsoft 365 Copilot ยังระบุว่า Copilot Business add-on มีช่วงส่วนลดตั้งแต่ 1 ก.ค. ถึง 30 ก.ย. 2026 สำหรับลูกค้า Business plan ที่เข้าเกณฑ์ โดยเป็นโปรโมชันปีแรกและต้องมี annual commitment เรื่องนี้อาจช่วยลดแรงต้านในการเริ่มใช้ของกลุ่ม SMB และสนับสนุน monitor เรื่อง monetization ของ Copilot แต่ยังไม่พิสูจน์ paid adoption ที่ทน, คุณภาพ renewal, retention, margin contribution, reliability หรือผลตอบแทนต่อหุ้นจาก AI.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability หรือ disclosure ซ้ำจน trust เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
@@ -106,12 +106,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-01 14:30 ET",
+      date: "2026-07-01 15:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างตลาด",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลัง 13:30 ET ไม่พบข้อมูลทางการใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis, confidence, sizing, kill condition หรือ opportunity cost ประเด็นสำคัญของหุ้นที่ถืออยู่วันนี้ยังเป็น S&P Global แยก Mobility Global เสร็จแล้ว ผู้ถือ SPGI ที่เข้าเกณฑ์ได้รับหุ้น และ MBGL เริ่มเทรด regular-way ใน NYSE วันนี้ เรื่องนี้ทำให้มุมมองด้าน execution ของ SPGI แข็งแรงขึ้น แต่ยังไม่ใช่เหตุผลเพิ่มน้ำหนักก่อนตรวจ post-spin settlement, recast financials, economics ของธุรกิจที่เหลือ, leverage และวินัยจัดสรรทุน. ส่วนลด Microsoft Copilot Business ยังเป็น monitor เรื่อง adoption friction ไม่ใช่หลักฐานเศรษฐศาสตร์ AI ที่ทน ฝั่ง Copart การคุยกับ Jay Adair วันที่ 6 ก.ค. ยังเป็น checkpoint ของ watchlist ไม่ใช่หลักฐานว่าหุ้นชนะเงินสดหรือหุ้นที่ถืออยู่แล้ว. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะรอบนี้เป็น intraday scan.",
+        "ไม่ทำอะไร หลัง 14:30 ET ไม่พบข้อมูลทางการใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis, confidence, sizing, kill condition หรือ opportunity cost ประเด็นสำคัญของหุ้นที่ถืออยู่วันนี้ยังเป็น S&P Global แยก Mobility Global เสร็จแล้ว ผู้ถือ SPGI ที่เข้าเกณฑ์ได้รับหุ้น และ MBGL เริ่มเทรด regular-way ใน NYSE วันนี้ เรื่องนี้ทำให้มุมมองด้าน execution ของ SPGI แข็งแรงขึ้น แต่ยังไม่ใช่เหตุผลเพิ่มน้ำหนักก่อนตรวจ post-spin settlement, recast financials, economics ของธุรกิจที่เหลือ, leverage และวินัยจัดสรรทุน. ฝั่ง Copart การคุยกับ Jay Adair วันที่ 6 ก.ค. ยังเป็น checkpoint ของ watchlist ไม่ใช่หลักฐานว่าหุ้นชนะเงินสดหรือหุ้นที่ถืออยู่แล้ว. ส่วนลด Microsoft Copilot Business ยังเป็น monitor เรื่อง adoption friction ไม่ใช่หลักฐานเศรษฐศาสตร์ AI ที่ทน และข้อมูล AI/token/stablecoin ของ Visa ยังเป็นบวกเชิงกลยุทธ์แต่ยังไม่พิสูจน์ economics. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะรอบนี้เป็น intraday scan.",
     },
     watchlistUpdates: {
       AZO: {
@@ -124,7 +124,7 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; สแกน intraday ล่าสุด 2026-07-01 14:30 ET",
+      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; สแกน intraday ล่าสุด 2026-07-01 15:30 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
         "S&P Global หลังแยก Mobility จะพิสูจน์ economics หลัง spin ได้แค่ไหน, Alphabet จะพิสูจน์ผลตอบแทนต่อหุ้นจาก AI ได้หรือไม่ และ Microsoft/Visa จะเปลี่ยนหลักฐานด้าน AI ให้เป็น economics จริงได้เมื่อไร?",
