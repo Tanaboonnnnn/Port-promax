@@ -1,32 +1,32 @@
 export const latestScan = {
   en: {
-    asOf: "2026-07-02 12:30 ET intraday market-hours scan; latest complete weekly benchmark record remains Week of 2026-06-22",
+    asOf: "2026-07-02 13:30 ET intraday market-hours scan; latest complete weekly benchmark record remains Week of 2026-06-22",
     processQuality:
       "Good: the scan started from the written theses, prioritized official company, investor-relations, regulator/court, and filing-style sources, separated business evidence from price noise, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
-      "Intraday price movement was ignored. Fresh checks after the 2026-07-02 11:30 ET checkpoint found no additional tracked-company release, filing, earnings item, management commentary, regulator/court item, or market development that changed business quality, moat durability, thesis status, confidence, position size, kill conditions, or opportunity cost. The two material items from earlier today still matter: Alphabet/Google's final EU Android antitrust appeal loss keeps the regulatory-distribution risk monitor active, and S&P Global's formal Mobility Global separation 8-K keeps the post-spin verification work active. No trade was justified.",
+      "Intraday price movement was ignored. Fresh checks after the 2026-07-02 12:30 ET checkpoint found no additional tracked-company release, filing, earnings item, management commentary, regulator/court item, or market development that changed business quality, moat durability, thesis status, confidence, position size, kill conditions, or opportunity cost. The material items from earlier today still matter: Alphabet/Google's final EU Android antitrust appeal loss keeps the regulatory-distribution risk monitor active, and S&P Global's completed Mobility Global separation plus formal 8-K mechanics keep the post-spin verification work active. No trade was justified.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains hold / intact / high confidence. Fresh checks after 11:30 ET found no new Microsoft evidence that changed the thesis. Microsoft 365 pricing and Copilot packaging still support the pricing-power and AI-monetization monitor, while Italy's competition authority investigation into Microsoft 365 price-increase communication and Copilot/Designer integration remains a customer-trust and regulatory-friction monitor. This is not a thesis break, but the burden of proof stays on transparent AI monetization, reliability, trusted renewals, and per-share returns.",
+          "Microsoft remains hold / intact / high confidence. Fresh checks after 12:30 ET found no new Microsoft evidence that changed the thesis. Microsoft 365 pricing and Copilot packaging still support the pricing-power and AI-monetization monitor, while Italy's competition authority investigation into Microsoft 365 price-increase communication and Copilot/Designer integration remains a customer-trust and regulatory-friction monitor. This is not a thesis break, but the burden of proof stays on transparent AI monetization, reliability, trusted renewals, and per-share returns.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
       V: {
         thesis:
-          "Visa remains hold / intact / high confidence. Fresh checks after 11:30 ET found no new official evidence that changed Visa's network thesis, digital-commerce monitor, capital allocation, or kill condition. The latest AI, token, stablecoin, Destinations, and capital-structure items remain useful network-relevance monitors, but none proves incremental transaction economics, settlement economics, margin contribution, or durable issuer/merchant adoption.",
+          "Visa remains hold / intact / high confidence. Fresh checks after 12:30 ET found no new official evidence that changed Visa's network thesis, digital-commerce monitor, capital allocation, or kill condition. The latest AI, token, stablecoin, Destinations, and capital-structure items remain useful network-relevance monitors, but none proves incremental transaction economics, settlement economics, margin contribution, or durable issuer/merchant adoption.",
         killCondition:
           "Structural network disintermediation, adverse regulation that permanently damages transaction economics, loss of payment-flow relevance, or capital allocation that no longer protects long-term Class A holders.",
       },
       SPGI: {
         thesis:
-          "S&P Global remains hold / strengthening / high confidence. Fresh checks after 11:30 ET found no additional SPGI evidence beyond the formal Mobility Global separation detail already logged today. The completed separation still strengthens the execution read, but it is not an add signal before post-spin settlement, recast financials expected July 6, retained-business economics, liability and tax allocation, transition-service dependence, leverage, and capital allocation are verified.",
+          "S&P Global remains hold / strengthening / high confidence. Fresh checks after 12:30 ET found no additional SPGI evidence beyond the Mobility Global separation details already logged today. The completed separation strengthens the execution read, but it is not an add signal before post-spin settlement, recast financials expected July 6, retained-business economics, liability and tax allocation, transition-service dependence, leverage, and capital allocation are verified.",
         killCondition:
           "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility Global separation damages focus, economics, leverage, tax treatment, transition execution, or capital allocation discipline.",
       },
       GOOGL: {
         thesis:
-          "Alphabet remains hold / under review / medium confidence. Fresh checks after 11:30 ET found no new Alphabet evidence beyond the EU Android appeal loss already logged today. The Court of Justice of the European Union dismissed Google and Alphabet's final appeal in the Android antitrust case, leaving the roughly EUR4.1B penalty in place. This is not a standalone kill-condition event because the case is old, Google says it adapted agreements after the original decision, and the cash cost does not appear to impair balance-sheet durability. It does keep the regulatory-distribution risk around Search, Chrome, Android, app-store practices, and default access near the top of the monitor list.",
+          "Alphabet remains hold / under review / medium confidence. Fresh checks after 12:30 ET found no new Alphabet evidence beyond the EU Android appeal loss already logged today. The Court of Justice of the European Union dismissed Google and Alphabet's final appeal in the Android antitrust case, leaving the roughly EUR4.1B penalty in place. This is not a standalone kill-condition event because the case is old, Google says it adapted agreements after the original decision, and the cash cost does not appear to impair balance-sheet durability. It does keep regulatory-distribution risk around Search, Chrome, Android, app-store practices, and default access near the top of the monitor list.",
         killCondition:
           "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
       },
@@ -36,25 +36,25 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-02 12:30 ET",
+      date: "2026-07-02 13:30 ET",
       action: "do nothing",
       subject: "Intraday market-hours scan",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh checks after the 2026-07-02 11:30 ET checkpoint found no additional tracked-company evidence that changed business quality, moat durability, thesis status, confidence, sizing, kill conditions, or opportunity cost enough to act. Alphabet remains under review after the final EU Android appeal loss, and S&P Global remains strengthening but still requires post-spin verification. Microsoft and Visa remain intact/high holds. AutoZone and Copart remain watchlist/do-nothing, with Copart's July 6 incoming-CEO call still the next management-continuity checkpoint. No Weekly Journal or Performance Log row was created because this was an intraday scan.",
+        "Do nothing. Fresh checks after the 2026-07-02 12:30 ET checkpoint found no additional tracked-company evidence that changed business quality, moat durability, thesis status, confidence, sizing, kill conditions, or opportunity cost enough to act. Alphabet remains under review after the final EU Android appeal loss, and S&P Global remains strengthening but still requires post-spin verification. Microsoft and Visa remain intact/high holds. AutoZone and Copart remain watchlist/do-nothing, with Copart's July 6 incoming-CEO call still the next management-continuity checkpoint. No Weekly Journal or Performance Log row was created because this was an intraday scan.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "AutoZone remains watchlist/do nothing. Fresh checks after 11:30 ET found no new AutoZone evidence. The June 16 $1.5B buyback authorization and fiscal Q3 improvement remain relevant, but they still do not clearly beat cash or the funded holdings. Nick still needs sustained growth, commercial-profitability proof, durable free cash flow, and valuation support.",
+          "AutoZone remains watchlist/do nothing. Fresh checks after 12:30 ET found no new AutoZone evidence. The June 16 $1.5B buyback authorization and fiscal Q3 improvement remain relevant, but they still do not clearly beat cash or the funded holdings. Nick still needs sustained growth, commercial-profitability proof, durable free cash flow, and valuation support.",
       },
       CPRT: {
         whyNotYet:
-          "Copart remains watchlist/do nothing. Fresh checks after 11:30 ET found no new Copart evidence. The CEO transition still needs proof. The July 6 call with incoming CEO Jay Adair is the next checkpoint for leadership priorities, culture, customer relationships, and capital allocation. It is not a buy signal today.",
+          "Copart remains watchlist/do nothing. Fresh checks after 12:30 ET found no new Copart evidence. The CEO transition still needs proof. The July 6 call with incoming CEO Jay Adair is the next checkpoint for leadership priorities, culture, customer relationships, and capital allocation. It is not a buy signal today.",
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan completed 2026-07-02 12:30 ET",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan completed 2026-07-02 13:30 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
         "Can S&P Global prove clean post-spin economics, can Alphabet defend distribution power while proving durable per-share AI returns, and can Microsoft turn AI packaging and pricing into trusted renewal economics?",
@@ -71,33 +71,33 @@ export const latestScan = {
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-02 12:30 ET; ข้อมูล benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-02 13:30 ET; ข้อมูล benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
       "ดี: รอบนี้เริ่มจาก thesis เดิม ตรวจแหล่งทางการของบริษัท investor relations หน่วยงานกำกับ/ศาล และข้อมูลลักษณะ filing ก่อน แยกหลักฐานทางธุรกิจออกจากราคาผันผวนระหว่างวัน และไม่แตะ Performance Log เพราะยังไม่ใช่รอบ weekly review.",
     outcomeQuality:
-      "ไม่ใช้ราคาหุ้นระหว่างวันเป็นเหตุผลตัดสินใจ หลัง checkpoint 2026-07-02 11:30 ET ยังไม่พบ release, filing, earnings, management commentary, regulator/court item หรือพัฒนาการตลาดของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis status, confidence, ขนาดสถานะ, kill condition หรือ opportunity cost. สองประเด็นสำคัญจากช่วงเช้ายังต้องติดตามต่อ: Alphabet/Google แพ้อุทธรณ์คดี Android antitrust ขั้นสุดท้ายในยุโรป ทำให้ความเสี่ยงด้าน regulatory-distribution ยังเด่นอยู่ และ 8-K การแยก Mobility Global ของ S&P Global ยังทำให้ต้องตรวจ post-spin ต่อ. ไม่มีเหตุผลให้ซื้อขาย.",
+      "ไม่ใช้ราคาหุ้นระหว่างวันเป็นเหตุผลตัดสินใจ หลัง checkpoint 2026-07-02 12:30 ET ยังไม่พบ release, filing, earnings, management commentary, regulator/court item หรือพัฒนาการตลาดของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis status, confidence, ขนาดสถานะ, kill condition หรือ opportunity cost. ประเด็นสำคัญจากช่วงเช้ายังต้องติดตามต่อ: Alphabet/Google แพ้อุทธรณ์คดี Android antitrust ขั้นสุดท้ายในยุโรป ทำให้ความเสี่ยงด้าน regulatory-distribution ยังเด่นอยู่ และการแยก Mobility Global ของ S&P Global ที่เสร็จแล้วพร้อมรายละเอียด 8-K ยังทำให้ต้องตรวจ post-spin ต่อ. ไม่มีเหตุผลให้ซื้อขาย.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น hold / intact / high confidence. หลัง 11:30 ET ยังไม่พบหลักฐานใหม่ของ Microsoft ที่เปลี่ยน thesis ราคา Microsoft 365 กับการจัดแพ็กเกจ Copilot ยังช่วยติดตาม pricing power และ AI monetization แต่การสอบของหน่วยงานแข่งขันทางการค้าอิตาลีเรื่องการสื่อสารการขึ้นราคา Microsoft 365 และการรวม Copilot/Designer ยังเป็น monitor ด้านความไว้วางใจของลูกค้าและ friction จากกฎระเบียบ เรื่องนี้ยังไม่ใช่ thesis break แต่ Microsoft ต้องพิสูจน์ต่อว่า monetization ของ AI โปร่งใส เชื่อถือได้ ต่ออายุได้จริง และสร้างผลตอบแทนต่อหุ้นได้.",
+          "Microsoft ยังเป็น hold / intact / high confidence. หลัง 12:30 ET ยังไม่พบหลักฐานใหม่ของ Microsoft ที่เปลี่ยน thesis ราคา Microsoft 365 กับการจัดแพ็กเกจ Copilot ยังช่วยติดตาม pricing power และ AI monetization แต่การสอบของหน่วยงานแข่งขันทางการค้าอิตาลีเรื่องการสื่อสารการขึ้นราคา Microsoft 365 และการรวม Copilot/Designer ยังเป็น monitor ด้านความไว้วางใจของลูกค้าและ friction จากกฎระเบียบ เรื่องนี้ยังไม่ใช่ thesis break แต่ Microsoft ต้องพิสูจน์ต่อว่า monetization ของ AI โปร่งใส เชื่อถือได้ ต่ออายุได้จริง และสร้างผลตอบแทนต่อหุ้นได้.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure หรือ customer trust ซ้ำจน adoption เสีย, capex กับภาระด้านพลังงาน/ทรัพยากรไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
       V: {
         thesis:
-          "Visa ยังเป็น hold / intact / high confidence. หลัง 11:30 ET ยังไม่พบข้อมูลทางการใหม่ที่เปลี่ยน network thesis, digital-commerce monitor, capital allocation หรือ kill condition. หลักฐานล่าสุดเรื่อง AI, token, stablecoin, Destinations และโครงสร้างทุนยังใช้ติดตามความเกี่ยวข้องของ network ได้ แต่ยังไม่พิสูจน์ transaction economics, settlement economics, margin contribution หรือ adoption ที่ทนจาก issuer และ merchant.",
+          "Visa ยังเป็น hold / intact / high confidence. หลัง 12:30 ET ยังไม่พบข้อมูลทางการใหม่ที่เปลี่ยน network thesis, digital-commerce monitor, capital allocation หรือ kill condition. หลักฐานล่าสุดเรื่อง AI, token, stablecoin, Destinations และโครงสร้างทุนยังใช้ติดตามความเกี่ยวข้องของ network ได้ แต่ยังไม่พิสูจน์ transaction economics, settlement economics, margin contribution หรือ adoption ที่ทนจาก issuer และ merchant.",
         killCondition:
           "ทบทวนหนักถ้าเครือข่ายถูก disintermediate แบบถาวร กฎระเบียบทำลาย economics ของธุรกรรม บริษัทเสียความเกี่ยวข้องกับ payment flows หรือ capital allocation ไม่ช่วยปกป้องผู้ถือ Class A ในระยะยาว.",
       },
       SPGI: {
         thesis:
-          "S&P Global ยังเป็น hold / strengthening / high confidence. หลัง 11:30 ET ยังไม่พบข้อมูลใหม่ของ SPGI เพิ่มจากรายละเอียดการแยก Mobility Global ที่บันทึกไปแล้ววันนี้ การแยกที่เสร็จแล้วช่วยให้ execution read ดีขึ้น แต่ยังไม่ใช่สัญญาณเพิ่มน้ำหนัก จนกว่าจะตรวจ post-spin settlement, recast financials ที่คาดวันที่ 6 ก.ค., economics ของธุรกิจที่เหลือ, การแบ่งภาระภาษีและหนี้สิน, การพึ่งพา transition services, leverage และวินัยจัดสรรทุน.",
+          "S&P Global ยังเป็น hold / strengthening / high confidence. หลัง 12:30 ET ยังไม่พบข้อมูลใหม่ของ SPGI เพิ่มจากรายละเอียด Mobility Global ที่บันทึกไปแล้ววันนี้ การแยกที่เสร็จแล้วช่วยให้ execution read ดีขึ้น แต่ยังไม่ใช่สัญญาณเพิ่มน้ำหนัก จนกว่าจะตรวจ post-spin settlement, recast financials ที่คาดวันที่ 6 ก.ค., economics ของธุรกิจที่เหลือ, การแบ่งภาระภาษีและหนี้สิน, การพึ่งพา transition services, leverage และวินัยจัดสรรทุน.",
         killCondition:
           "ทบทวนหนักถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility Global ทำให้ economics, leverage, tax treatment, transition execution, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
       },
       GOOGL: {
         thesis:
-          "Alphabet ยังเป็น hold / under review / medium confidence. หลัง 11:30 ET ยังไม่พบหลักฐานใหม่ของ Alphabet เพิ่มจากคดี Android ที่บันทึกไปแล้ววันนี้ ศาลยุติธรรมสหภาพยุโรปยกอุทธรณ์ขั้นสุดท้ายของ Google และ Alphabet ในคดี Android antitrust ทำให้ค่าปรับราว EUR4.1B ยังอยู่ เรื่องนี้ยังไม่ใช่ kill condition เดี่ยว ๆ เพราะเป็นคดีเก่า Google ระบุว่าได้ปรับข้อตกลงตั้งแต่คำตัดสินแรก และต้นทุนเงินสดไม่น่าทำให้ balance sheet เสียหาย แต่ความเสี่ยงด้านกฎระเบียบและ distribution ของ Search, Chrome, Android, app-store practices และ default access ต้องอยู่ใกล้หัวรายการ monitor ต่อไป.",
+          "Alphabet ยังเป็น hold / under review / medium confidence. หลัง 12:30 ET ยังไม่พบหลักฐานใหม่ของ Alphabet เพิ่มจากคดี Android ที่บันทึกไปแล้ววันนี้ ศาลยุติธรรมสหภาพยุโรปยกอุทธรณ์ขั้นสุดท้ายของ Google และ Alphabet ในคดี Android antitrust ทำให้ค่าปรับราว EUR4.1B ยังอยู่ เรื่องนี้ยังไม่ใช่ kill condition เดี่ยว ๆ เพราะเป็นคดีเก่า Google ระบุว่าได้ปรับข้อตกลงตั้งแต่คำตัดสินแรก และต้นทุนเงินสดไม่น่าทำให้ balance sheet เสียหาย แต่ความเสี่ยงด้านกฎระเบียบและ distribution ของ Search, Chrome, Android, app-store practices และ default access ต้องอยู่ใกล้หัวรายการ monitor ต่อไป.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
       },
@@ -107,25 +107,25 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-02 12:30 ET",
+      date: "2026-07-02 13:30 ET",
       action: "do nothing",
       subject: "สแกนระหว่างตลาด",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลัง checkpoint 2026-07-02 11:30 ET ยังไม่พบหลักฐานใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis status, confidence, sizing, kill condition หรือ opportunity cost พอให้ปรับพอร์ต Alphabet ยัง under review หลังแพ้อุทธรณ์คดี Android ขั้นสุดท้ายในยุโรป ส่วน S&P Global ยัง strengthening แต่ต้องรอตรวจ post-spin ต่อ. Microsoft กับ Visa ยังเป็น hold / intact / high confidence. AutoZone กับ Copart ยังเป็น watchlist / do nothing และ call วันที่ 6 ก.ค. ของ Copart กับ Jay Adair ยังเป็น checkpoint เรื่อง management continuity ไม่ใช่สัญญาณซื้อ. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะรอบนี้เป็น intraday scan.",
+        "ไม่ทำอะไร หลัง checkpoint 2026-07-02 12:30 ET ยังไม่พบหลักฐานใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยนคุณภาพธุรกิจ moat, thesis status, confidence, sizing, kill condition หรือ opportunity cost พอให้ปรับพอร์ต Alphabet ยัง under review หลังแพ้อุทธรณ์คดี Android ขั้นสุดท้ายในยุโรป ส่วน S&P Global ยัง strengthening แต่ต้องรอตรวจ post-spin ต่อ. Microsoft กับ Visa ยังเป็น hold / intact / high confidence. AutoZone กับ Copart ยังเป็น watchlist / do nothing และ call วันที่ 6 ก.ค. ของ Copart กับ Jay Adair ยังเป็น checkpoint เรื่อง management continuity ไม่ใช่สัญญาณซื้อ. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะรอบนี้เป็น intraday scan.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "AutoZone ยังเป็น watchlist / do nothing. หลัง 11:30 ET ไม่พบหลักฐานใหม่ของ AutoZone วงเงินซื้อคืน $1.5B วันที่ 16 มิ.ย. และ Q3 ที่ดีขึ้นยังมีความหมาย แต่ยังไม่ชนะเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นการเติบโตต่อเนื่อง กำไรฝั่ง commercial ที่ชัด กระแสเงินสดที่ทน และ valuation ที่คุ้มกว่านี้ก่อน.",
+          "AutoZone ยังเป็น watchlist / do nothing. หลัง 12:30 ET ไม่พบหลักฐานใหม่ของ AutoZone วงเงินซื้อคืน $1.5B วันที่ 16 มิ.ย. และ Q3 ที่ดีขึ้นยังมีความหมาย แต่ยังไม่ชนะเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นการเติบโตต่อเนื่อง กำไรฝั่ง commercial ที่ชัด กระแสเงินสดที่ทน และ valuation ที่คุ้มกว่านี้ก่อน.",
       },
       CPRT: {
         whyNotYet:
-          "Copart ยังเป็น watchlist / do nothing. หลัง 11:30 ET ไม่พบหลักฐานใหม่ของ Copart การเปลี่ยน CEO ยังต้องพิสูจน์ต่อ Call วันที่ 6 ก.ค. กับ Jay Adair เป็น checkpoint ถัดไปสำหรับ leadership priorities, culture, customer relationships และวินัยจัดสรรทุน วันนี้ยังไม่ใช่สัญญาณซื้อ.",
+          "Copart ยังเป็น watchlist / do nothing. หลัง 12:30 ET ไม่พบหลักฐานใหม่ของ Copart การเปลี่ยน CEO ยังต้องพิสูจน์ต่อ Call วันที่ 6 ก.ค. กับ Jay Adair เป็น checkpoint ถัดไปสำหรับ leadership priorities, culture, customer relationships และวินัยจัดสรรทุน วันนี้ยังไม่ใช่สัญญาณซื้อ.",
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; สแกน intraday ล่าสุด 2026-07-02 12:30 ET",
+      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; สแกน intraday ล่าสุด 2026-07-02 13:30 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
         "S&P Global หลังแยก Mobility จะพิสูจน์ economics หลัง spin ได้แค่ไหน, Alphabet จะป้องกัน distribution power พร้อมพิสูจน์ผลตอบแทนต่อหุ้นจาก AI ได้หรือไม่ และ Microsoft จะเปลี่ยน packaging กับ pricing ของ AI ให้เป็น renewal economics ที่ลูกค้ายอมรับได้แค่ไหน?",
