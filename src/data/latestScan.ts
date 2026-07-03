@@ -1,17 +1,17 @@
 export const latestScan = {
   en: {
     asOf:
-      "2026-07-03 10:30 ET market-closed checkpoint; U.S. equity markets closed for Independence Day observed; latest complete weekly benchmark record remains Week of 2026-06-22",
+      "2026-07-03 11:30 ET market-closed checkpoint; U.S. equity markets closed for Independence Day observed; latest complete weekly benchmark record remains Week of 2026-06-22",
     processQuality:
       "Good: this run correctly classified the scheduled scan as a market-closed checkpoint, started from the written portfolio record, checked primary market-calendar, filing, investor-relations, regulator/court, and company-source surfaces, separated business evidence from price noise, and left the weekly-only Performance Log untouched.",
     outcomeQuality:
-      "No U.S. regular-session price action exists for this checkpoint. Fresh checks after the 2026-07-03 09:30 ET checkpoint found no additional tracked-company release, filing, earnings item, management commentary, regulator/court item, or market development that changed thesis status, confidence, position size, kill condition, or opportunity cost enough to act. The live monitors remain Microsoft Frontier Company, Alphabet's final EU Android appeal loss, and S&P Global post-spin verification.",
+      "No U.S. regular-session price action exists for this checkpoint. Fresh checks after the 2026-07-03 10:30 ET checkpoint found one new official Microsoft item: Nine Entertainment and Microsoft announced a Copilot content-grounding agreement for Nine mastheads. This is relevant to the AI trust, copyright, attribution, and grounding monitor, but it does not prove durable adoption, renewal quality, margin contribution, or per-share AI returns. No tracked-company evidence changed thesis status, confidence, position size, kill condition, or opportunity cost enough to act. The live monitors remain Microsoft AI economics/trust, Alphabet regulatory-distribution risk, S&P Global post-spin verification, Visa programmable-commerce economics, and Copart's July 6 incoming-CEO call.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft remains hold / intact / high confidence. No new evidence after the 2026-07-03 09:30 ET checkpoint changed the thesis. Microsoft Frontier Company remains constructive enterprise AI execution evidence because the company is committing capital and embedded experts to customer AI deployments tied to measurable outcomes, but it is still a monitor rather than financial proof. Microsoft must still show durable paid adoption, renewal quality, margin contribution, reliability, customer trust, and per-share AI returns.",
+          "Microsoft remains hold / intact / high confidence. The new Microsoft/Nine agreement lets Copilot reference Nine masthead content beyond paywalled previews, use real-time reporting to ground AI outputs, show snippets and summaries, and point users back to the publisher. This modestly supports the trust, attribution, and copyright discipline monitor for Copilot, but it is not a sizing event. Microsoft still needs proof of durable paid adoption, renewal quality, margin contribution, reliability, customer trust, and per-share AI returns. Microsoft Frontier Company also remains constructive enterprise AI execution evidence, but still not financial proof.",
         killCondition:
-          "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
+          "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
       },
       V: {
         thesis:
@@ -21,13 +21,13 @@ export const latestScan = {
       },
       SPGI: {
         thesis:
-          "S&P Global remains hold / strengthening / high confidence. No additional SPGI evidence after the 2026-07-03 09:30 ET checkpoint changed the thesis. The completed Mobility Global separation still strengthens the execution read, but it is not an add signal before post-spin settlement, recast financials expected July 6, retained-business economics, transition-service dependence, leverage, liability/tax allocation, and capital allocation are verified.",
+          "S&P Global remains hold / strengthening / high confidence. No additional SPGI evidence after the 2026-07-03 10:30 ET checkpoint changed the thesis. The completed Mobility Global separation still strengthens the execution read, but it is not an add signal before post-spin settlement, recast financials expected July 6, retained-business economics, transition-service dependence, leverage, liability/tax allocation, and capital allocation are verified.",
         killCondition:
           "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility Global separation damages focus, economics, leverage, tax treatment, transition execution, or capital allocation discipline.",
       },
       GOOGL: {
         thesis:
-          "Alphabet remains hold / under review / medium confidence. No new evidence after the 2026-07-03 09:30 ET checkpoint changed the status. The Court of Justice of the European Union's dismissal of Google and Alphabet's final Android appeal keeps regulatory-distribution risk near the top of the monitor list, especially around Search, Chrome, Android, app-store practices, default access, DMA obligations, and potential follow-on claims. It is not a standalone kill-condition event today.",
+          "Alphabet remains hold / under review / medium confidence. No new Alphabet investor evidence after the 2026-07-03 10:30 ET checkpoint changed the status. The final EU Android appeal loss keeps regulatory-distribution risk near the top of the monitor list, especially around Search, Chrome, Android, app-store practices, default access, DMA obligations, and potential follow-on claims. It is not a standalone kill-condition event today.",
         killCondition:
           "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
       },
@@ -37,32 +37,32 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-03 10:30 ET",
+      date: "2026-07-03 11:30 ET",
       action: "do nothing",
       subject: "Market-closed checkpoint",
       sourceQuality: "high",
       reason:
-        "Do nothing. NYSE and Nasdaq are closed for Independence Day observed, so this is not a regular-session intraday scan. Fresh evidence checks after the 2026-07-03 09:30 ET checkpoint found no new tracked-company development that changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, sizing, kill conditions, or opportunity cost. Microsoft and Visa remain intact/high holds, S&P Global remains strengthening/high, Alphabet remains under review/medium, cash remains valid, and AutoZone/Copart remain watchlist/do-nothing. No Weekly Journal or Performance Log row was created because this was not a weekly review.",
+        "Do nothing. NYSE and Nasdaq are closed for Independence Day observed, so this is not a regular-session intraday scan. Fresh evidence checks after the 2026-07-03 10:30 ET checkpoint found one official Microsoft/Nine Copilot content-grounding item, which is useful for the AI trust and attribution monitor but not enough to change exposure. No tracked-company development changed business quality, moat durability, capital allocation, growth quality, thesis status, confidence, sizing, kill conditions, or opportunity cost. Microsoft and Visa remain intact/high holds, S&P Global remains strengthening/high, Alphabet remains under review/medium, cash remains valid, and AutoZone/Copart remain watchlist/do-nothing. No Weekly Journal or Performance Log row was created because this was not a weekly review.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "AutoZone remains watchlist / do nothing. Fresh checks found no new AutoZone evidence after the 2026-07-03 09:30 ET checkpoint. The June 16 buyback authorization and fiscal Q3 improvement remain relevant, but AutoZone still needs sustained growth, commercial-profitability proof, durable free cash flow, balance-sheet discipline, and valuation support before it can beat cash or the funded holdings.",
+          "AutoZone remains watchlist / do nothing. Fresh checks found no new AutoZone evidence after the 2026-07-03 10:30 ET checkpoint. The June 16 buyback authorization and fiscal Q3 improvement remain relevant, but AutoZone still needs sustained growth, commercial-profitability proof, durable free cash flow, balance-sheet discipline, and valuation support before it can beat cash or the funded holdings.",
       },
       CPRT: {
         whyNotYet:
-          "Copart remains watchlist / do nothing. Fresh checks found no new Copart evidence after the 2026-07-03 09:30 ET checkpoint. The July 6 incoming-CEO call remains the next management-continuity checkpoint for leadership priorities, culture, customer relationships, and capital allocation; it is not a buy signal today.",
+          "Copart remains watchlist / do nothing. Fresh checks found no new Copart evidence after the 2026-07-03 10:30 ET checkpoint. The July 6 incoming-CEO call remains the next management-continuity checkpoint for leadership priorities, culture, customer relationships, and capital allocation; it is not a buy signal today.",
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest checkpoint completed 2026-07-03 10:30 ET while U.S. equity markets were closed",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest checkpoint completed 2026-07-03 11:30 ET while U.S. equity markets were closed",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
-        "Can Microsoft turn embedded AI deployment work into durable per-share economics, can S&P Global prove clean retained-business economics after Mobility Global, and can Alphabet defend distribution power while earning attractive AI returns?",
+        "Can Microsoft turn embedded AI deployment work and trusted Copilot grounding into durable per-share economics, can S&P Global prove clean retained-business economics after Mobility Global, and can Alphabet defend distribution power while earning attractive AI returns?",
     },
     nextFocus: [
       "Read S&P Global's expected July 6 recast financial information and verify post-spin settlement, retained-business economics, leverage, transition-service dependence, tax/liability allocation, and capital allocation.",
-      "Track Microsoft Frontier Company for proof of customer outcomes, attach rates, renewal quality, margin contribution, reliability, customer trust, and per-share AI returns.",
+      "Track Microsoft Frontier Company and the Nine content-grounding agreement for proof of customer outcomes, trusted AI outputs, attribution discipline, attach rates, renewal quality, margin contribution, reliability, customer trust, and per-share AI returns.",
       "Track Alphabet regulatory follow-through after the final EU Android appeal loss, especially Search defaults, Chrome, Android distribution, app-store practices, DMA obligations, and potential private damages claims.",
       "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
       "Listen for Copart's July 6 incoming-CEO call and judge whether the leadership transition protects execution, culture, customer relationships, and capital allocation.",
@@ -73,17 +73,17 @@ export const latestScan = {
   },
   th: {
     asOf:
-      "เช็กพอร์ต 2026-07-03 10:30 ET; ตลาดหุ้นสหรัฐปิดเนื่องในวัน Independence Day observed; benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
+      "เช็กพอร์ต 2026-07-03 11:30 ET; ตลาดหุ้นสหรัฐปิดเนื่องในวัน Independence Day observed; benchmark รายสัปดาห์ล่าสุดยังเป็นสัปดาห์ 2026-06-22",
     processQuality:
       "ดี: รอบนี้จัดประเภทถูกว่าเป็นวันที่ตลาดปิด ไม่ใช่ intraday scan จริง เริ่มจาก thesis เดิมของพอร์ต ตรวจปฏิทินตลาด แหล่ง filing, investor relations, หน่วยงานกำกับ/ศาล และแหล่งทางการของบริษัทก่อน แยกหลักฐานทางธุรกิจออกจากราคาหุ้น และไม่แตะ Performance Log เพราะยังไม่ใช่ weekly review.",
     outcomeQuality:
-      "รอบนี้ไม่มีราคาตลาด regular session ให้ตีความ. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่พบข่าว filing งบ ความเห็นผู้บริหาร ประเด็นกำกับดูแล หรือพัฒนาการตลาดของบริษัทที่ติดตาม ซึ่งแรงพอจะเปลี่ยน thesis, conviction, position size, kill condition หรือ opportunity cost. Monitor หลักยังเป็น Microsoft Frontier Company, คดี Android ของ Alphabet ในยุโรป และการตรวจ S&P Global หลัง spin-off.",
+      "รอบนี้ไม่มีราคาตลาด regular session ให้ตีความ. หลัง checkpoint 2026-07-03 10:30 ET พบข้อมูลทางการใหม่หนึ่งรายการจาก Microsoft: Nine Entertainment กับ Microsoft ทำข้อตกลงให้ Copilot ใช้เนื้อหาจากสื่อในเครือ Nine เพื่อช่วย ground คำตอบ พร้อม attribution และทางกลับไปยังแหล่งข่าว. เรื่องนี้เกี่ยวกับความน่าเชื่อถือ copyright attribution และคุณภาพคำตอบของ Copilot แต่ยังไม่ใช่หลักฐานเรื่อง adoption ที่ทน renewal quality margin หรือผลตอบแทนต่อหุ้น. ไม่มีข้อมูลของบริษัทที่ติดตามซึ่งแรงพอจะเปลี่ยน thesis, confidence, position size, kill condition หรือ opportunity cost. Monitor หลักยังเป็น AI economics/trust ของ Microsoft, regulatory-distribution risk ของ Alphabet, post-spin verification ของ S&P Global, economics ของ programmable commerce ที่ Visa และ call วันที่ 6 ก.ค. ของ Copart.",
     holdingUpdates: {
       MSFT: {
         thesis:
-          "Microsoft ยังเป็น hold / intact / high confidence. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่มีข้อมูลใหม่ที่เปลี่ยน thesis. Microsoft Frontier Company ยังเป็นหลักฐานเชิงบวกด้าน enterprise AI execution เพราะบริษัทลงทั้งเงินและทีมผู้เชี่ยวชาญไปช่วยลูกค้าทำ AI ให้เกิดผลลัพธ์ทางธุรกิจ แต่ยังเป็น monitor ไม่ใช่หลักฐานกำไร ต้องเห็น paid adoption, renewal quality, margin contribution, reliability, customer trust และผลตอบแทนต่อหุ้นจาก AI ก่อนจะเพิ่ม conviction.",
+          "Microsoft ยังเป็น hold / intact / high confidence. ข้อตกลงใหม่กับ Nine ช่วยให้ Copilot อ้างอิงเนื้อหาจาก masthead ของ Nine ได้ลึกกว่า paywalled preview ใช้ข่าว real-time มา ground คำตอบ แสดง snippet/headline/summary และพาผู้ใช้กลับไปยังสำนักข่าวต้นทาง. เป็นบวกเล็กน้อยต่อ monitor เรื่อง trust, attribution และ copyright discipline ของ Copilot แต่ยังไม่ใช่เหตุผลเพิ่มน้ำหนัก. Microsoft ยังต้องพิสูจน์ paid adoption, renewal quality, margin contribution, reliability, customer trust และผลตอบแทนต่อหุ้นจาก AI. Microsoft Frontier Company ก็ยังเป็นหลักฐานเชิงบวกด้าน enterprise AI execution แต่ยังไม่ใช่หลักฐานทางการเงิน.",
         killCondition:
-          "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure หรือ customer trust ซ้ำจน adoption เสีย, capex กับทรัพยากรด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
+          "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure, copyright, attribution หรือ customer trust ซ้ำจน adoption เสีย, capex กับทรัพยากรด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
       },
       V: {
         thesis:
@@ -93,13 +93,13 @@ export const latestScan = {
       },
       SPGI: {
         thesis:
-          "S&P Global ยังเป็น hold / strengthening / high confidence. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่มีข้อมูลใหม่ของ SPGI ที่เปลี่ยน thesis. การแยก Mobility Global ที่เสร็จแล้วทำให้ execution read ดีขึ้น แต่ยังไม่ใช่สัญญาณเพิ่มน้ำหนัก จนกว่าจะตรวจ post-spin settlement, recast financials ที่คาดวันที่ 6 ก.ค., economics ของธุรกิจที่เหลือ, transition services, leverage, การแบ่งภาระภาษี/หนี้สิน และวินัยจัดสรรทุน.",
+          "S&P Global ยังเป็น hold / strengthening / high confidence. หลัง checkpoint 2026-07-03 10:30 ET ยังไม่มีข้อมูลใหม่ของ SPGI ที่เปลี่ยน thesis. การแยก Mobility Global ที่เสร็จแล้วทำให้ execution read ดีขึ้น แต่ยังไม่ใช่สัญญาณเพิ่มน้ำหนัก จนกว่าจะตรวจ post-spin settlement, recast financials ที่คาดวันที่ 6 ก.ค., economics ของธุรกิจที่เหลือ, transition-service dependence, leverage, การแบ่งภาระภาษี/หนี้สิน และวินัยจัดสรรทุน.",
         killCondition:
           "ทบทวนหนักถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility Global ทำให้ economics, leverage, tax treatment, transition execution, โฟกัส หรือวินัยจัดสรรทุนแย่ลง.",
       },
       GOOGL: {
         thesis:
-          "Alphabet ยังเป็น hold / under review / medium confidence. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่มีข้อมูลใหม่ที่เปลี่ยนสถานะ. ศาลยุติธรรมสหภาพยุโรปยกอุทธรณ์ขั้นสุดท้ายของ Google และ Alphabet ในคดี Android ทำให้ความเสี่ยงด้าน regulation และ distribution ยังต้องอยู่หัวรายการ monitor โดยเฉพาะ Search, Chrome, Android, app-store practices, default access, DMA obligations และความเสี่ยงคดีเรียกค่าเสียหายต่อเนื่อง. วันนี้ยังไม่ใช่ kill condition เดี่ยว ๆ.",
+          "Alphabet ยังเป็น hold / under review / medium confidence. หลัง checkpoint 2026-07-03 10:30 ET ยังไม่มีข้อมูลนักลงทุนใหม่ที่เปลี่ยนสถานะ. การแพ้อุทธรณ์ขั้นสุดท้ายในคดี Android ของยุโรปทำให้ regulatory-distribution risk ยังต้องอยู่หัวรายการ monitor โดยเฉพาะ Search, Chrome, Android, app-store practices, default access, DMA obligations และความเสี่ยงคดีเรียกค่าเสียหายต่อเนื่อง. วันนี้ยังไม่ใช่ kill condition เดี่ยว ๆ.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
       },
@@ -109,32 +109,32 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-03 10:30 ET",
+      date: "2026-07-03 11:30 ET",
       action: "do nothing",
       subject: "เช็กพอร์ตในวันที่ตลาดปิด",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร NYSE และ Nasdaq ปิดทำการเนื่องในวัน Independence Day observed รอบนี้จึงไม่ใช่ regular-session intraday scan. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่พบหลักฐานใหม่ของบริษัทที่ติดตามซึ่งเปลี่ยน business quality, moat durability, capital allocation, growth quality, thesis status, conviction, position size, kill condition หรือ opportunity cost. Microsoft และ Visa ยัง intact/high, S&P Global ยัง strengthening/high, Alphabet ยัง under review/medium, เงินสดยังมีเหตุผล และ AutoZone/Copart ยังเป็น watchlist/do nothing. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะยังไม่ใช่ weekly review.",
+        "ไม่ทำอะไร NYSE และ Nasdaq ปิดทำการเนื่องในวัน Independence Day observed รอบนี้จึงไม่ใช่ regular-session intraday scan. หลัง checkpoint 2026-07-03 10:30 ET พบข้อมูลทางการใหม่ของ Microsoft/Nine เรื่องการใช้เนื้อหาเพื่อ ground คำตอบของ Copilot ซึ่งมีประโยชน์ต่อ monitor ด้าน trust และ attribution แต่ยังไม่พอเปลี่ยนน้ำหนักพอร์ต. ไม่มีพัฒนาการของบริษัทที่ติดตามซึ่งเปลี่ยน business quality, moat durability, capital allocation, growth quality, thesis status, confidence, position size, kill condition หรือ opportunity cost. Microsoft และ Visa ยัง intact/high, S&P Global ยัง strengthening/high, Alphabet ยัง under review/medium, เงินสดยังมีเหตุผล และ AutoZone/Copart ยังเป็น watchlist/do nothing. ไม่สร้าง Weekly Journal หรือ Performance Log เพราะยังไม่ใช่ weekly review.",
     },
     watchlistUpdates: {
       AZO: {
         whyNotYet:
-          "AutoZone ยังเป็น watchlist / do nothing. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่พบหลักฐานใหม่ วงเงินซื้อคืนวันที่ 16 มิ.ย. และ Q3 ที่ดีขึ้นยังมีความหมาย แต่ยังไม่พอชนะเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นการเติบโตต่อเนื่อง กำไรฝั่ง commercial ที่ชัด กระแสเงินสดที่ทน วินัยงบดุล และ valuation ที่คุ้มกว่านี้ก่อน.",
+          "AutoZone ยังเป็น watchlist / do nothing. หลัง checkpoint 2026-07-03 10:30 ET ยังไม่พบหลักฐานใหม่ วงเงินซื้อคืนวันที่ 16 มิ.ย. และ Q3 ที่ดีขึ้นยังมีความหมาย แต่ยังไม่พอชนะเงินสดหรือหุ้นแกนพอร์ต ต้องเห็นการเติบโตต่อเนื่อง กำไรฝั่ง commercial ที่ชัด กระแสเงินสดที่ทน วินัยงบดุล และ valuation ที่คุ้มกว่านี้ก่อน.",
       },
       CPRT: {
         whyNotYet:
-          "Copart ยังเป็น watchlist / do nothing. หลัง checkpoint 2026-07-03 09:30 ET ยังไม่พบหลักฐานใหม่ Call วันที่ 6 ก.ค. กับ CEO คนใหม่ยังเป็น checkpoint ถัดไปสำหรับ leadership priorities, culture, customer relationships และวินัยจัดสรรทุน วันนี้ยังไม่ใช่สัญญาณซื้อ.",
+          "Copart ยังเป็น watchlist / do nothing. หลัง checkpoint 2026-07-03 10:30 ET ยังไม่พบหลักฐานใหม่ Call วันที่ 6 ก.ค. กับ CEO คนใหม่ยังเป็น checkpoint ถัดไปสำหรับ leadership priorities, culture, customer relationships และวินัยจัดสรรทุน วันนี้ยังไม่ใช่สัญญาณซื้อ.",
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; เช็กพอร์ตล่าสุด 2026-07-03 10:30 ET ในวันที่ตลาดหุ้นสหรัฐปิด",
+      "รีวิวล่าสุด": "รีวิวไตรมาส 2 ปี 2026 เสร็จแล้ว; เช็กพอร์ตล่าสุด 2026-07-03 11:30 ET ในวันที่ตลาดหุ้นสหรัฐปิด",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังน้ำหนักเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
-        "Microsoft จะเปลี่ยนงาน AI ที่ฝังกับลูกค้าให้เป็น economics ต่อหุ้นที่ทนได้หรือไม่, S&P Global หลังแยก Mobility จะพิสูจน์ economics ของธุรกิจที่เหลือได้แค่ไหน และ Alphabet จะรักษา distribution power พร้อมสร้างผลตอบแทนจาก AI ได้หรือไม่?",
+        "Microsoft จะเปลี่ยนงาน AI ที่ฝังกับลูกค้าและ Copilot ที่น่าเชื่อถือให้เป็น economics ต่อหุ้นที่ทนได้หรือไม่, S&P Global หลังแยก Mobility จะพิสูจน์ economics ของธุรกิจที่เหลือได้แค่ไหน และ Alphabet จะรักษา distribution power พร้อมสร้างผลตอบแทนจาก AI ได้หรือไม่?",
     },
     nextFocus: [
-      "อ่าน recast financial information ของ S&P Global ที่บริษัทคาดว่าจะเผยแพร่วันที่ 6 ก.ค. แล้วตรวจ post-spin settlement, economics ของธุรกิจที่เหลือ, leverage, transition services, ภาษี/หนี้สิน และวินัยจัดสรรทุน.",
-      "ตาม Microsoft Frontier Company ว่ามีหลักฐานลูกค้าจริงแค่ไหน: ผลลัพธ์ที่วัดได้ attach rate, renewal quality, margin contribution, reliability, customer trust และผลตอบแทนต่อหุ้นจาก AI.",
+      "อ่าน recast financial information ของ S&P Global ที่บริษัทคาดว่าจะเผยแพร่วันที่ 6 ก.ค. แล้วตรวจ post-spin settlement, economics ของธุรกิจที่เหลือ, leverage, transition-service dependence, ภาษี/หนี้สิน และวินัยจัดสรรทุน.",
+      "ตาม Microsoft Frontier Company และข้อตกลงกับ Nine ว่ามีหลักฐานลูกค้าจริงแค่ไหน: ผลลัพธ์ที่วัดได้ คุณภาพคำตอบที่เชื่อถือได้ attribution discipline, attach rate, renewal quality, margin contribution, reliability, customer trust และผลตอบแทนต่อหุ้นจาก AI.",
       "ตามผลต่อเนื่องจากคดี Android ของ Alphabet ในยุโรป โดยเฉพาะ Search defaults, Chrome, Android distribution, app-store practices, DMA obligations และ private damages claims.",
       "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของ AI infrastructure, dilution, financing terms, governance, การรักษา talent และความแข็งแรงของ Search ก่อนเปลี่ยน conviction.",
       "ฟัง call วันที่ 6 ก.ค. ของ Copart กับ CEO คนใหม่ แล้วดูว่า leadership transition ยังรักษา execution, culture, customer relationships และ capital allocation ได้ดีแค่ไหน.",
