@@ -1,11 +1,11 @@
 export const latestScan = {
   en: {
     asOf:
-      "2026-07-06 12:30 ET intraday market-hours scan during the U.S. regular session",
+      "2026-07-06 13:30 ET intraday market-hours scan during the U.S. regular session",
     processQuality:
       "Good: this scan started from the existing holdings and watchlist, checked company and filing sources before secondary context, ignored ordinary intraday price movement, and kept the decision trail separate from weekly performance records. No Performance Log row was created because this was not a weekly review.",
     outcomeQuality:
-      "No trade. Fresh checks after the 11:30 ET checkpoint found no new source-backed development that changed business quality, moat durability, management quality, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or opportunity cost. S&P Global's July 6 post-spin recast package remains the material owned-position evidence. Copart's CEO-call replay/transcript still was not surfaced on the accessible investor page by this checkpoint, so Copart remains a watchlist monitor rather than a funding candidate.",
+      "No trade. Fresh checks after the 12:30 ET checkpoint found no new source-backed development that changed business quality, moat durability, management quality, capital allocation, growth quality, thesis status, confidence, position size, kill condition, or opportunity cost. S&P Global's July 6 post-spin recast package remains the material owned-position evidence. Copart's investor page now surfaces a July 6 CEO-call Listen Here link, but the webcast is gated behind registration and no transcript or usable management remarks were available in this scan, so Copart remains a watchlist monitor rather than a funding candidate.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
@@ -75,12 +75,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-06 12:30 ET intraday scan",
+      date: "2026-07-06 13:30 ET intraday scan",
       action: "do nothing",
-      subject: "No exposure-changing update after S&P Global recast and Copart post-call evidence check",
+      subject: "No exposure-changing update; Copart CEO-call access is available but still not usable thesis evidence",
       sourceQuality: "high",
       reason:
-        "Do nothing. Fresh checks after 11:30 ET found no new source-backed evidence that changed any holding or watchlist thesis. S&P Global's July 6 recast financials and Market Intelligence operating-model update remain material and constructive, but they support the existing strengthening thesis rather than a capital add before July 28 guidance. Copart's CEO call remains a post-call evidence item; the accessible investor page still did not surface a usable replay or transcript by 12:30 ET.",
+        "Do nothing. Fresh checks after 12:30 ET found no new source-backed evidence that changed any holding or watchlist thesis. S&P Global's July 6 recast financials and Market Intelligence operating-model update remain material and constructive, but they support the existing strengthening thesis rather than a capital add before July 28 guidance. Copart's investor page now shows a Listen Here link for the July 6 CEO call, but the webcast is registration-gated and no transcript or usable source-backed management remarks were available in this scan.",
     },
     watchlistUpdates: {
       AZO: {
@@ -89,11 +89,11 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "Copart remains watchlist / do nothing. The July 6 call with incoming CEO Jay Adair is now a post-call monitor, but the accessible investor page did not surface a replay or transcript by the 12:30 ET scan. Wait for source-backed evidence on execution, culture, customer relationships, growth priorities, and capital allocation before changing conviction.",
+          "Copart remains watchlist / do nothing. The July 6 call with incoming CEO Jay Adair is now available from Copart's investor page through a registration-gated Listen Here link, but this scan still found no transcript or usable management remarks. Wait for source-backed evidence on execution, culture, customer relationships, growth priorities, and capital allocation before changing conviction.",
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-06 12:30 ET",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-06 13:30 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
         "Can S&P Global's post-spin recast translate into durable retained-business growth and margin strength, can Alphabet defend distribution while proving AI returns, and can Microsoft convert AI deployment into durable per-share economics?",
@@ -101,7 +101,7 @@ export const latestScan = {
     nextFocus: [
       "Read S&P Global's July 6 recast tables in detail, especially retained revenue mix, adjusted segment margins, allocation changes, stranded-cost treatment, TSA offsets, and the Market Intelligence Kensho Data & Platforms / Enterprise Solutions split.",
       "Use S&P Global's July 28 Q2 earnings and updated 2026 guidance as the next SPGI add-or-wait checkpoint.",
-      "Find Copart's July 6 incoming-CEO call replay or transcript and judge whether Jay Adair's priorities protect execution, culture, customer relationships, growth quality, and capital allocation.",
+      "Access Copart's July 6 incoming-CEO webcast or find a transcript, then judge whether Jay Adair's priorities protect execution, culture, customer relationships, growth quality, and capital allocation.",
       "Track Alphabet regulatory follow-through after the final EU Android appeal loss, especially Search defaults, Chrome, Android distribution, app-store practices, DMA obligations, and possible private damages claims.",
       "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
       "Track Microsoft Frontier Company, Copilot packaging, and content-grounding work for proof of customer outcomes, paid attach, renewal quality, reliability, customer trust, margin contribution, and per-share AI returns.",
@@ -110,11 +110,11 @@ export const latestScan = {
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-06 เวลา 12:30 ET",
+    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-06 เวลา 13:30 ET",
     processQuality:
       "ดี: เริ่มจากหุ้นที่ถือและ watchlist ชุดเดิม ตรวจแหล่งบริษัทกับ filing ก่อน ใช้ข่าวรองเป็นบริบทเท่านั้น ตัดเสียงรบกวนจากราคาหุ้นระหว่างวันออก และไม่แตะ Performance Log เพราะรอบนี้ไม่ใช่ weekly review.",
     outcomeQuality:
-      "ไม่ซื้อขาย หลัง checkpoint 11:30 ET ยังไม่พบข้อมูลใหม่ที่มีหลักฐานพอจะเปลี่ยนคุณภาพธุรกิจ moat management quality capital allocation growth quality thesis status confidence sizing kill condition หรือ opportunity cost. ข่าวหลักยังเป็นชุด recast หลัง spin ของ S&P Global ส่วน replay หรือ transcript ของ call Copart ยังไม่โผล่ในหน้า investor page ที่เข้าถึงได้ตอนสแกนนี้ จึงยังเป็นแค่ watchlist monitor ไม่ใช่เหตุเพิ่มเงิน.",
+      "ไม่ซื้อขาย หลัง checkpoint 12:30 ET ยังไม่พบข้อมูลใหม่ที่มีหลักฐานพอจะเปลี่ยนคุณภาพธุรกิจ moat management quality capital allocation growth quality thesis status confidence sizing kill condition หรือ opportunity cost. ข่าวหลักยังเป็นชุด recast หลัง spin ของ S&P Global ส่วนหน้า investor ของ Copart เริ่มมีลิงก์ Listen Here สำหรับ CEO call วันที่ 6 ก.ค. แล้ว แต่ webcast ยังต้องลงทะเบียนและยังไม่มี transcript หรือคำพูดผู้บริหารที่ใช้ตัดสินได้ในรอบนี้ จึงยังเป็น watchlist monitor ไม่ใช่เหตุเพิ่มเงิน.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
@@ -184,12 +184,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "สแกนระหว่างวัน 2026-07-06 12:30 ET",
+      date: "สแกนระหว่างวัน 2026-07-06 13:30 ET",
       action: "do nothing",
-      subject: "ยังไม่มีข้อมูลที่ต้องปรับพอร์ตหลัง S&P Global recast และการเช็กหลักฐานหลัง call ของ Copart",
+      subject: "ยังไม่มีข้อมูลที่ต้องปรับพอร์ต; Copart เปิดลิงก์ฟัง CEO call แล้วแต่ยังไม่ใช่หลักฐาน thesis",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร หลัง 11:30 ET ยังไม่พบหลักฐานใหม่ที่เปลี่ยน thesis ของหุ้นที่ถือหรือ watchlist. ชุด recast และ operating model ใหม่ของ Market Intelligence จาก S&P Global วันที่ 6 ก.ค. ยังเป็นข้อมูลสำคัญและค่อนข้างบวก แต่ตอนนี้หนุน thesis เดิมที่เป็น strengthening มากกว่าจะเป็นเหตุให้เพิ่มเงินก่อน guidance วันที่ 28 ก.ค. ส่วน call ของ Copart ยังต้องรอหลักฐานหลังงาน เพราะตอน 12:30 ET หน้า investor page ที่เข้าถึงได้ยังไม่มี replay หรือ transcript ที่ใช้ตัดสินได้.",
+        "ไม่ทำอะไร หลัง 12:30 ET ยังไม่พบหลักฐานใหม่ที่เปลี่ยน thesis ของหุ้นที่ถือหรือ watchlist. ชุด recast และ operating model ใหม่ของ Market Intelligence จาก S&P Global วันที่ 6 ก.ค. ยังเป็นข้อมูลสำคัญและค่อนข้างบวก แต่ตอนนี้หนุน thesis เดิมที่เป็น strengthening มากกว่าจะเป็นเหตุให้เพิ่มเงินก่อน guidance วันที่ 28 ก.ค. ส่วน Copart มีลิงก์ Listen Here สำหรับ call วันที่ 6 ก.ค. แล้ว แต่ webcast ต้องลงทะเบียนและยังไม่มี transcript หรือคำพูดผู้บริหารที่ใช้ตัดสินได้ในรอบนี้.",
     },
     watchlistUpdates: {
       AZO: {
@@ -198,11 +198,11 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "Copart ยังเป็น watchlist / do nothing. call วันที่ 6 ก.ค. กับ Jay Adair เปลี่ยนเป็น monitor หลังงานแล้ว แต่ตอนสแกน 12:30 ET หน้า investor page ที่เข้าถึงได้ยังไม่แสดง replay หรือ transcript ต้องรอฟังเรื่อง execution, culture, customer relationships, growth priorities และ capital allocation ให้ชัดก่อนเปลี่ยน conviction.",
+          "Copart ยังเป็น watchlist / do nothing. call วันที่ 6 ก.ค. กับ Jay Adair มีลิงก์ Listen Here บนหน้า investor แล้ว แต่ยังต้องลงทะเบียนและรอบนี้ยังไม่พบ transcript หรือคำพูดผู้บริหารที่ใช้ตัดสินได้ ต้องรอฟังเรื่อง execution, culture, customer relationships, growth priorities และ capital allocation ให้ชัดก่อนเปลี่ยน conviction.",
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-06 12:30 ET",
+      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-06 13:30 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
         "recast หลัง spin ของ S&P Global จะเปลี่ยนเป็น growth และ margin ของธุรกิจที่เหลือได้จริงไหม, Alphabet จะรักษา distribution พร้อมพิสูจน์ผลตอบแทนจาก AI ได้หรือไม่ และ Microsoft จะเปลี่ยน AI deployment เป็นผลตอบแทนต่อหุ้นที่ทนได้แค่ไหน?",
@@ -210,7 +210,7 @@ export const latestScan = {
     nextFocus: [
       "อ่านตาราง recast ของ S&P Global วันที่ 6 ก.ค. ให้ละเอียด โดยเฉพาะ revenue mix ของธุรกิจที่เหลือ, adjusted segment margins, allocation changes, stranded cost, TSA offset และการแยก Kensho Data & Platforms / Enterprise Solutions ใน Market Intelligence.",
       "ใช้ guidance และงบ Q2 วันที่ 28 ก.ค. ของ S&P Global เป็น checkpoint ถัดไปว่าจะเพิ่มน้ำหนักหรือรอต่อ.",
-      "หา replay หรือ transcript ของ Copart call วันที่ 6 ก.ค. แล้วดูว่า Jay Adair พูดเรื่อง execution, culture, customer relationships, growth quality และ capital allocation ชัดพอหรือไม่.",
+      "เข้า webcast หรือหา transcript ของ Copart call วันที่ 6 ก.ค. แล้วดูว่า Jay Adair พูดเรื่อง execution, culture, customer relationships, growth quality และ capital allocation ชัดพอหรือไม่.",
       "ตามผลต่อเนื่องจากคดี Android ของ Alphabet ในยุโรป โดยเฉพาะ Search defaults, Chrome, Android distribution, app-store practices, DMA obligations และ private damages claims.",
       "รอหลักฐานจาก Alphabet เรื่องผลตอบแทนของ AI infrastructure, dilution, financing terms, governance, การรักษา talent และความแข็งแรงของ Search ก่อนเปลี่ยน conviction.",
       "ตาม Microsoft Frontier Company, Copilot packaging และ content-grounding ว่ามีหลักฐานจริงเรื่อง customer outcomes, paid attach, renewal quality, reliability, customer trust, margin contribution และผลตอบแทนต่อหุ้นจาก AI หรือไม่.",
