@@ -1,17 +1,17 @@
 export const latestScan = {
   en: {
     asOf:
-      "2026-07-07 10:30 ET intraday market-hours scan during the U.S. regular session",
+      "2026-07-07 11:30 ET intraday market-hours scan during the U.S. regular session",
     processQuality:
-      "Good: the scan stayed anchored to the existing holdings and watchlist, prioritized company investor-relations pages, SEC/company filing surfaces, official releases, and clearly labeled secondary call-summary context. It ignored ordinary price movement and left weekly performance records untouched because this was not a weekly review.",
+      "Good: the scan stayed anchored to the existing holdings and watchlist, prioritized company investor-relations pages, SEC/company filing surfaces, official releases, and clearly separated secondary context from primary evidence. Ordinary price movement was ignored, and weekly performance records were left untouched because this was not a weekly review.",
     outcomeQuality:
-      "No trade. Fresh checks after the 2026-07-07 09:30 ET checkpoint found no new holding-level evidence that changed business quality, moat durability, management quality, capital allocation, growth quality, thesis status, confidence, sizing, kill condition, or opportunity cost. The only incremental thesis-relevant item was AutoZone's July 7 preliminary 424B5 senior-notes supplement, which makes the watchlist capital-structure monitor more specific but still does not clear the funding bar.",
+      "No trade. Fresh checks after the 2026-07-07 10:30 ET checkpoint found no additional holding-level evidence that changed business quality, moat durability, management quality, capital allocation, growth quality, thesis status, confidence, sizing, kill condition, or opportunity cost. AutoZone's July 7 preliminary 424B5 senior-notes supplement remains the only thesis-relevant watchlist item from today; it sharpens the capital-structure monitor but still does not clear the funding bar.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
         value: 2313.77,
         thesis:
-          "Microsoft remains hold / intact / high confidence. Microsoft's official news and investor surfaces showed no fresh item after the 09:30 ET checkpoint that changed the AI monetization, cloud durability, customer-trust, margin, or per-share-return thesis. Frontier Company, Copilot packaging, and content-grounding remain monitors, not sizing triggers.",
+          "Microsoft remains hold / intact / high confidence. Microsoft's official news and investor surfaces showed no fresh item after the 10:30 ET checkpoint that changed the AI monetization, cloud durability, customer-trust, margin, or per-share-return thesis. Frontier Company, Copilot packaging, and content-grounding remain monitors, not sizing triggers.",
         killCondition:
           "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
         assumptions: [
@@ -25,7 +25,7 @@ export const latestScan = {
         weight: 22.23,
         value: 2245.63,
         thesis:
-          "Visa remains hold / intact / high confidence. Visa's filing and investor surfaces did not show a new business-quality item after the 09:30 ET checkpoint. The programmable-commerce, tokenization, stablecoin, network relevance, regulatory, and capital-allocation thesis is unchanged.",
+          "Visa remains hold / intact / high confidence. Visa's filing and investor surfaces did not show a new business-quality item after the 10:30 ET checkpoint. The programmable-commerce, tokenization, stablecoin, network relevance, regulatory, and capital-allocation thesis is unchanged.",
         killCondition:
           "Structural network disintermediation, adverse regulation that permanently damages transaction economics, loss of payment-flow relevance, or capital allocation that no longer protects long-term Class A holders.",
         assumptions: [
@@ -52,7 +52,7 @@ export const latestScan = {
         weight: 13.47,
         value: 1360.62,
         thesis:
-          "Alphabet remains hold / under review / medium confidence. Alphabet's investor page did not surface a fresh official item that resolves dilution, governance, AI capex-return, talent-depth, or regulatory-distribution concerns. The position stays smaller and under review.",
+          "Alphabet remains hold / under review / medium confidence. Alphabet's investor page did not surface a fresh official item after the 10:30 ET checkpoint that resolves dilution, governance, AI capex-return, talent-depth, or regulatory-distribution concerns. The position stays smaller and under review.",
         killCondition:
           "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
         assumptions: [
@@ -75,12 +75,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-07 10:30 ET intraday scan",
+      date: "2026-07-07 11:30 ET intraday scan",
       action: "do nothing",
-      subject: "No exposure change; AZO notes supplement sharpens watchlist monitor",
+      subject: "No exposure change; AZO notes supplement remains watchlist monitor",
       sourceQuality: "high",
       reason:
-        "Do nothing. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged. AutoZone's July 7 preliminary 424B5 describes senior unsecured notes, customary covenants, and broad possible proceeds uses including debt repayment, working capital, capex, store/distribution growth, repurchases, and acquisitions. That is useful watchlist evidence on leverage and per-share compounding, but pricing, size, final proceeds use, and balance-sheet effect still need verification. Copart remains watchlist-only until full source-backed CEO-call remarks or an official replay are reviewed.",
+        "Do nothing. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged. Fresh checks after 10:30 ET did not surface new primary evidence that changes any holding thesis. AutoZone's July 7 preliminary 424B5 remains useful watchlist evidence because it describes senior unsecured notes, customary covenants, and broad possible proceeds uses including debt repayment, working capital, capex, store/distribution growth, repurchases, and acquisitions. Pricing, size, final proceeds use, and balance-sheet effect still need verification. Copart remains watchlist-only until full source-backed CEO-call remarks or an official replay are reviewed.",
     },
     watchlistUpdates: {
       AZO: {
@@ -89,11 +89,11 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "Copart remains watchlist / do nothing. Secondary call-summary context says Jay Adair framed the CEO return as long-term and emphasized international expansion, domestic whole-car growth, and technology services. Useful, but still below the evidence bar: wait for full source-backed remarks or official replay evidence on execution, culture, customer relationships, growth quality, and capital allocation.",
+          "Copart remains watchlist / do nothing. Secondary CEO-call summary context remains useful but below the evidence bar. Wait for full source-backed remarks or official replay evidence on execution, culture, customer relationships, growth quality, and capital allocation under Jay Adair before changing conviction.",
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-07 10:30 ET",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-07 11:30 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
         "Can S&P Global prove retained-business economics on July 28, can Alphabet defend distribution while earning acceptable AI returns, can Microsoft turn AI deployment into durable per-share economics, and do AZO or CPRT ever clear the opportunity-cost bar versus cash?",
@@ -110,17 +110,17 @@ export const latestScan = {
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-07 เวลา 10:30 ET",
+    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-07 เวลา 11:30 ET",
     processQuality:
-      "ดี: เริ่มจากพอร์ตและ watchlist เดิม ใช้หน้า investor relations, filing ของบริษัท/SEC, ข่าวทางการ และแยกข้อมูลสรุป call จากแหล่งรองออกจากหลักฐานบริษัทโดยตรง ไม่ใช้ราคาช่วงสั้นเป็นเหตุผล และไม่แตะ Performance Log เพราะรอบนี้ไม่ใช่ weekly review.",
+      "ดี: เริ่มจากพอร์ตและ watchlist เดิม ใช้หน้า investor relations, filing ของบริษัท/SEC และข่าวทางการเป็นหลัก แยกข้อมูลจากแหล่งรองออกจากหลักฐานบริษัทโดยตรง ไม่ใช้ราคาช่วงสั้นเป็นเหตุผล และไม่แตะ Performance Log เพราะรอบนี้ไม่ใช่ weekly review.",
     outcomeQuality:
-      "ไม่ซื้อขาย หลัง checkpoint 09:30 ET ยังไม่พบข้อมูลใหม่ในหุ้นที่ถือที่เปลี่ยนคุณภาพธุรกิจ moat ผู้บริหาร การจัดสรรทุน growth quality thesis status confidence sizing kill condition หรือ opportunity cost. ประเด็นใหม่ที่มีน้ำหนักคือ preliminary 424B5 ของ AutoZone สำหรับ senior notes วันที่ 7 ก.ค. ซึ่งทำให้ monitor เรื่องงบดุลและ capital allocation ชัดขึ้น แต่ยังไม่พอให้ใช้เงินสดซื้อ.",
+      "ไม่ซื้อขาย หลัง checkpoint 10:30 ET ยังไม่พบข้อมูลใหม่ในหุ้นที่ถือที่เปลี่ยนคุณภาพธุรกิจ moat ผู้บริหาร การจัดสรรทุน growth quality thesis status confidence sizing kill condition หรือ opportunity cost. ประเด็น watchlist ที่มีน้ำหนักวันนี้ยังเป็น preliminary 424B5 ของ AutoZone สำหรับ senior notes วันที่ 7 ก.ค. ซึ่งทำให้ monitor เรื่องงบดุลและ capital allocation ชัดขึ้น แต่ยังไม่พอให้ใช้เงินสดซื้อ.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
         value: 2313.77,
         thesis:
-          "Microsoft ยังเป็น hold / intact / high confidence. หน้า official news และ investor relations ยังไม่มีข้อมูลใหม่หลัง 09:30 ET ที่เปลี่ยนมุมมองเรื่อง AI monetization, ความทนของ cloud, customer trust, margin หรือผลตอบแทนต่อหุ้น. Frontier Company, Copilot packaging และ content-grounding ยังเป็นรายการติดตาม ไม่ใช่เหตุผลเพิ่มน้ำหนัก.",
+          "Microsoft ยังเป็น hold / intact / high confidence. หน้า official news และ investor relations ยังไม่มีข้อมูลใหม่หลัง 10:30 ET ที่เปลี่ยนมุมมองเรื่อง AI monetization, ความทนของ cloud, customer trust, margin หรือผลตอบแทนต่อหุ้น. Frontier Company, Copilot packaging และ content-grounding ยังเป็นรายการติดตาม ไม่ใช่เหตุผลเพิ่มน้ำหนัก.",
         killCondition:
           "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure, copyright, attribution หรือ customer trust ซ้ำจน adoption เสีย, capex กับทรัพยากรด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
         assumptions: [
@@ -134,7 +134,7 @@ export const latestScan = {
         weight: 22.23,
         value: 2245.63,
         thesis:
-          "Visa ยังเป็น hold / intact / high confidence. หน้า filing และ investor relations ยังไม่มีข้อมูลใหม่หลัง 09:30 ET ที่เป็น business-quality item. Thesis เรื่อง programmable commerce, tokenization, stablecoin, network relevance, regulation และ capital allocation ยังไม่เปลี่ยน.",
+          "Visa ยังเป็น hold / intact / high confidence. หน้า filing และ investor relations ยังไม่มีข้อมูลใหม่หลัง 10:30 ET ที่เป็น business-quality item. Thesis เรื่อง programmable commerce, tokenization, stablecoin, network relevance, regulation และ capital allocation ยังไม่เปลี่ยน.",
         killCondition:
           "ทบทวนหนักถ้าเครือข่ายถูก disintermediate แบบถาวร กฎระเบียบทำลาย economics ของธุรกรรม บริษัทเสียความเกี่ยวข้องกับ payment flows หรือ capital allocation ไม่ช่วยปกป้องผู้ถือ Class A ในระยะยาว.",
         assumptions: [
@@ -161,7 +161,7 @@ export const latestScan = {
         weight: 13.47,
         value: 1360.62,
         thesis:
-          "Alphabet ยังเป็น hold / under review / medium confidence. หน้า investor relations ยังไม่มีข้อมูลทางการใหม่ที่ตอบคำถามเรื่อง dilution, governance, ผลตอบแทนจาก AI capex, talent depth หรือ regulatory-distribution risk. น้ำหนักจึงยังเล็กและอยู่ในสถานะ under review.",
+          "Alphabet ยังเป็น hold / under review / medium confidence. หน้า investor relations ยังไม่มีข้อมูลทางการใหม่หลัง 10:30 ET ที่ตอบคำถามเรื่อง dilution, governance, ผลตอบแทนจาก AI capex, talent depth หรือ regulatory-distribution risk. น้ำหนักจึงยังเล็กและอยู่ในสถานะ under review.",
         killCondition:
           "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
         assumptions: [
@@ -184,12 +184,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "สแกนระหว่างวัน 2026-07-07 10:30 ET",
+      date: "สแกนระหว่างวัน 2026-07-07 11:30 ET",
       action: "do nothing",
-      subject: "ไม่ปรับพอร์ต; AZO notes supplement ทำให้ watchlist monitor ชัดขึ้น",
+      subject: "ไม่ปรับพอร์ต; AZO notes supplement ยังเป็น watchlist monitor",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม AutoZone ยื่น preliminary 424B5 วันที่ 7 ก.ค. สำหรับ senior unsecured notes พร้อม covenant ตามปกติ และระบุการใช้เงินได้กว้าง เช่น ชำระหนี้ working capital capex เปิดร้านหรือ distribution center ซื้อหุ้นคืน และ acquisition ข้อมูลนี้มีประโยชน์ต่อการตาม leverage และ per-share compounding แต่ยังต้องเห็น pricing, size, use of proceeds สุดท้าย และผลต่องบดุลก่อน ส่วน Copart ยังอยู่ใน watchlist จนกว่าจะมีคำพูดเต็มหรือ replay ทางการจาก CEO call.",
+        "ไม่ทำอะไร Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม หลัง 10:30 ET ยังไม่พบหลักฐานทางการใหม่ที่เปลี่ยน thesis ของหุ้นที่ถือ AutoZone ยื่น preliminary 424B5 วันที่ 7 ก.ค. สำหรับ senior unsecured notes พร้อม covenant ตามปกติ และระบุการใช้เงินได้กว้าง เช่น ชำระหนี้ working capital capex เปิดร้านหรือ distribution center ซื้อหุ้นคืน และ acquisition ข้อมูลนี้มีประโยชน์ต่อการตาม leverage และ per-share compounding แต่ยังต้องเห็น pricing, size, use of proceeds สุดท้าย และผลต่องบดุลก่อน ส่วน Copart ยังอยู่ใน watchlist จนกว่าจะมีคำพูดเต็มหรือ replay ทางการจาก CEO call.",
     },
     watchlistUpdates: {
       AZO: {
@@ -198,11 +198,11 @@ export const latestScan = {
       },
       CPRT: {
         whyNotYet:
-          "Copart ยังเป็น watchlist / do nothing. สรุป call จากแหล่งรองบอกว่า Jay Adair มองการกลับมาเป็นระยะยาว และเน้น international expansion, domestic whole-car growth กับ technology services ข้อมูลนี้มีประโยชน์ แต่ยังไม่พอเพิ่ม conviction ต้องรอคำพูดเต็มหรือ replay ทางการเพื่อดู execution, culture, customer relationships, growth quality และ capital allocation.",
+          "Copart ยังเป็น watchlist / do nothing. บริบท CEO call จากแหล่งรองยังมีประโยชน์ แต่ยังไม่ถึงเกณฑ์หลักฐาน ต้องรอคำพูดเต็มหรือ replay ทางการเพื่อดู execution, culture, customer relationships, growth quality และ capital allocation ภายใต้ Jay Adair ก่อนเปลี่ยน conviction.",
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-07 10:30 ET",
+      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-07 11:30 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
         "S&P Global จะพิสูจน์ economics ของธุรกิจที่เหลือวันที่ 28 ก.ค. ได้ไหม, Alphabet จะรักษา distribution พร้อมสร้างผลตอบแทนจาก AI ได้หรือไม่, Microsoft จะเปลี่ยน AI deployment เป็นผลตอบแทนต่อหุ้นที่ทนได้แค่ไหน และ AZO หรือ CPRT จะชนะเงินสดได้จริงหรือไม่?",
