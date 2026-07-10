@@ -1,31 +1,32 @@
 export const latestScan = {
   en: {
     asOf:
-      "2026-07-10 10:30 ET regular-session intraday scan during the U.S. regular session",
+      "2026-07-10 11:30 ET regular-session intraday scan during the U.S. regular session",
     processQuality:
-      "Good: the scan used company investor-relations pages, official company releases, filing surfaces, and credible secondary leads only where primary material was limited. It ignored ordinary price movement and left weekly benchmark records untouched because this was not a weekly review.",
+      "Good: the scan prioritized company investor-relations pages, official company releases, SEC/filing surfaces, GOV.UK, and the Bank of England. It treated secondary sources as leads only, ignored ordinary price movement, and left weekly benchmark records untouched because this was not a weekly review.",
     outcomeQuality:
-      "No trade. Fresh checks after the 09:30 ET checkpoint added Microsoft commercial-cloud pricing cadence and scaled customer AI evidence, plus Alphabet's Q2 earnings date, but none changed thesis status, confidence, sizing, kill conditions, or opportunity cost enough to act. Microsoft and Visa remain intact/high. S&P Global remains strengthening/high pending July 28 post-spin guidance. Alphabet remains under review. AutoZone and Copart remain watchlist-only.",
+      "No trade. Fresh checks after the 10:30 ET checkpoint found one thesis-relevant market-development item: the UK designated Microsoft Ireland Operations Limited and Google Cloud EMEA Limited as Critical Third Parties for financial-sector cloud services, with oversight beginning July 13, 2026. This is a regulatory and operational-resilience monitor for Microsoft and Alphabet, not a kill-condition event. Visa's July 8 VBEI wealth-transfer research is useful consumer-spending context but not operating guidance. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged; AutoZone and Copart remain watchlist-only.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
         value: 2313.77,
         thesis:
-          "Microsoft remains hold / intact / high confidence. Since the 09:30 checkpoint, the useful official items are Microsoft moving Commercial Cloud local-currency pricing updates to an annual January cadence beginning FY2026 and the Commonwealth Bank customer case showing Microsoft AI platform, Copilot Studio, Dynamics 365, and Foundry handling more than two million monthly voice and messaging conversations, with 84.6% of May 2026 self-service messaging interactions resolved end to end. This supports enterprise AI workflow depth and pricing discipline, but it still does not prove durable companywide AI margins or per-share returns.",
+          "Microsoft remains hold / intact / high confidence. The incremental official development is UK Critical Third Party designation for Microsoft Ireland Operations Limited, which brings selected financial-sector cloud services under direct UK regulatory oversight beginning July 13, 2026. That raises the operational-resilience and disclosure bar but also confirms how embedded Microsoft cloud is in financial infrastructure. Prior monitor evidence from the 10:30 ET scan still stands: annual January local-currency Commercial Cloud pricing updates beginning FY2026 and the Commonwealth Bank AI deployment support enterprise AI workflow depth and pricing discipline. None of this proves durable companywide AI margins or per-share returns yet.",
         killCondition:
-          "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
+          "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, customer-trust, or operational-resilience failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
         assumptions: [
           "Commercial cloud demand remains durable.",
           "AI products strengthen Microsoft 365 and Azure economics rather than only increasing capital intensity.",
           "Enterprise switching costs and bundled workflows remain hard to displace.",
-          "The July 29 earnings call needs cleaner evidence on cloud demand, AI monetization, margin pressure, and capital intensity.",
+          "UK CTP oversight remains manageable and does not impair financial-sector cloud adoption.",
+          "The July 29 earnings call needs cleaner evidence on cloud demand, AI monetization, margin pressure, capital intensity, and operational-resilience obligations.",
         ],
       },
       V: {
         weight: 22.23,
         value: 2245.63,
         thesis:
-          "Visa remains hold / intact / high confidence. The July 7 investor-relations notice sets fiscal Q3 2026 results for July 28 after market close and confirms management is in its quiet period until results are available. This is useful process context, not new evidence about the payment network. The programmable-commerce, tokenization, stablecoin, regulation, and capital-allocation thesis is unchanged.",
+          "Visa remains hold / intact / high confidence. Visa's July 8 VBEI release estimates a targeted U.S. spending lift from intergenerational wealth transfer, concentrated in areas such as autos, housing, travel, retail, and financial services. This is useful demand-context research from Visa's economics team, but Visa itself says it does not reflect actual or forecasted Visa operational or financial performance. The July 7 investor-relations notice still sets fiscal Q3 2026 results for July 28 after market close and confirms the quiet period. No change to the network, programmable-commerce, tokenization, stablecoin, regulation, or capital-allocation thesis.",
         killCondition:
           "Structural network disintermediation, adverse regulation that permanently damages transaction economics, loss of payment-flow relevance, or capital allocation that no longer protects long-term Class A holders.",
         assumptions: [
@@ -39,7 +40,7 @@ export const latestScan = {
         weight: 21.6,
         value: 2182.26,
         thesis:
-          "S&P Global remains hold / strengthening / high confidence. The July 6 pro forma/recast package, updated segment information, and July 28 Q2 earnings schedule remain the main owned-position evidence. They support post-spin clarity, but they are not enough to add before July 28 earnings and 2026 guidance verify retained-business growth, margin durability, stranded-cost treatment, TSA offsets, leverage, and capital allocation.",
+          "S&P Global remains hold / strengthening / high confidence. Fresh checks after 10:30 ET did not find a new SPGI-specific item that changed the thesis. The July 6 pro forma/recast package, updated segment information, and July 28 Q2 earnings schedule remain the main owned-position evidence. They support post-spin clarity, but they are not enough to add before July 28 earnings and 2026 guidance verify retained-business growth, margin durability, stranded-cost treatment, TSA offsets, leverage, and capital allocation.",
         killCondition:
           "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility Global separation damages focus, economics, leverage, tax treatment, transition execution, expense allocation, margin durability, or capital allocation discipline.",
         assumptions: [
@@ -53,13 +54,14 @@ export const latestScan = {
         weight: 13.47,
         value: 1360.62,
         thesis:
-          "Alphabet remains hold / under review / medium confidence. Alphabet's July 8 notice sets Q2 2026 results for July 22 after the earnings release is posted, creating a near-term checkpoint. It does not resolve the active questions around AI infrastructure returns, dilution, governance, talent depth, or regulatory distribution. The burden of proof remains on per-share compounding from very large AI investment.",
+          "Alphabet remains hold / under review / medium confidence. The incremental official development is UK Critical Third Party designation for Google Cloud EMEA Limited, with oversight beginning July 13, 2026 for critical services provided to the UK financial sector. This is a real cloud operational-resilience and regulatory monitor, but not a thesis break. Alphabet's July 8 notice setting Q2 2026 results for July 22 remains the next near-term checkpoint. It still does not resolve AI infrastructure returns, dilution, governance, talent depth, or regulatory distribution. The burden of proof remains on per-share compounding from very large AI investment.",
         killCondition:
-          "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
+          "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, Google Cloud operational-resilience failures damage enterprise trust, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
         assumptions: [
           "Search and YouTube remain resilient while AI interfaces change.",
           "Cloud growth and backlog convert into attractive returns.",
           "AI financing, dilution, and capex do not dilute per-share compounding beyond the thesis.",
+          "UK CTP oversight remains manageable and does not impair Google Cloud's enterprise runway.",
           "Regulatory remedies do not permanently damage distribution power or default access economics.",
         ],
       },
@@ -67,7 +69,7 @@ export const latestScan = {
         weight: 19.8,
         value: 2000,
         thesis:
-          "Cash remains hold / intact / high confidence. Today produced monitor items, not a new funded idea. AutoZone's note terms and Copart's CEO-transition materials still do not beat cash or the current holdings on evidence quality and opportunity cost.",
+          "Cash remains hold / intact / high confidence. This scan produced monitor evidence, not a new funded idea. AutoZone's note terms and Copart's CEO-transition evidence still do not beat cash or the current holdings on evidence quality and opportunity cost.",
         assumptions: [
           "Doing nothing remains valid when evidence is incomplete.",
           "A future funded idea must beat both cash and the existing holdings.",
@@ -76,12 +78,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "2026-07-10 10:30 ET intraday scan",
+      date: "2026-07-10 11:30 ET intraday scan",
       action: "do nothing",
-      subject: "No exposure change; Jul 10 10:30 ET checkpoint refreshed",
+      subject: "No exposure change; Jul 10 11:30 ET checkpoint refreshed",
       sourceQuality: "high",
       reason:
-        "Do nothing. Microsoft, Visa, S&P Global, Alphabet, and cash remain unchanged; AutoZone and Copart remain watchlist-only. Microsoft added useful official evidence on annual local-currency commercial cloud pricing and a scaled Commonwealth Bank AI customer deployment, but this is monitor evidence rather than proof of durable AI margins or per-share returns. Visa, Alphabet, Microsoft, and S&P Global now have late-July earnings checkpoints. AutoZone's $850M 4.950% 2031 notes sharpen the leverage and buyback-funding monitor without clearing the funding bar. Copart still needs a complete official replay or transcript before Jay Adair's CEO return can change conviction.",
+        "Do nothing. The UK Critical Third Party designations for Microsoft Ireland Operations Limited and Google Cloud EMEA Limited matter to operational-resilience monitoring, but they do not break either thesis and may also confirm the strategic importance of hyperscale cloud in financial infrastructure. Visa's VBEI wealth-transfer research is demand context, not Visa operating guidance. S&P Global has no new exposure-changing item after the 10:30 ET checkpoint. AutoZone and Copart remain watchlist-only. No position size, confidence label, thesis status, or kill condition changed.",
     },
     watchlistUpdates: {
       AZO: {
@@ -94,47 +96,49 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-10 10:30 ET",
+      "Last re-underwrite": "Q2 2026 completed 2026-07-01; latest intraday scan recorded 2026-07-10 11:30 ET",
       "Exposure change": "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart.",
       "Primary open question":
-        "Can late-July earnings prove Microsoft AI economics, Visa network durability, S&P Global retained-business quality, and Alphabet AI returns without weakening per-share compounding?",
+        "Can late-July earnings prove Microsoft AI economics, Visa network durability, S&P Global retained-business quality, and Alphabet AI returns while new cloud operational-resilience oversight stays manageable?",
     },
     nextFocus: [
+      "Track the UK Critical Third Party regime starting July 13 for Microsoft and Google Cloud: resilience obligations, incident reporting, regulator communication, and any evidence of adoption friction in financial services.",
       "Use Alphabet's July 22 Q2 earnings as the next AI capex, dilution, governance, Search resilience, Cloud return, and regulatory-distribution checkpoint.",
       "Use Visa's July 28 Q3 earnings as the next payment-volume, cross-border, value-added services, AI/token/stablecoin economics, and capital-return checkpoint.",
       "Use S&P Global's July 28 Q2 earnings and updated 2026 guidance as the next SPGI add-or-wait checkpoint after the Mobility Global spin.",
-      "Use Microsoft's July 29 Q4 earnings as the next cloud, AI monetization, pricing, margin, capex, and per-share-return checkpoint.",
+      "Use Microsoft's July 29 Q4 earnings as the next cloud, AI monetization, pricing, margin, capex, resilience, and per-share-return checkpoint.",
       "Watch AutoZone's July 14 note settlement and later filings for actual use of proceeds, leverage effect, debt repayment, buyback funding, and whether capital allocation improves per-share compounding.",
       "Review Copart's official replay or complete transcript before treating Jay Adair's CEO return as evidence of leadership continuity or improved growth quality.",
       "Keep weekly benchmark records untouched until the next weekly review.",
     ],
   },
   th: {
-    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-10 เวลา 10:30 ET",
+    asOf: "สแกนระหว่างตลาดสหรัฐ 2026-07-10 เวลา 11:30 ET",
     processQuality:
-      "ดี: ใช้หน้า investor relations, ข่าวทางการของบริษัท, filing surface และสื่อรองเฉพาะกรณีที่แหล่งหลักยังจำกัด ไม่ใช้ราคาช่วงสั้นเป็นเหตุผล และไม่แตะ weekly benchmark เพราะรอบนี้ไม่ใช่ weekly review.",
+      "ดี: รอบนี้ให้ priority กับหน้า investor relations, ข่าวทางการของบริษัท, SEC/filing surface, GOV.UK และ Bank of England ใช้แหล่งรองแค่เป็นตัวชี้ทาง ไม่ใช้ราคาช่วงสั้นเป็นเหตุผล และไม่แตะ weekly benchmark เพราะนี่ไม่ใช่ weekly review.",
     outcomeQuality:
-      "ไม่ซื้อขาย หลังเช็กต่อจาก 09:30 ET มีข้อมูลที่ควรบันทึกเพิ่มคือ cadence การปรับราคา Commercial Cloud ของ Microsoft, เคสลูกค้า AI ที่ scale แล้ว และวันประกาศงบ Q2 ของ Alphabet แต่ยังไม่มีอะไรเปลี่ยน thesis status, confidence, sizing, kill condition หรือ opportunity cost. Microsoft กับ Visa ยัง intact/high, S&P Global ยัง strengthening/high, Alphabet ยัง under review ส่วน AutoZone กับ Copart ยังเป็น watchlist.",
+      "ไม่ซื้อขาย หลังเช็กต่อจาก 10:30 ET เจอเรื่องที่ต้องบันทึกจริงหนึ่งรายการ: สหราชอาณาจักรจัดให้ Microsoft Ireland Operations Limited และ Google Cloud EMEA Limited เป็น Critical Third Parties สำหรับบริการ cloud ในภาคการเงิน โดยเริ่มกำกับดูแลวันที่ 13 ก.ค. 2026. นี่เป็น monitor ด้าน regulation และ operational resilience ของ Microsoft กับ Alphabet แต่ยังไม่ใช่ kill condition. งานวิจัย VBEI ของ Visa เรื่อง wealth transfer เป็นบริบท consumer spending ไม่ใช่ operating guidance. พอร์ตยังถือ Microsoft, Visa, S&P Global, Alphabet และเงินสดเหมือนเดิม ส่วน AutoZone กับ Copart ยังเป็น watchlist.",
     holdingUpdates: {
       MSFT: {
         weight: 22.9,
         value: 2313.77,
         thesis:
-          "Microsoft ยังเป็น hold / intact / high confidence. ข้อมูลทางการที่ควรเพิ่มจากรอบ 09:30 คือการปรับราคา Commercial Cloud ตามสกุลเงินท้องถิ่นแบบปีละครั้งทุกเดือนมกราคมตั้งแต่ FY2026 และเคส Commonwealth Bank ที่ใช้ Microsoft AI platform, Copilot Studio, Dynamics 365 และ Foundry รองรับ voice/messaging มากกว่า 2 ล้าน conversation ต่อเดือน โดยเดือน พ.ค. 2026 self-service messaging จบงานในช่องทางเดิมได้ 84.6%. นี่ช่วยยืนยันความลึกของ enterprise AI workflow และ pricing discipline แต่ยังไม่ใช่หลักฐานว่า AI margin หรือผลตอบแทนต่อหุ้นของทั้งบริษัทพิสูจน์แล้ว.",
+          "Microsoft ยังเป็น hold / intact / high confidence. ข้อมูลทางการที่เพิ่มเข้ามาคือ Microsoft Ireland Operations Limited ถูกสหราชอาณาจักรจัดเป็น Critical Third Party ทำให้บริการ cloud บางส่วนที่เกี่ยวกับภาคการเงินอยู่ใต้การกำกับดูแลโดยตรงตั้งแต่ 13 ก.ค. 2026. เรื่องนี้เพิ่มภาระด้าน operational resilience และ disclosure แต่ก็สะท้อนว่า Microsoft cloud ฝังลึกในโครงสร้างพื้นฐานการเงินแค่ไหน. ข้อมูลจากรอบ 10:30 ET ยังใช้ได้: cadence การปรับราคา Commercial Cloud ตามสกุลเงินท้องถิ่นแบบปีละครั้งทุกเดือนมกราคมตั้งแต่ FY2026 และเคส Commonwealth Bank ช่วยยืนยันความลึกของ enterprise AI workflow กับ pricing discipline. แต่ยังไม่ใช่หลักฐานว่า AI margin หรือผลตอบแทนต่อหุ้นของทั้งบริษัทพิสูจน์แล้ว.",
         killCondition:
-          "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure, copyright, attribution หรือ customer trust ซ้ำจน adoption เสีย, capex กับทรัพยากรด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
+          "ทบทวนหนักถ้า cloud หรือซอฟต์แวร์องค์กรเสียแรงส่งถาวร มีปัญหา enterprise AI ด้าน security, reliability, disclosure, copyright, attribution, customer trust หรือ operational resilience ซ้ำจน adoption เสีย, capex กับทรัพยากรด้าน AI ไม่เปลี่ยนเป็นกำไร หรือผู้บริหารจัดสรรทุนหลวมต่อเนื่อง.",
         assumptions: [
           "ดีมานด์ commercial cloud ยังทน.",
           "AI ต้องทำให้ economics ของ Microsoft 365 และ Azure ดีขึ้น ไม่ใช่เพิ่มแต่ต้นทุน.",
           "workflow ของ Microsoft ยังฝังลึกพอให้ลูกค้าองค์กรย้ายออกยาก.",
-          "งบวันที่ 29 ก.ค. ควรให้ภาพชัดขึ้นเรื่อง cloud demand, AI monetization, margin pressure และ capital intensity.",
+          "การกำกับดูแลแบบ CTP ในอังกฤษต้องยังจัดการได้ และไม่ทำให้ลูกค้าการเงินชะลอการใช้ cloud.",
+          "งบวันที่ 29 ก.ค. ควรให้ภาพชัดขึ้นเรื่อง cloud demand, AI monetization, margin pressure, capital intensity และภาระด้าน resilience.",
         ],
       },
       V: {
         weight: 22.23,
         value: 2245.63,
         thesis:
-          "Visa ยังเป็น hold / intact / high confidence. ประกาศ IR วันที่ 7 ก.ค. ระบุว่าจะรายงานงบ Q3 FY2026 หลังตลาดปิดวันที่ 28 ก.ค. และผู้บริหารอยู่ใน quiet period จนกว่างบจะออก นี่เป็นบริบทด้านกระบวนการ ไม่ใช่หลักฐานใหม่ของ network economics. Thesis เรื่อง programmable commerce, tokenization, stablecoin, regulation และ capital allocation ยังเหมือนเดิม.",
+          "Visa ยังเป็น hold / intact / high confidence. รายงาน VBEI วันที่ 8 ก.ค. ประเมินว่า wealth transfer ระหว่างรุ่นอาจช่วยหนุนการใช้จ่ายในสหรัฐแบบเจาะจง โดยเด่นใน autos, housing, travel, retail และ financial services. นี่เป็นบริบท demand ที่มีประโยชน์จากทีม economics ของ Visa แต่ Visa ระบุเองว่าไม่ได้สะท้อน actual หรือ forecasted operating / financial performance ของบริษัท. ประกาศ IR วันที่ 7 ก.ค. ยังเป็น checkpoint เดิม: งบ Q3 FY2026 ออกหลังตลาดปิดวันที่ 28 ก.ค. และผู้บริหารอยู่ใน quiet period. Thesis เรื่อง network, programmable commerce, tokenization, stablecoin, regulation และ capital allocation ยังไม่เปลี่ยน.",
         killCondition:
           "ทบทวนหนักถ้าเครือข่ายถูก disintermediate แบบถาวร กฎระเบียบทำลาย economics ของธุรกรรม บริษัทเสียความเกี่ยวข้องกับ payment flows หรือ capital allocation ไม่ช่วยปกป้องผู้ถือ Class A ในระยะยาว.",
         assumptions: [
@@ -148,7 +152,7 @@ export const latestScan = {
         weight: 21.6,
         value: 2182.26,
         thesis:
-          "S&P Global ยังเป็น hold / strengthening / high confidence. ชุด pro forma/recast, segment information และกำหนดงบ Q2 วันที่ 28 ก.ค. ยังเป็นหลักฐานสำคัญของหุ้นที่ถือ ช่วยให้ภาพหลัง spin ชัดขึ้น แต่ยังไม่พอให้เพิ่มน้ำหนักก่อนงบและ guidance วันที่ 28 ก.ค. ยืนยัน growth, margin durability, stranded cost, TSA offset, leverage และ capital allocation ของธุรกิจที่เหลือ.",
+          "S&P Global ยังเป็น hold / strengthening / high confidence. หลัง 10:30 ET ยังไม่เจอข้อมูล SPGI-specific ใหม่ที่เปลี่ยน thesis. ชุด pro forma/recast วันที่ 6 ก.ค., segment information และกำหนดงบ Q2 วันที่ 28 ก.ค. ยังเป็นหลักฐานหลักของหุ้นที่ถือ ช่วยให้ภาพหลัง spin ชัดขึ้น แต่ยังไม่พอให้เพิ่มน้ำหนักก่อนงบและ guidance ยืนยัน growth, margin durability, stranded cost, TSA offset, leverage และ capital allocation ของธุรกิจที่เหลือ.",
         killCondition:
           "ทบทวนหนักถ้าความน่าเชื่อถือของ ratings เสีย ธุรกิจดัชนีหรือข้อมูลถูกลดความสำคัญ หรือการแยก Mobility Global ทำให้ focus, economics, leverage, tax treatment, transition execution, expense allocation, margin durability หรือวินัยจัดสรรทุนแย่ลง.",
         assumptions: [
@@ -162,13 +166,14 @@ export const latestScan = {
         weight: 13.47,
         value: 1360.62,
         thesis:
-          "Alphabet ยังเป็น hold / under review / medium confidence. ประกาศวันที่ 8 ก.ค. ระบุว่าจะมี call งบ Q2 2026 วันที่ 22 ก.ค. หลังเผยแพร่ earnings release นี่เป็น checkpoint ใกล้ ๆ ไม่ใช่คำตอบต่อคำถามเรื่อง AI infrastructure returns, dilution, governance, talent depth หรือ regulatory distribution. ภาระพิสูจน์ยังอยู่ที่ว่า AI investment ขนาดใหญ่มากจะสร้าง per-share compounding ได้จริงหรือไม่.",
+          "Alphabet ยังเป็น hold / under review / medium confidence. ข้อมูลทางการที่เพิ่มคือ Google Cloud EMEA Limited ถูกสหราชอาณาจักรจัดเป็น Critical Third Party โดยเริ่มกำกับดูแลตั้งแต่ 13 ก.ค. 2026 สำหรับบริการสำคัญต่อภาคการเงินอังกฤษ. นี่เป็น monitor จริงด้าน cloud operational resilience และ regulation แต่ยังไม่ใช่ thesis break. ประกาศวันที่ 8 ก.ค. เรื่องงบ Q2 วันที่ 22 ก.ค. ยังเป็น checkpoint ใกล้สุด แต่ยังไม่ตอบคำถามเรื่อง AI infrastructure returns, dilution, governance, talent depth หรือ regulatory distribution. ภาระพิสูจน์ยังอยู่ที่ว่า AI investment ขนาดใหญ่มากจะสร้าง per-share compounding ได้จริงหรือไม่.",
         killCondition:
-          "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
+          "ทบทวนหนักถ้า economics ของ Search เสื่อมถาวร AI กินรายได้โฆษณาโดยชดเชยไม่ได้ กฎระเบียบตัดกำลัง distribution, Google Cloud มีปัญหา operational resilience จนเสีย enterprise trust, capex ด้าน AI ไม่สร้างกำไรที่ทนทาน, dilution กระทบผลตอบแทนต่อหุ้นหนักเกินไป หรือการเสีย talent ระดับสูงซ้ำ ๆ ชี้ว่าบริษัทไม่มีความลึกพอจะป้องกัน moat.",
         assumptions: [
           "Search และ YouTube ยังทนได้แม้พฤติกรรมค้นหาผ่าน AI เปลี่ยนไป.",
           "Cloud ต้องโตแล้วแปลง backlog เป็นผลตอบแทนที่ดี.",
           "AI financing, dilution และ capex ต้องไม่กินผลตอบแทนต่อหุ้นเกิน thesis.",
+          "การกำกับดูแลแบบ CTP ในอังกฤษต้องยังจัดการได้ และไม่ทำลาย runway ของ Google Cloud ในลูกค้าองค์กร.",
           "remedy จากกฎระเบียบต้องไม่ทำลาย distribution power หรือ economics จาก default access ถาวร.",
         ],
       },
@@ -176,7 +181,7 @@ export const latestScan = {
         weight: 19.8,
         value: 2000,
         thesis:
-          "เงินสดยังเป็น hold / intact / high confidence. วันนี้มีแต่ monitor ไม่ใช่ไอเดียใหม่ที่ควรเอาเงินไปลง AutoZone มี terms หนี้ชัดขึ้น และ Copart มีเอกสาร CEO transition ให้ตามต่อ แต่ทั้งคู่ยังไม่ชนะเงินสดหรือหุ้นที่ถืออยู่.",
+          "เงินสดยังเป็น hold / intact / high confidence. รอบนี้มีแต่ monitor ไม่ใช่ไอเดียใหม่ที่ควรเอาเงินไปลง AutoZone มี terms หนี้ชัดขึ้น และ Copart มีหลักฐาน CEO transition ให้ตามต่อ แต่ทั้งคู่ยังไม่ชนะเงินสดหรือหุ้นที่ถืออยู่ในด้านคุณภาพหลักฐานและ opportunity cost.",
         assumptions: [
           "ไม่จำเป็นต้องทำอะไรถ้าหลักฐานยังไม่ถึงเกณฑ์.",
           "ไอเดียใหม่ต้องดีกว่าทั้งเงินสดและหุ้นเดิมในพอร์ต.",
@@ -185,12 +190,12 @@ export const latestScan = {
       },
     },
     decision: {
-      date: "สแกนระหว่างวัน 2026-07-10 10:30 ET",
+      date: "สแกนระหว่างวัน 2026-07-10 11:30 ET",
       action: "do nothing",
-      subject: "ไม่ปรับพอร์ต; อัปเดต checkpoint 10:30 ET วันที่ 10 ก.ค.",
+      subject: "ไม่ปรับพอร์ต; อัปเดต checkpoint 11:30 ET วันที่ 10 ก.ค.",
       sourceQuality: "high",
       reason:
-        "ไม่ทำอะไร Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม ส่วน AutoZone กับ Copart ยังอยู่ใน watchlist. Microsoft มีหลักฐานทางการเพิ่มเรื่อง cadence การปรับราคา cloud ตามสกุลเงินท้องถิ่นและเคส AI ของ Commonwealth Bank ที่ scale แล้ว แต่ยังเป็น monitor ไม่ใช่หลักฐานว่า AI margin หรือผลตอบแทนต่อหุ้นพิสูจน์ครบ. งบปลายเดือน ก.ค. ของ Visa, Alphabet, S&P Global และ Microsoft จะเป็น checkpoint หลัก. AutoZone มีหนี้ $850M 4.950% due 2031 ที่ทำให้ monitor ด้าน leverage และ buyback funding ชัดขึ้น แต่ยังไม่ถึงเกณฑ์ซื้อ. Copart ยังต้องรอ replay ทางการหรือ transcript เต็มก่อนเปลี่ยน conviction จากการกลับมาของ Jay Adair.",
+        "ไม่ทำอะไร การที่สหราชอาณาจักรจัด Microsoft Ireland Operations Limited และ Google Cloud EMEA Limited เป็น Critical Third Parties สำคัญต่อ monitor ด้าน operational resilience แต่ยังไม่ทำให้ thesis ของ Microsoft หรือ Alphabet เสีย และยังสะท้อนความสำคัญของ hyperscale cloud ในโครงสร้างพื้นฐานการเงินด้วย งานวิจัย wealth transfer ของ Visa เป็นบริบท demand ไม่ใช่ operating guidance ของ Visa. S&P Global ไม่มีข่าวใหม่ที่เปลี่ยน exposure หลัง 10:30 ET. AutoZone กับ Copart ยังเป็น watchlist. ไม่มีการเปลี่ยน position size, confidence, thesis status หรือ kill condition.",
     },
     watchlistUpdates: {
       AZO: {
@@ -203,16 +208,17 @@ export const latestScan = {
       },
     },
     quarterlyStatusUpdates: {
-      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-10 10:30 ET",
+      "รีวิวล่าสุด": "Q2 2026 เสร็จวันที่ 2026-07-01; intraday scan ล่าสุดบันทึก 2026-07-10 11:30 ET",
       "มีการปรับพอร์ตไหม": "ไม่มี Microsoft, Visa, S&P Global, Alphabet และเงินสดยังเหมือนเดิม; AutoZone กับ Copart ยังไม่ซื้อ.",
       "คำถามหลัก":
-        "งบปลายเดือน ก.ค. จะพิสูจน์ AI economics ของ Microsoft, ความทนของเครือข่าย Visa, คุณภาพธุรกิจที่เหลือของ S&P Global และ AI returns ของ Alphabet โดยไม่ทำร้าย per-share compounding ได้แค่ไหน.",
+        "งบปลายเดือน ก.ค. จะพิสูจน์ AI economics ของ Microsoft, ความทนของเครือข่าย Visa, คุณภาพธุรกิจที่เหลือของ S&P Global และ AI returns ของ Alphabet ได้แค่ไหน ในขณะที่ oversight ด้าน cloud resilience เพิ่มขึ้น.",
     },
     nextFocus: [
+      "ตาม UK Critical Third Party regime ตั้งแต่ 13 ก.ค. สำหรับ Microsoft และ Google Cloud: resilience obligation, incident reporting, การสื่อสารกับ regulator และสัญญาณว่าลูกค้าการเงินชะลอ adoption หรือไม่.",
       "ใช้งบ Alphabet วันที่ 22 ก.ค. เป็น checkpoint เรื่อง AI capex, dilution, governance, Search resilience, Cloud return และ regulatory distribution.",
       "ใช้งบ Visa วันที่ 28 ก.ค. เป็น checkpoint เรื่อง payment volume, cross-border, value-added services, AI/token/stablecoin economics และ capital return.",
       "ใช้งบ Q2 และ guidance วันที่ 28 ก.ค. ของ S&P Global เป็น checkpoint ว่าจะเพิ่มน้ำหนักหรือรอต่อหลังแยก Mobility Global.",
-      "ใช้งบ Microsoft วันที่ 29 ก.ค. เป็น checkpoint เรื่อง cloud, AI monetization, pricing, margin, capex และผลตอบแทนต่อหุ้น.",
+      "ใช้งบ Microsoft วันที่ 29 ก.ค. เป็น checkpoint เรื่อง cloud, AI monetization, pricing, margin, capex, resilience และผลตอบแทนต่อหุ้น.",
       "ตาม settlement ของหนี้ AutoZone วันที่ 14 ก.ค. และ filing ถัดไปเพื่อดู use of proceeds, leverage effect, debt repayment, buyback funding และผลต่อ per-share compounding.",
       "ทบทวน replay ทางการหรือ transcript เต็มของ Copart ก่อนตีความว่าการกลับมาของ Jay Adair ช่วย leadership continuity หรือ growth quality จริง.",
       "ไม่แตะ weekly benchmark record จนกว่าจะถึง weekly review รอบถัดไป.",
