@@ -46,16 +46,16 @@ export interface WatchlistItem {
 export const portfolioSnapshot = {
   name: "Nick Portfolio Diary",
   mandate: "Blind $10,000 paper portfolio. Patient ownership, written theses, and cash when conviction is unclear.",
-  asOf: "Week of 2026-06-29, recorded 2026-07-05; close-to-close period 2026-06-26 to 2026-07-02 because U.S. markets were closed on Friday 2026-07-03",
+  asOf: "Week of 2026-07-06, recorded 2026-07-12; close-to-close period 2026-07-02 to 2026-07-10 because U.S. markets were closed on Friday 2026-07-03",
   localContext: "America/New_York",
   startingCapital: 10000,
-  latestValue: 10102.28,
-  cashWeight: 19.8,
-  inceptionReturn: 1.02,
+  latestValue: 9931.83,
+  cashWeight: 20.14,
+  inceptionReturn: -0.68,
   processQuality:
-    "Good: the weekly review used the same full holiday-shortened close-to-close period for the portfolio and every benchmark, separated business evidence from price action, and kept the action decision thesis-based rather than return-based.",
+    "Good: the weekly review used the same full close-to-close period for the portfolio and every benchmark, kept the Performance Log weekly-only, separated price action from business evidence, and did not force a trade after a weak outcome week.",
   outcomeQuality:
-    "Strong but not decisive: the portfolio rose 5.28% for the week and beat S&P 500/SPY, Nasdaq-100/QQQ, SMH, and VT. The result was helped by broad strength in Visa, S&P Global, Alphabet, and Microsoft, while cash reduced upside. Weekly outperformance is outcome context, not proof of skill.",
+    "Weak but not thesis-breaking: the portfolio declined -1.69% for the week and trailed S&P 500/SPY, Nasdaq-100/QQQ, SMH, and VT. The underperformance is outcome data, not proof that any business thesis broke.",
 };
 
 export const holdings: Holding[] = [
@@ -65,19 +65,19 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 22.9,
+    weight: 22.97,
     shares: 5.925294,
     entryPrice: 421.92,
-    value: 2313.77,
+    value: 2281.83,
     thesis:
-      "Microsoft remains the portfolio's clearest quality-growth compounder. Enterprise software distribution, Azure scale, Microsoft 365, GitHub, security, and AI workflow depth still justify core ownership. This week added Microsoft Frontier Company as constructive enterprise-AI deployment evidence, but the thesis still needs proof that AI work converts into durable adoption, renewal quality, margin contribution, and per-share returns.",
+      "Microsoft remains a core quality-growth holding. Enterprise software distribution, Azure scale, Microsoft 365, GitHub, security, and AI workflow depth still justify ownership. This week did not weaken the thesis, but the active burden of proof remains AI monetization, capex discipline, sustainability/resource management, operational resilience, and durable per-share returns.",
     killCondition:
-      "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, or customer-trust failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
+      "Cloud or enterprise software durability weakens structurally, repeated enterprise AI security, reliability, disclosure, copyright, attribution, customer-trust, sustainability, community, or operational-resilience failures impair adoption, AI capex and power/resource commitments repeatedly fail to convert into profit, or management capital allocation becomes persistently undisciplined.",
     assumptions: [
       "Commercial cloud demand remains durable.",
       "AI products strengthen Microsoft 365 and Azure economics rather than only increasing capital intensity.",
       "Enterprise switching costs and bundled workflows remain hard to displace.",
-      "Frontier Company and Copilot initiatives must produce measurable customer outcomes, renewal quality, and per-share returns over time.",
+      "Energy, emissions, water, local-community, and operational-resilience obligations stay manageable enough for Microsoft to keep building AI capacity.",
     ],
   },
   {
@@ -86,12 +86,12 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 22.23,
+    weight: 21.79,
     shares: 6.201166,
     entryPrice: 322.52,
-    value: 2245.63,
+    value: 2164.02,
     thesis:
-      "Visa remains an asset-light payment network with durable acceptance, authorization, tokenization, fraud-control, and trust advantages. The week added constructive AI, tokenization, stablecoin, and economic-insight evidence, but none yet proves incremental transaction economics, settlement economics, margin contribution, or durable issuer and merchant adoption strong enough to change sizing.",
+      "Visa remains an asset-light payment network with durable acceptance, authorization, tokenization, fraud-control, and trust advantages. The stock underperformed this week, but no evidence changed the payment-flow, value-added-services, cross-border, or capital-allocation thesis. July 28 earnings is the next real checkpoint.",
     killCondition:
       "Structural network disintermediation, adverse regulation that permanently damages transaction economics, loss of payment-flow relevance, or capital allocation that no longer protects long-term Class A holders.",
     assumptions: [
@@ -106,18 +106,18 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "strengthening",
     confidence: "high",
-    weight: 21.6,
+    weight: 21.5,
     shares: 4.960933,
     entryPrice: 403.15,
-    value: 2182.26,
+    value: 2135.68,
     thesis:
-      "S&P Global remains embedded market infrastructure through ratings, indices, benchmarks, commodities/market intelligence, and financial data. The Mobility Global separation is now complete, which strengthens the simplification thesis, but it is not an add signal before post-spin settlement, recast financials, retained-business economics, transition-service dependence, leverage, tax/liability allocation, and capital allocation are verified.",
+      "S&P Global remains embedded market infrastructure through ratings, indices, benchmarks, commodities/market intelligence, and financial data. The July 6 post-spin pro forma/recast package improved clarity and keeps the thesis strengthening, but it is still not an add signal before July 28 guidance and Q2 earnings verify retained-business growth, margins, stranded costs, TSA offsets, leverage, and capital allocation.",
     killCondition:
-      "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility Global separation damages focus, economics, leverage, tax treatment, transition execution, or capital allocation discipline.",
+      "Ratings credibility erodes, benchmark/data franchises lose relevance, or the Mobility Global separation damages focus, economics, leverage, tax treatment, transition execution, expense allocation, margin durability, or capital allocation discipline.",
     assumptions: [
       "The core ratings and data franchises remain trusted.",
-      "Mobility Global separation mechanics do not damage the retained operating base.",
-      "High-margin recurring data products continue compounding after the spin.",
+      "The post-spin recast is a cleaner view of durable earnings power, not merely accounting reshuffling.",
+      "Market Intelligence can turn Kensho Data, Platforms, and Enterprise Solutions into better customer workflows and improved margins.",
     ],
   },
   {
@@ -126,18 +126,18 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "under review",
     confidence: "medium",
-    weight: 13.47,
+    weight: 13.6,
     shares: 3.780432,
     entryPrice: 396.78,
-    value: 1360.62,
+    value: 1350.29,
     thesis:
-      "Alphabet still owns exceptional assets in Search, YouTube, Cloud, subscriptions, AI talent, and cash generation. It remains held because the business quality is real, but it also remains under review after the final EU Android appeal loss reinforced regulatory-distribution risk while AI infrastructure returns, dilution, governance, capital intensity, talent depth, and per-share compounding remain unresolved.",
+      "Alphabet still owns exceptional assets in Search, YouTube, Cloud, subscriptions, AI talent, and cash generation. It remains held at smaller size, but the position stays under review until July 22 earnings and related evidence clarify AI returns, Cloud economics, Search durability, capital intensity, resource access, dilution, governance, and regulatory-distribution risk.",
     killCondition:
-      "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
+      "Search economics structurally deteriorate, AI substitutes permanently impair monetization, regulation breaks distribution power, Google Cloud operational-resilience failures damage enterprise trust, AI capex fails to produce durable profit, excessive dilution damages per-share compounding, resource constraints slow AI execution, or repeated elite AI talent losses show that Alphabet can no longer retain enough technical depth to defend the moat.",
     assumptions: [
       "Search and YouTube remain resilient while AI interfaces change.",
       "Cloud growth and backlog convert into attractive returns.",
-      "AI financing, stock-plan dilution, and capex do not dilute per-share compounding beyond the thesis.",
+      "AI financing, dilution, capex, and resource needs do not dilute per-share compounding beyond the thesis.",
       "Regulatory remedies do not permanently damage distribution power or default access economics.",
     ],
   },
@@ -147,10 +147,10 @@ export const holdings: Holding[] = [
     action: "hold",
     status: "intact",
     confidence: "high",
-    weight: 19.8,
+    weight: 20.14,
     value: 2000,
     thesis:
-      "Cash remains deliberate optionality because no fifth idea clearly beats the funded holdings plus the option value of waiting. It reduced this week's upside, but that is not a process error while Alphabet remains under review and AutoZone/Copart have not cleared the funding bar.",
+      "Cash remains deliberate optionality because no fifth idea clearly beats the funded holdings plus the option value of waiting. Cash cushioned less than benchmark exposure during a rising benchmark week, but that is not a process error while Alphabet is under review and AutoZone/Copart have not cleared the funding bar.",
     killCondition:
       "A business with clearer durability, valuation support, and written thesis quality outranks the optionality of cash.",
     assumptions: [
@@ -170,9 +170,18 @@ export const benchmarkPoints: BenchmarkPoint[] = [
   { label: "Jun 15", portfolio: -0.46, sp500: 0.67, nasdaq100: 2.67, smh: 6.44, vt: 0.88, note: "Juneteenth-shortened weekly comparison from Friday 2026-06-12 close to Thursday 2026-06-18 close." },
   { label: "Jun 22", portfolio: -1.15, sp500: -2.38, nasdaq100: -4.5, smh: -7.31, vt: -2.43, note: "Full weekly comparison from Thursday 2026-06-18 close to Friday 2026-06-26 close, using SPY for S&P 500 and QQQ for Nasdaq-100." },
   { label: "Jun 29", portfolio: 5.28, sp500: 2.17, nasdaq100: 0.86, smh: -3.16, vt: 1.44, note: "Independence Day-shortened weekly comparison from Friday 2026-06-26 close to Thursday 2026-07-02 close, using SPY for S&P 500 and QQQ for Nasdaq-100." },
+  { label: "Jul 06", portfolio: -1.69, sp500: 1.37, nasdaq100: 1.81, smh: 3.16, vt: 0.86, note: "Holiday-adjusted weekly comparison from Thursday 2026-07-02 close to Friday 2026-07-10 close, using SPY for S&P 500, QQQ for Nasdaq-100, SMH, and VT." },
 ];
 
 export const recentDecisions: Decision[] = [
+  {
+    date: "2026-07-12 weekly journal",
+    action: "do nothing",
+    subject: "Week of 2026-07-06",
+    sourceQuality: "high",
+    reason:
+      "Portfolio -1.69% trailed S&P 500/SPY +1.37%, Nasdaq-100/QQQ +1.81%, SMH +3.16%, and VT +0.86% for the same 2026-07-02 to 2026-07-10 close-to-close period. No kill condition was triggered. Microsoft and Visa remain intact/high, S&P Global remains strengthening/high but awaits July 28 guidance, Alphabet remains under review/medium, and cash remains valid. Do nothing remains the correct action.",
+  },
   {
     date: "2026-07-05 weekly journal",
     action: "do nothing",
@@ -205,34 +214,34 @@ export const watchlist: WatchlistItem[] = [
     ticker: "AZO",
     stance: "do nothing",
     whyInteresting:
-      "Resilient repair demand, a strong parts distribution model, disciplined repurchases, and a long record of per-share compounding. Fiscal Q3 repaired some prior softness, and the June 16 $1.5B repurchase authorization remains constructive capital-allocation evidence.",
+      "Resilient repair demand, a strong parts distribution model, disciplined repurchases, and a long record of per-share compounding. Fiscal Q3 repaired some prior softness, the June 16 $1.5B repurchase authorization remains constructive, and the July 2031 notes sharpen the capital-structure monitor.",
     whyNotYet:
-      "One better quarter plus a buyback authorization still does not clearly outrank cash, Microsoft, Visa, or S&P Global. Nick needs sustained sales, profit, free-cash-flow, commercial-profitability, balance-sheet discipline, and valuation evidence before funding it.",
+      "The final $850M 4.950% senior notes due 2031 clarify the debt monitor, but actual use of proceeds, leverage effect, debt repayment, buyback funding, sustained operating proof, and valuation still need to show that AutoZone beats cash and the current funded holdings.",
   },
   {
     company: "Copart",
     ticker: "CPRT",
     stance: "do nothing",
     whyInteresting:
-      "Unique salvage-auction network, global buyer liquidity, insurer relationships, and marketplace economics make Copart a business worth watching closely.",
+      "Unique salvage-auction network, global buyer liquidity, insurer relationships, and marketplace economics make Copart a business worth watching closely. Jane Pocock's promotion to President adds management-continuity context.",
     whyNotYet:
-      "Fiscal Q3 improvement was modest, not decisive. The June 29 CEO transition and the July 6 incoming-CEO call keep management continuity on the checklist, so Copart needs proof on execution, culture, customer relationships, and capital allocation before it can outrank cash or a funded holding.",
+      "Fiscal Q3 improvement was modest, not decisive. The CEO transition still needs complete source-backed Jay Adair call evidence plus proof on execution, culture, customer relationships, growth quality, margins, and capital allocation before Copart can outrank cash or a funded holding.",
   },
 ];
 
 export const quarterlyStatus = [
   { label: "Last re-underwrite", value: "Q2 2026, completed 2026-07-01 09:12 ICT / 2026-06-30 22:12 ET" },
   { label: "Exposure change", value: "None. Hold Microsoft, Visa, S&P Global, Alphabet, and cash unchanged; do nothing on AutoZone and Copart." },
-  { label: "Primary open question", value: "Can S&P Global prove clean retained-business economics after the Mobility Global spin, can Alphabet defend distribution power while earning attractive AI returns, and can Microsoft turn AI deployment into durable per-share economics?" },
+  { label: "Primary open question", value: "Can late-July earnings prove Microsoft AI economics, Visa network durability, S&P Global retained-business quality, and Alphabet AI returns while infrastructure, resource, and regulatory burdens stay manageable?" },
 ];
 
 export const nextFocus = [
-  "Read S&P Global's expected July 6 recast financial information and verify post-spin settlement, retained-business economics, leverage, transition-service dependence, tax/liability allocation, and capital allocation.",
-  "Track Alphabet regulatory follow-through after the final EU Android appeal loss, especially Search defaults, Chrome, Android distribution, app-store practices, DMA obligations, and potential private damages claims.",
-  "Require Alphabet evidence on AI infrastructure returns, dilution, financing terms, governance oversight, talent retention, and Search resilience before changing conviction.",
-  "Track Microsoft Frontier Company, Copilot packaging, and content-grounding work for proof of customer outcomes, paid attach, renewal quality, reliability, customer trust, margin contribution, and per-share AI returns.",
-  "Track Visa programmable-commerce, token, and stablecoin evidence for measurable transaction economics, issuer/acquirer adoption, settlement economics, and risk controls.",
-  "Listen for Copart's July 6 incoming-CEO call and judge whether the leadership transition protects execution, culture, customer relationships, and capital allocation.",
-  "Keep AutoZone and Copart on the watchlist until either clearly outranks cash and current funded holdings.",
+  "Track the UK Critical Third Party regime starting July 13 for Microsoft and Google Cloud as an operational-resilience monitor, not a thesis break.",
+  "Watch AutoZone's July 14 note settlement and later filings for actual use of proceeds, leverage effect, debt repayment, buyback funding, and whether capital allocation improves per-share compounding.",
+  "Use Alphabet's July 22 Q2 earnings as the next checkpoint for AI capex, dilution, governance, Search resilience, Cloud returns, resource burden, and regulatory distribution.",
+  "Use Visa's July 28 Q3 earnings as the next payment-volume, cross-border, value-added services, AI/token/stablecoin economics, and capital-return checkpoint.",
+  "Use S&P Global's July 28 Q2 earnings and updated 2026 guidance as the next SPGI add-or-wait checkpoint after the Mobility Global spin.",
+  "Use Microsoft's July 29 Q4 earnings as the next cloud, AI monetization, pricing, margin, capex, sustainability burden, resilience, and per-share-return checkpoint.",
+  "Review Copart's official replay or complete transcript before treating Jay Adair's CEO return and Jane Pocock's President promotion as enough evidence of improved execution or growth quality.",
   "Keep weekly benchmark discipline tight: all performance rows must remain full-week, period-matched records versus S&P 500, Nasdaq-100, SMH, and VT.",
 ];
